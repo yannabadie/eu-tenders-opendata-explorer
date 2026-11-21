@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EU Public Tenders &amp; Open-Data Explorer — 60 Country × CPV Sector Markets (TED v3)</title>
+  <meta name="description" content="Explore 20,079 live active EU TED public tenders across 10 European countries and 6 high-value CPV sectors, with direct RapidAPI, Apify, n8n, and MCP automation.">
+  <link rel="canonical" href="https://yannabadie.github.io/eu-tenders-opendata-explorer/">
+  <meta property="og:title" content="EU Public Tenders &amp; Open-Data Explorer (60 Markets)">
+  <meta property="og:description" content="Live EU TED v3 public procurement intelligence across 10 European countries × 6 CPV sectors.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yannabadie.github.io/eu-tenders-opendata-explorer/">
+  <link rel="stylesheet" href="./assets/styles.css">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "name": "EU Public Tenders & Open-Data Explorer", "url": "https://yannabadie.github.io/eu-tenders-opendata-explorer/", "inLanguage": "en"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "EU Public Tenders Explorer", "item": "https://yannabadie.github.io/eu-tenders-opendata-explorer/"}]}, {"@type": "Dataset", "name": "EU Public Tenders Open-Data Snapshot (10 Countries × 6 CPV Sectors)", "description": "20,079 active EU TED v3 public procurement calls across 60 country-by-sector markets.", "url": "https://yannabadie.github.io/eu-tenders-opendata-explorer/", "dateModified": "2026-11-21", "creator": {"@type": "Organization", "name": "Publications Office of the European Union (TED v3)"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How is the EU Public Tenders Explorer data sourced?", "acceptedAnswer": {"@type": "Answer", "text": "All active call-for-tender counts and official notice samples are queried directly from the European Union Publications Office TED Search API v3 (api.ted.europa.eu/v3/notices/search), refreshed 2026-11-21, covering 10 major EU countries across 6 CPV sectors."}}, {"@type": "Question", "name": "How can I connect EU TED tenders to Claude, Cursor, n8n, or my CRM?", "acceptedAnswer": {"@type": "Answer", "text": "Use our zero-dependency MIT MCP server (eu-us-opendata-mcp), our 9 free n8n workflow blueprints (official-opendata-mcp-n8n-templates), our hosted RapidAPI REST API (eu-ted-public-tenders-procurement-api), or our Pay-Per-Event Apify Actor (eu-public-tenders-ted-boamp)."}}, {"@type": "Question", "name": "What EU B2B compliance rules affect suppliers bidding on public contracts in 2026–2027?", "acceptedAnswer": {"@type": "Answer", "text": "Software and digital suppliers face EU Cyber Resilience Act Art. 14 reporting (in force since September 11, 2026 — automated via our CRA-SBOM-Guard GitHub Action) and French B2B Factur-X EN 16931 e-invoicing (reception active since September 1, 2026 — supported via FacturKit 2027 and our Factur-X GitHub Action)."}}]}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand-lockup" href="./index.html" aria-label="EU Public Tenders Explorer Home">
+        <span class="brand-mark" aria-hidden="true">EU</span>
+        <span class="brand-text">
+          <span class="brand-name">EU Public Tenders Explorer</span>
+          <span class="brand-sub">TED API v3 Open-Data · 10 Countries × 6 CPV Sectors</span>
+        </span>
+      </a>
+      <nav class="header-nav" aria-label="Primary navigation">
+        <a class="nav-link" href="./index.html#explorer">Live Explorer</a>
+        <a class="nav-link" href="./sectors/index.html">60 Sectors</a>
+        <a class="nav-link" href="https://rapidapi.com/YannAbadie/api/eu-ted-public-tenders-procurement-api" target="_blank" rel="noopener">RapidAPI</a>
+        <a class="nav-link" href="https://apify.com/yannabadie/eu-public-tenders-ted-boamp?fpr=zuvzfw" target="_blank" rel="noopener noreferrer sponsored">Apify Actor</a>
+        <a class="btn-nav" href="https://github.com/yannabadie/eu-us-opendata-mcp" target="_blank" rel="noopener">Free MCP &amp; n8n</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="eyebrow">Official EU TED Search API v3 · Updated 2026-11-21 · Zero Sign-Up Required</div>
+        <h1>EU Public Tenders &amp; Open-Data Intelligence Explorer</h1>
+        <p class="hero-lead">
+          Track active European public procurement calls across <strong>10 EU countries × 6 high-value CPV sectors (60 dedicated market guides)</strong> and plug automated tender monitoring straight into <strong>Apify</strong>, <strong>RapidAPI</strong>, <strong>Zyla</strong>, <strong>n8n</strong>, or <strong>Claude / Cursor MCP</strong>.
+        </p>
+
+        <div class="kpi-grid">
+          <div class="kpi-card">
+            <span class="kpi-val accent">20,079</span>
+            <span class="kpi-label">Active open calls for tenders (<code>cn-standard</code>, deadline &ge; 2026-11-21)</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-val">60 Markets</span>
+            <span class="kpi-label">10 European countries × 6 CPV sectors</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-val ok">360 Notices</span>
+            <span class="kpi-label">Verified live sample notices searchable below</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-val">4 Rails</span>
+            <span class="kpi-label">Apify · RapidAPI · Zyla · Open-Source MCP &amp; n8n</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="explorer" class="section section-alt">
+      <div class="container">
+        <div id="ted-live-explorer" class="panel" data-snapshot-url="./data/ted_snapshot_60.json" data-page-prefix="./sectors/">
+          <h2>Interactive EU Public Tenders Explorer (Zero CORS, Instant Filter)</h2>
+          <p class="section-sub">Filter official EU TED v3 active calls for tenders by country, CPV sector, or keyword — and copy the ready-to-run TED v3 API query for your stack.</p>
+
+          <div class="controls">
+            <div class="field">
+              <label for="ted-country">EU Country</label>
+              <select id="ted-country"><option value="all">All 10 European Countries</option><option value="france">France (FRA)</option><option value="germany">Germany (DEU)</option><option value="spain">Spain (ESP)</option><option value="italy">Italy (ITA)</option><option value="netherlands">Netherlands (NLD)</option><option value="belgium">Belgium (BEL)</option><option value="poland">Poland (POL)</option><option value="sweden">Sweden (SWE)</option><option value="austria">Austria (AUT)</option><option value="ireland">Ireland (IRL)</option></select>
+            </div>
+            <div class="field">
+              <label for="ted-sector">CPV Sector</label>
+              <select id="ted-sector"><option value="all">All 6 CPV Sectors</option><option value="it-ai-software">IT &amp; AI Software (72000000 / 48000000)</option><option value="cybersecurity-cloud">Cybersecurity &amp; Cloud (722* / 724* / 725* / 726*)</option><option value="construction-green-energy">Construction &amp; Green Energy (45000000 / 09300000)</option><option value="healthcare-pharma">Healthcare &amp; Pharma (33000000 / 85100000)</option><option value="engineering-consulting">Engineering &amp; Consulting (71000000 / 79400000)</option><option value="transport-mobility">Transport &amp; Mobility (60000000 / 34000000)</option></select>
+            </div>
+            <div class="field">
+              <label for="ted-keyword">Keyword (title, buyer, CPV, TED ID)</label>
+              <input id="ted-keyword" type="search" placeholder="e.g. cloud, hospital, solar, AI, railway...">
+            </div>
+          </div>
+
+          <p id="ted-explorer-status" style="font-size:0.86rem;color:var(--muted);margin:0 0 12px;">Loading official EU TED v3 snapshot...</p>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr><th>Country</th><th>CPV &amp; Sector</th><th>Notice Title &amp; Reference</th><th>Buyer</th><th>Deadline</th><th>Guide</th></tr>
+              </thead>
+              <tbody id="ted-results-tbody">
+                <tr><td colspan="6">Loading official TED v3 notices...</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div style="margin-top:16px;">
+            <strong style="font-size:0.88rem;">Live EU TED v3 API Query for Current Selection:</strong>
+            <pre id="ted-curl-snippet"></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Production APIs, Scrapers, n8n Templates &amp; EU Compliance Toolkits</h2>
+        <p class="section-sub">Scale from manual search to automated procurement pipelines and EU tender readiness using our live, audited tools:</p>
+        <div class="rails-grid">
+          <article class="rail-card">
+            <div>
+              <span class="rail-tag live">Pay-Per-Event · $5/mo Free Credits</span>
+              <h3>Apify Actor: EU TED + BOAMP Scraper</h3>
+              <p>Run scheduled extractions of EU TED v3 &amp; French BOAMP tenders into JSON, CSV, Excel, or MCP agents at $3–4 / 1,000 notices (`256 MB` RAM).</p>
+            </div>
+            <a class="btn-rail" href="https://apify.com/yannabadie/eu-public-tenders-ted-boamp?fpr=zuvzfw" target="_blank" rel="noopener noreferrer sponsored">Run on Apify Store →</a>
+          </article>
+
+          <article class="rail-card">
+            <div>
+              <span class="rail-tag live">Hosted REST API · 100 Free Req/mo</span>
+              <h3>RapidAPI &amp; Zyla EU TED Procurement API</h3>
+              <p>Plug edge-cached, normalized JSON EU tender search directly into your CRM, Slack bot, or SaaS via RapidAPI (`$0/$19/$49/$149`) or Zyla API Hub.</p>
+            </div>
+            <a class="btn-rail" href="https://rapidapi.com/YannAbadie/api/eu-ted-public-tenders-procurement-api" target="_blank" rel="noopener">Open RapidAPI Endpoint →</a>
+          </article>
+
+          <article class="rail-card">
+            <div>
+              <span class="rail-tag">Open-Source MIT · 0 €</span>
+              <h3>n8n Workflows &amp; Claude/Cursor MCP Server</h3>
+              <p>Deploy our 9 ready-to-import n8n tender alert templates (`v1.2.0`) or connect our official MCP Registry server (`eu-us-opendata-mcp v1.1.1`) in 60 seconds.</p>
+            </div>
+            <a class="btn-rail" href="https://github.com/yannabadie/official-opendata-mcp-n8n-templates" target="_blank" rel="noopener">Get Free n8n &amp; MCP Kit →</a>
+          </article>
+
+          <article class="rail-card">
+            <div>
+              <span class="rail-tag">EU Compliance Toolkits</span>
+              <h3>GitHub Marketplace Actions &amp; FacturKit 2027</h3>
+              <p>Bidding on EU public contracts? Automate CRA Art. 14 SBOM checks (`CRA-SBOM-Guard`) and French Factur-X EN 16931 compliance (`FacturKit 2027` / Gumroad `79 €`).</p>
+            </div>
+            <a class="btn-rail" href="https://github.com/marketplace/actions/cra-sbom-guard-eu-cyber-resilience-act-art-14-scanner" target="_blank" rel="noopener">CRA &amp; Factur-X Actions →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px;">
+          <div>
+            <h2>Top 12 Most Active EU Procurement Markets (2026-11-21)</h2>
+            <p class="section-sub" style="margin-bottom:0;">Ranked by live active TED v3 open calls — or browse all 60 country × sector pages.</p>
+          </div>
+          <a class="btn-primary" href="./sectors/index.html">Browse all 60 markets →</a>
+        </div>
+        <div class="sector-grid">
+          <a class="sector-card" href="./sectors/germany-construction-green-energy.html"><strong>Germany — Construction &amp; Green Energy</strong><span class="meta">ISO DEU · CPV 45000000 / 09300000</span><div class="stats"><span>2,958 active tenders</span><span style="color:var(--eu-blue-bright);">Open Guide →</span></div></a>
+          <a class="sector-card" href="./sectors/germany-healthcare-pharma.html"><strong>Germany — Healthcare &amp; Pharma</strong><span class="meta">ISO DEU · CPV 33000000 / 85100000</span><div class="stats"><span>2,384 active tenders</span><span style="color:var(--eu-blue-bright);">Open Guide →</span></div></a>
+          <a class="sector-card" href="./sectors/germany-engineering-consulting.html"><strong>Germany — Engineering &amp; Consulting</strong><span class="meta">ISO DEU · CPV 71000000 / 79400000</span><div class="stats"><span>1,386 active tenders</span><span style="color:var(--eu-blue-bright);">Open Guide →</span></div></a>
+          <a class="sector-card" href="./sectors/poland-healthcare-pharma.html"><strong>Poland — Healthcare &amp; Pharma</strong><span class="meta">ISO POL · CPV 33000000 / 85100000</span><div class="stats"><span>1,004 active tenders</span><span style="color:var(--eu-blue-bright);">Open Guide →</span></div></a>
+          <a class="sector-card" href="./sectors/france-construction-green-energy.html"><strong>France — Construction &amp; Green Energy</strong><span class="meta">ISO FRA · CPV 45000000 / 09300000</span><div class="stats"><span>776 active tenders</span><span style="color:var(--eu-blue-bright);">Open Guide →</span></div></a>
+          <a class="sector-card" href="./sectors/france-engineering-consulting.html"><strong>France — Engineering &amp; Consulting</strong><span class="meta">ISO FRA · CPV 71000000 / 79400000</span><div class="stats"><span>767 active tenders</span><span style="color:var(--eu-blue-bright);">Open Guide →</span></div></a>
+          <a class="sector-card" href="./sectors/poland-construction-green-energy.html"><strong>Poland — Construction &amp; Green Energy</strong><span class="meta">ISO POL · CPV 45000000 / 09300000</span><div class="stats"><span>617 active tenders</span><span style="color:var(--eu-blue-bright);">Open Guide →</span></div></a>
+          <a class="sector-card" href="./sectors/germany-transport-mobility.html"><strong>Germany — Transport &amp; Mobility</strong><span class="meta">ISO DEU · CPV 60000000 / 34000000</span><div class="stats"><span>593 active tenders</span><span style="color:var(--eu-blue-bright);">Open Guide →</span></div></a>
+          <a class="sector-card" href="./sectors/france-transport-mobility.html"><strong>France — Transport &amp; Mobility</strong><span class="meta">ISO FRA · CPV 60000000 / 34000000</span><div class="stats"><span>526 active tenders</span><span style="color:var(--eu-blue-bright);">Open Guide →</span></div></a>
+          <a class="sector-card" href="./sectors/germany-it-ai-software.html"><strong>Germany — IT &amp; AI Software</strong><span class="meta">ISO DEU · CPV 72000000 / 48000000</span><div class="stats"><span>491 active tenders</span><span style="color:var(--eu-blue-bright);">Open Guide →</span></div></a>
+          <a class="sector-card" href="./sectors/poland-transport-mobility.html"><strong>Poland — Transport &amp; Mobility</strong><span class="meta">ISO POL · CPV 60000000 / 34000000</span><div class="stats"><span>446 active tenders</span><span style="color:var(--eu-blue-bright);">Open Guide →</span></div></a>
+          <a class="sector-card" href="./sectors/sweden-engineering-consulting.html"><strong>Sweden — Engineering &amp; Consulting</strong><span class="meta">ISO SWE · CPV 71000000 / 79400000</span><div class="stats"><span>443 active tenders</span><span style="color:var(--eu-blue-bright);">Open Guide →</span></div></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-list">
+          <details><summary>How is the EU Public Tenders Explorer data sourced?</summary><p>All active call-for-tender counts and official notice samples are queried directly from the European Union Publications Office TED Search API v3 (api.ted.europa.eu/v3/notices/search), refreshed 2026-11-21, covering 10 major EU countries across 6 CPV sectors.</p></details>
+          <details><summary>How can I connect EU TED tenders to Claude, Cursor, n8n, or my CRM?</summary><p>Use our zero-dependency MIT MCP server (eu-us-opendata-mcp), our 9 free n8n workflow blueprints (official-opendata-mcp-n8n-templates), our hosted RapidAPI REST API (eu-ted-public-tenders-procurement-api), or our Pay-Per-Event Apify Actor (eu-public-tenders-ted-boamp).</p></details>
+          <details><summary>What EU B2B compliance rules affect suppliers bidding on public contracts in 2026–2027?</summary><p>Software and digital suppliers face EU Cyber Resilience Act Art. 14 reporting (in force since September 11, 2026 — automated via our CRA-SBOM-Guard GitHub Action) and French B2B Factur-X EN 16931 e-invoicing (reception active since September 1, 2026 — supported via FacturKit 2027 and our Factur-X GitHub Action).</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        <strong>EU Public Tenders &amp; Open-Data Explorer</strong> · Powered by official EU TED Search API v3 ·
+        <a href="./index.html">Home</a> ·
+        <a href="./sectors/index.html">All 60 Country × Sector Guides</a> ·
+        <a href="./sitemap.xml">Sitemap</a> ·
+        <a href="https://rapidapi.com/YannAbadie/api/eu-ted-public-tenders-procurement-api" target="_blank" rel="noopener">RapidAPI TED API</a> ·
+        <a href="https://apify.com/?fpr=zuvzfw" target="_blank" rel="noopener noreferrer sponsored">Apify ($5/mo Free Credits)</a> ·
+        <a href="https://yannabadie.github.io/facturkit-2027/en.html" target="_blank" rel="noopener">FacturKit 2027</a>
+      </p>
+      <p class="disclosure">Independent open-data procurement intelligence portal. All tender metadata originates from the European Union Publications Office (TED v3). Links to Apify include a transparent partner referral (<code>rel="sponsored"</code>) with $5/month free platform credits and zero extra cost.</p>
+    </div>
+  </footer>
+  <script src="./assets/ted-live.js"></script>
+</body>
+</html>

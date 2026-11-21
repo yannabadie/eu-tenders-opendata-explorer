@@ -1,0 +1,4811 @@
+{
+  "as_of": "2026-11-21",
+  "countries": [
+    {
+      "slug": "france",
+      "name": "France",
+      "iso3": "FRA",
+      "iso2": "FR",
+      "lang": "fra",
+      "portal": "BOAMP + PLACE + TED"
+    },
+    {
+      "slug": "germany",
+      "name": "Germany",
+      "iso3": "DEU",
+      "iso2": "DE",
+      "lang": "deu",
+      "portal": "Bund.de + Öffentliche Vergabe + TED"
+    },
+    {
+      "slug": "spain",
+      "name": "Spain",
+      "iso3": "ESP",
+      "iso2": "ES",
+      "lang": "spa",
+      "portal": "PLACSP (contrataciondelestado.es) + TED"
+    },
+    {
+      "slug": "italy",
+      "name": "Italy",
+      "iso3": "ITA",
+      "iso2": "IT",
+      "lang": "ita",
+      "portal": "ANAC BDNCP + MePA + TED"
+    },
+    {
+      "slug": "netherlands",
+      "name": "Netherlands",
+      "iso3": "NLD",
+      "iso2": "NL",
+      "lang": "nld",
+      "portal": "TenderNed + TED"
+    },
+    {
+      "slug": "belgium",
+      "name": "Belgium",
+      "iso3": "BEL",
+      "iso2": "BE",
+      "lang": "fra",
+      "portal": "e-Procurement (publicprocurement.be) + TED"
+    },
+    {
+      "slug": "poland",
+      "name": "Poland",
+      "iso3": "POL",
+      "iso2": "PL",
+      "lang": "pol",
+      "portal": "e-Zamówienia + TED"
+    },
+    {
+      "slug": "sweden",
+      "name": "Sweden",
+      "iso3": "SWE",
+      "iso2": "SE",
+      "lang": "swe",
+      "portal": "Mercell / Opic + TED"
+    },
+    {
+      "slug": "austria",
+      "name": "Austria",
+      "iso3": "AUT",
+      "iso2": "AT",
+      "lang": "deu",
+      "portal": "USP.gv.at / ANKÖ + TED"
+    },
+    {
+      "slug": "ireland",
+      "name": "Ireland",
+      "iso3": "IRL",
+      "iso2": "IE",
+      "lang": "eng",
+      "portal": "eTenders.gov.ie + TED"
+    }
+  ],
+  "sectors": [
+    {
+      "slug": "it-ai-software",
+      "name": "IT & AI Software",
+      "cpv_label": "72000000 / 48000000",
+      "cpv_query": "(PC = 72* OR PC = 48*)",
+      "summary": "Software development, enterprise SaaS, AI/data platforms, system integration, and IT maintenance tenders."
+    },
+    {
+      "slug": "cybersecurity-cloud",
+      "name": "Cybersecurity & Cloud",
+      "cpv_label": "722* / 724* / 725* / 726*",
+      "cpv_query": "(PC = 722* OR PC = 724* OR PC = 725* OR PC = 726*)",
+      "summary": "SOC/SIEM cybersecurity audits, CRA/NIS2 compliance, cloud hosting, DevSecOps, and managed infrastructure contracts."
+    },
+    {
+      "slug": "construction-green-energy",
+      "name": "Construction & Green Energy",
+      "cpv_label": "45000000 / 09300000",
+      "cpv_query": "(PC = 45* OR PC = 093*)",
+      "summary": "Public building renovation, energy efficiency retrofits, solar/renewable power, HVAC, and civil engineering works."
+    },
+    {
+      "slug": "healthcare-pharma",
+      "name": "Healthcare & Pharma",
+      "cpv_label": "33000000 / 85100000",
+      "cpv_query": "(PC = 33* OR PC = 851*)",
+      "summary": "Hospital medical devices, diagnostic equipment, pharmaceutical supply frameworks, and clinical healthcare services."
+    },
+    {
+      "slug": "engineering-consulting",
+      "name": "Engineering & Consulting",
+      "cpv_label": "71000000 / 79400000",
+      "cpv_query": "(PC = 71* OR PC = 794*)",
+      "summary": "Technical engineering studies, architectural design, management advisory, compliance audits, and urban planning."
+    },
+    {
+      "slug": "transport-mobility",
+      "name": "Transport & Mobility",
+      "cpv_label": "60000000 / 34000000",
+      "cpv_query": "(PC = 60* OR PC = 34*)",
+      "summary": "Public transit operations, electric bus fleets, EV charging infrastructure, rail logistics, and municipal mobility."
+    }
+  ],
+  "pages": [
+    {
+      "slug": "france-it-ai-software",
+      "country": {
+        "slug": "france",
+        "name": "France",
+        "iso3": "FRA",
+        "iso2": "FR",
+        "lang": "fra",
+        "portal": "BOAMP + PLACE + TED"
+      },
+      "sector": {
+        "slug": "it-ai-software",
+        "name": "IT & AI Software",
+        "cpv_label": "72000000 / 48000000",
+        "cpv_query": "(PC = 72* OR PC = 48*)",
+        "summary": "Software development, enterprise SaaS, AI/data platforms, system integration, and IT maintenance tenders."
+      },
+      "open_tenders_count": 251,
+      "recent_30d_count": 241,
+      "ted_query": "CY = FRA AND (PC = 72* OR PC = 48*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "364111-2022",
+          "title": "France-Le Passage: Network infrastructure",
+          "buyer": "association migado",
+          "published": "2022-07-06",
+          "deadline": "",
+          "cpv": "30120000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/364111-2022"
+        },
+        {
+          "pub": "379247-2023",
+          "title": "France-Lyon: Medical software package",
+          "buyer": "uniha GCS",
+          "published": "2023-06-26",
+          "deadline": "",
+          "cpv": "33195000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/379247-2023"
+        },
+        {
+          "pub": "398413-2023",
+          "title": "France-Paris: IT services: consulting, software development, Internet and support",
+          "buyer": "Fédération AGIRC-ARRCO",
+          "published": "2023-07-03",
+          "deadline": "",
+          "cpv": "72000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/398413-2023"
+        },
+        {
+          "pub": "185844-2024",
+          "title": "France – Software package and information systems – Fourniture de licences informatiques et de services associés (acquisition /Maintenance, souscription, assistance à l'installatio",
+          "buyer": "Agence de Services et de Paiement",
+          "published": "2024-03-28",
+          "deadline": "2034-02-28",
+          "cpv": "48000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/185844-2024"
+        },
+        {
+          "pub": "300432-2024",
+          "title": "France – Computer equipment and supplies – Achat de matériels informatiques pour la SPL Le Voyage à Nantes",
+          "buyer": "Société publique locale Le Voyage à Nantes",
+          "published": "2024-05-22",
+          "deadline": "",
+          "cpv": "30200000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/300432-2024"
+        },
+        {
+          "pub": "301711-2024",
+          "title": "France – Software package and information systems – FOURNITURE DE SOLUTIONS LOGICIELLES FONDEES SUR DES SYTEMES D'INTELLIGENCE ARTIFICIELLE APPLIQUEE NOTAMMENT AU DOMAINE DE LA SAN",
+          "buyer": "GIP Resah",
+          "published": "2024-05-22",
+          "deadline": "",
+          "cpv": "48000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/301711-2024"
+        }
+      ]
+    },
+    {
+      "slug": "france-cybersecurity-cloud",
+      "country": {
+        "slug": "france",
+        "name": "France",
+        "iso3": "FRA",
+        "iso2": "FR",
+        "lang": "fra",
+        "portal": "BOAMP + PLACE + TED"
+      },
+      "sector": {
+        "slug": "cybersecurity-cloud",
+        "name": "Cybersecurity & Cloud",
+        "cpv_label": "722* / 724* / 725* / 726*",
+        "cpv_query": "(PC = 722* OR PC = 724* OR PC = 725* OR PC = 726*)",
+        "summary": "SOC/SIEM cybersecurity audits, CRA/NIS2 compliance, cloud hosting, DevSecOps, and managed infrastructure contracts."
+      },
+      "open_tenders_count": 165,
+      "recent_30d_count": 158,
+      "ted_query": "CY = FRA AND (PC = 722* OR PC = 724* OR PC = 725* OR PC = 726*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "364111-2022",
+          "title": "France-Le Passage: Network infrastructure",
+          "buyer": "association migado",
+          "published": "2022-07-06",
+          "deadline": "",
+          "cpv": "30120000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/364111-2022"
+        },
+        {
+          "pub": "300432-2024",
+          "title": "France – Computer equipment and supplies – Achat de matériels informatiques pour la SPL Le Voyage à Nantes",
+          "buyer": "Société publique locale Le Voyage à Nantes",
+          "published": "2024-05-22",
+          "deadline": "",
+          "cpv": "30200000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/300432-2024"
+        },
+        {
+          "pub": "344897-2024",
+          "title": "France – Technical computer support services – E24_0700_SYSTÈME D'ACQUISITION DYNAMIQUE_FOURNITURE D'ASSISTANCE TECHNIQUE EN PRESTATIONS INFORMATIQUES POUR LES HCL ET LE GIE HOPSIS",
+          "buyer": "Hospices Civils de Lyon Établissement support du GHT Val Rhône Centre Direction des Achats",
+          "published": "2024-06-11",
+          "deadline": "2031-07-15",
+          "cpv": "72611000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/344897-2024"
+        },
+        {
+          "pub": "585436-2024",
+          "title": "France – Computer-related services – Système d'Acquisition Dynamique (SAD) de Prestations Intellectuelles Informatiques (P2I)",
+          "buyer": "OPCO MOBILITES",
+          "published": "2024-09-30",
+          "deadline": "",
+          "cpv": "72500000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/585436-2024"
+        },
+        {
+          "pub": "439800-2025",
+          "title": "France – Computer support and consultancy services – Prestation de services d'ingénierie informatique",
+          "buyer": "Domofrance",
+          "published": "2025-07-07",
+          "deadline": "",
+          "cpv": "72600000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/439800-2025"
+        },
+        {
+          "pub": "509791-2025",
+          "title": "France – Oceanography and hydrology services – Copernicus - User - Support technique à la coordination des activités d'engagement des utilisateurs de Copernicus Marine",
+          "buyer": "MERCATOR OCEAN",
+          "published": "2025-08-04",
+          "deadline": "2028-09-29",
+          "cpv": "71351920",
+          "url": "https://ted.europa.eu/en/notice/-/detail/509791-2025"
+        }
+      ]
+    },
+    {
+      "slug": "france-construction-green-energy",
+      "country": {
+        "slug": "france",
+        "name": "France",
+        "iso3": "FRA",
+        "iso2": "FR",
+        "lang": "fra",
+        "portal": "BOAMP + PLACE + TED"
+      },
+      "sector": {
+        "slug": "construction-green-energy",
+        "name": "Construction & Green Energy",
+        "cpv_label": "45000000 / 09300000",
+        "cpv_query": "(PC = 45* OR PC = 093*)",
+        "summary": "Public building renovation, energy efficiency retrofits, solar/renewable power, HVAC, and civil engineering works."
+      },
+      "open_tenders_count": 776,
+      "recent_30d_count": 815,
+      "ted_query": "CY = FRA AND (PC = 45* OR PC = 093*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "345558-2021",
+          "title": "France-Cannes: Electricity",
+          "buyer": "SEMEC",
+          "published": "2021-07-09",
+          "deadline": "",
+          "cpv": "09310000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/345558-2021"
+        },
+        {
+          "pub": "349766-2021",
+          "title": "France-Saint-Quentin: Insulation work",
+          "buyer": "Clésence",
+          "published": "2021-07-12",
+          "deadline": "",
+          "cpv": "45320000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/349766-2021"
+        },
+        {
+          "pub": "460675-2022",
+          "title": "France-Paris: Electricity",
+          "buyer": "centrale d'achat du Transport Public",
+          "published": "2022-08-24",
+          "deadline": "",
+          "cpv": "09310000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/460675-2022"
+        },
+        {
+          "pub": "35667-2023",
+          "title": "France-Cannes: Electricity",
+          "buyer": "s.e.m.e.c",
+          "published": "2023-01-20",
+          "deadline": "",
+          "cpv": "09310000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/35667-2023"
+        },
+        {
+          "pub": "555651-2023",
+          "title": "France-Amiens: Electricity",
+          "buyer": "chu amiens picardie",
+          "published": "2023-09-15",
+          "deadline": "",
+          "cpv": "09310000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/555651-2023"
+        },
+        {
+          "pub": "570186-2023",
+          "title": "France-Paris: Solar energy",
+          "buyer": "Ministère de la transition énergétique",
+          "published": "2023-09-22",
+          "deadline": "",
+          "cpv": "09330000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/570186-2023"
+        }
+      ]
+    },
+    {
+      "slug": "france-healthcare-pharma",
+      "country": {
+        "slug": "france",
+        "name": "France",
+        "iso3": "FRA",
+        "iso2": "FR",
+        "lang": "fra",
+        "portal": "BOAMP + PLACE + TED"
+      },
+      "sector": {
+        "slug": "healthcare-pharma",
+        "name": "Healthcare & Pharma",
+        "cpv_label": "33000000 / 85100000",
+        "cpv_query": "(PC = 33* OR PC = 851*)",
+        "summary": "Hospital medical devices, diagnostic equipment, pharmaceutical supply frameworks, and clinical healthcare services."
+      },
+      "open_tenders_count": 170,
+      "recent_30d_count": 170,
+      "ted_query": "CY = FRA AND (PC = 33* OR PC = 851*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "312624-2020",
+          "title": "France-Marne-la-Vallée: Medical equipments, pharmaceuticals and personal care products",
+          "buyer": "Union des groupements d'achats publics",
+          "published": "2020-07-06",
+          "deadline": "",
+          "cpv": "33000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/312624-2020"
+        },
+        {
+          "pub": "196614-2021",
+          "title": "France-Fleury-les-Aubrais: Laboratory reagents",
+          "buyer": "EMA/DCSSA/DAPS-SSA",
+          "published": "2021-04-21",
+          "deadline": "",
+          "cpv": "33696500",
+          "url": "https://ted.europa.eu/en/notice/-/detail/196614-2021"
+        },
+        {
+          "pub": "81444-2022",
+          "title": "France-Fleury-les-Aubrais: Pharmaceutical products",
+          "buyer": "ema/dcssa/daps-ssa",
+          "published": "2022-02-15",
+          "deadline": "",
+          "cpv": "33600000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/81444-2022"
+        },
+        {
+          "pub": "247756-2023",
+          "title": "France-Lyon: Medical equipments, pharmaceuticals and personal care products",
+          "buyer": "uniha GCS",
+          "published": "2023-04-26",
+          "deadline": "",
+          "cpv": "33000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/247756-2023"
+        },
+        {
+          "pub": "379247-2023",
+          "title": "France-Lyon: Medical software package",
+          "buyer": "uniha GCS",
+          "published": "2023-06-26",
+          "deadline": "",
+          "cpv": "33195000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/379247-2023"
+        },
+        {
+          "pub": "771924-2023",
+          "title": "France-Lyon: Repair and maintenance services of medical equipment",
+          "buyer": "chu Lyon",
+          "published": "2023-12-20",
+          "deadline": "",
+          "cpv": "33114000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/771924-2023"
+        }
+      ]
+    },
+    {
+      "slug": "france-engineering-consulting",
+      "country": {
+        "slug": "france",
+        "name": "France",
+        "iso3": "FRA",
+        "iso2": "FR",
+        "lang": "fra",
+        "portal": "BOAMP + PLACE + TED"
+      },
+      "sector": {
+        "slug": "engineering-consulting",
+        "name": "Engineering & Consulting",
+        "cpv_label": "71000000 / 79400000",
+        "cpv_query": "(PC = 71* OR PC = 794*)",
+        "summary": "Technical engineering studies, architectural design, management advisory, compliance audits, and urban planning."
+      },
+      "open_tenders_count": 767,
+      "recent_30d_count": 811,
+      "ted_query": "CY = FRA AND (PC = 71* OR PC = 794*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "35667-2023",
+          "title": "France-Cannes: Electricity",
+          "buyer": "s.e.m.e.c",
+          "published": "2023-01-20",
+          "deadline": "",
+          "cpv": "09310000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/35667-2023"
+        },
+        {
+          "pub": "280565-2024",
+          "title": "France – Electricity – fourniture d'énergie électrique et de services associés, et fourniture de certificats de garantie d'origine renouvelable",
+          "buyer": "SEMEC",
+          "published": "2024-05-13",
+          "deadline": "2029-01-15",
+          "cpv": "09310000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/280565-2024"
+        },
+        {
+          "pub": "299501-2024",
+          "title": "France – Architectural and related services – Système d'acquisition dynamique \"Multi-services 2\"",
+          "buyer": "Sénat",
+          "published": "2024-05-22",
+          "deadline": "2028-05-20",
+          "cpv": "71200000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/299501-2024"
+        },
+        {
+          "pub": "698443-2024",
+          "title": "France – Engineering design services for mechanical and electrical installations for buildings – Système d'acquisition dynamique - Missions d'études en électricité (CFO-CFA)",
+          "buyer": "Sénat",
+          "published": "2024-11-15",
+          "deadline": "",
+          "cpv": "71321000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/698443-2024"
+        },
+        {
+          "pub": "509791-2025",
+          "title": "France – Oceanography and hydrology services – Copernicus - User - Support technique à la coordination des activités d'engagement des utilisateurs de Copernicus Marine",
+          "buyer": "MERCATOR OCEAN",
+          "published": "2025-08-04",
+          "deadline": "2028-09-29",
+          "cpv": "71351920",
+          "url": "https://ted.europa.eu/en/notice/-/detail/509791-2025"
+        },
+        {
+          "pub": "717512-2025",
+          "title": "France – General management consultancy services – Réseau d'Expertise de la Task Force Décentralisation Système d'acquisition dynamique (SAD) visant à la contractualisation de miss",
+          "buyer": "EXPERTISE FRANCE",
+          "published": "2025-10-30",
+          "deadline": "",
+          "cpv": "79411000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/717512-2025"
+        }
+      ]
+    },
+    {
+      "slug": "france-transport-mobility",
+      "country": {
+        "slug": "france",
+        "name": "France",
+        "iso3": "FRA",
+        "iso2": "FR",
+        "lang": "fra",
+        "portal": "BOAMP + PLACE + TED"
+      },
+      "sector": {
+        "slug": "transport-mobility",
+        "name": "Transport & Mobility",
+        "cpv_label": "60000000 / 34000000",
+        "cpv_query": "(PC = 60* OR PC = 34*)",
+        "summary": "Public transit operations, electric bus fleets, EV charging infrastructure, rail logistics, and municipal mobility."
+      },
+      "open_tenders_count": 526,
+      "recent_30d_count": 330,
+      "ted_query": "CY = FRA AND (PC = 60* OR PC = 34*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "154989-2022",
+          "title": "France-Bordeaux: Motor vehicles",
+          "buyer": "chambre de métiers et artisanat NA",
+          "published": "2022-03-25",
+          "deadline": "",
+          "cpv": "34100000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/154989-2022"
+        },
+        {
+          "pub": "722370-2022",
+          "title": "France-Montpellier: Second-hand transport vehicles",
+          "buyer": "chu de montpellier",
+          "published": "2022-12-23",
+          "deadline": "",
+          "cpv": "34111000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/722370-2022"
+        },
+        {
+          "pub": "67529-2023",
+          "title": "France-Orléans: Motor vehicles",
+          "buyer": "centre hospitalier regional d orleans",
+          "published": "2023-02-03",
+          "deadline": "",
+          "cpv": "34100000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/67529-2023"
+        },
+        {
+          "pub": "146870-2023",
+          "title": "France-Paris: Parts and accessories for vehicles and their engines",
+          "buyer": "centrale d'achat du Transport Public",
+          "published": "2023-03-10",
+          "deadline": "",
+          "cpv": "34300000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/146870-2023"
+        },
+        {
+          "pub": "186768-2023",
+          "title": "France-Angers: Motor vehicles",
+          "buyer": "Podeliha",
+          "published": "2023-03-29",
+          "deadline": "",
+          "cpv": "34100000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/186768-2023"
+        },
+        {
+          "pub": "211211-2023",
+          "title": "France-Bordeaux: Food processors",
+          "buyer": "chambre de métiers et artisanat NA",
+          "published": "2023-04-07",
+          "deadline": "",
+          "cpv": "34913000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/211211-2023"
+        }
+      ]
+    },
+    {
+      "slug": "germany-it-ai-software",
+      "country": {
+        "slug": "germany",
+        "name": "Germany",
+        "iso3": "DEU",
+        "iso2": "DE",
+        "lang": "deu",
+        "portal": "Bund.de + Öffentliche Vergabe + TED"
+      },
+      "sector": {
+        "slug": "it-ai-software",
+        "name": "IT & AI Software",
+        "cpv_label": "72000000 / 48000000",
+        "cpv_query": "(PC = 72* OR PC = 48*)",
+        "summary": "Software development, enterprise SaaS, AI/data platforms, system integration, and IT maintenance tenders."
+      },
+      "open_tenders_count": 491,
+      "recent_30d_count": 491,
+      "ted_query": "CY = DEU AND (PC = 72* OR PC = 48*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "687837-2023",
+          "title": "Germany – IT services: consulting, software development, Internet and support – Aufforderung zur Abgabe eines Teilnahmeantrags für das dynamische Beschaffungssystem zur Beschaffung",
+          "buyer": "IT Baden-Württemberg",
+          "published": "2023-11-13",
+          "deadline": "2027-12-10",
+          "cpv": "72000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/687837-2023"
+        },
+        {
+          "pub": "749402-2023",
+          "title": "Germany – Industry specific software development services – DL20230719-018100: Ausgeschrieben wird ein dynamisches Beschaffungssystem gemäß §§ 22 bis 24 VgV für diverse Tätigkeiten",
+          "buyer": "Bayerisches Landesamt für Digitalisierung, Breitband und Vermessung",
+          "published": "2023-12-11",
+          "deadline": "2029-01-31",
+          "cpv": "72212100",
+          "url": "https://ted.europa.eu/en/notice/-/detail/749402-2023"
+        },
+        {
+          "pub": "788011-2023",
+          "title": "Germany – Industry specific software development services – DL20230719-018100: Ausgeschrieben wird ein dynamisches Beschaffungssystem gemäß §§ 22 bis 24 VgV für diverse Tätigkeiten",
+          "buyer": "Bayerisches Landesamt für Digitalisierung, Breitband und Vermessung",
+          "published": "2023-12-26",
+          "deadline": "2029-01-31",
+          "cpv": "72212100",
+          "url": "https://ted.europa.eu/en/notice/-/detail/788011-2023"
+        },
+        {
+          "pub": "451794-2024",
+          "title": "Germany – IT services: consulting, software development, Internet and support – Dynamisches Beschaffungssystem zur Beschaffung von verschiedenen IT-Dienstleistungen",
+          "buyer": "uni-assist Arbeits- und Servicestelle für internationale Studienbewerbungen e.V.",
+          "published": "2024-07-26",
+          "deadline": "",
+          "cpv": "72000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/451794-2024"
+        },
+        {
+          "pub": "746515-2024",
+          "title": "Germany – Software programming and consultancy services – Externe Projektleitung für KONSENS Softwareentwicklungsprojekte",
+          "buyer": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+          "published": "2024-12-06",
+          "deadline": "2028-12-08",
+          "cpv": "72200000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/746515-2024"
+        },
+        {
+          "pub": "47039-2025",
+          "title": "Germany – IT services: consulting, software development, Internet and support – Dynamisches Beschaffungssystem zur Beschaffung von verschiedenen IT-Dienstleistungen",
+          "buyer": "uni-assist Arbeits- und Servicestelle für internationale Studienbewerbungen e.V.",
+          "published": "2025-01-23",
+          "deadline": "",
+          "cpv": "72000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/47039-2025"
+        }
+      ]
+    },
+    {
+      "slug": "germany-cybersecurity-cloud",
+      "country": {
+        "slug": "germany",
+        "name": "Germany",
+        "iso3": "DEU",
+        "iso2": "DE",
+        "lang": "deu",
+        "portal": "Bund.de + Öffentliche Vergabe + TED"
+      },
+      "sector": {
+        "slug": "cybersecurity-cloud",
+        "name": "Cybersecurity & Cloud",
+        "cpv_label": "722* / 724* / 725* / 726*",
+        "cpv_query": "(PC = 722* OR PC = 724* OR PC = 725* OR PC = 726*)",
+        "summary": "SOC/SIEM cybersecurity audits, CRA/NIS2 compliance, cloud hosting, DevSecOps, and managed infrastructure contracts."
+      },
+      "open_tenders_count": 242,
+      "recent_30d_count": 242,
+      "ted_query": "CY = DEU AND (PC = 722* OR PC = 724* OR PC = 725* OR PC = 726*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "687837-2023",
+          "title": "Germany – IT services: consulting, software development, Internet and support – Aufforderung zur Abgabe eines Teilnahmeantrags für das dynamische Beschaffungssystem zur Beschaffung",
+          "buyer": "IT Baden-Württemberg",
+          "published": "2023-11-13",
+          "deadline": "2027-12-10",
+          "cpv": "72000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/687837-2023"
+        },
+        {
+          "pub": "749402-2023",
+          "title": "Germany – Industry specific software development services – DL20230719-018100: Ausgeschrieben wird ein dynamisches Beschaffungssystem gemäß §§ 22 bis 24 VgV für diverse Tätigkeiten",
+          "buyer": "Bayerisches Landesamt für Digitalisierung, Breitband und Vermessung",
+          "published": "2023-12-11",
+          "deadline": "2029-01-31",
+          "cpv": "72212100",
+          "url": "https://ted.europa.eu/en/notice/-/detail/749402-2023"
+        },
+        {
+          "pub": "788011-2023",
+          "title": "Germany – Industry specific software development services – DL20230719-018100: Ausgeschrieben wird ein dynamisches Beschaffungssystem gemäß §§ 22 bis 24 VgV für diverse Tätigkeiten",
+          "buyer": "Bayerisches Landesamt für Digitalisierung, Breitband und Vermessung",
+          "published": "2023-12-26",
+          "deadline": "2029-01-31",
+          "cpv": "72212100",
+          "url": "https://ted.europa.eu/en/notice/-/detail/788011-2023"
+        },
+        {
+          "pub": "451794-2024",
+          "title": "Germany – IT services: consulting, software development, Internet and support – Dynamisches Beschaffungssystem zur Beschaffung von verschiedenen IT-Dienstleistungen",
+          "buyer": "uni-assist Arbeits- und Servicestelle für internationale Studienbewerbungen e.V.",
+          "published": "2024-07-26",
+          "deadline": "",
+          "cpv": "72000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/451794-2024"
+        },
+        {
+          "pub": "746515-2024",
+          "title": "Germany – Software programming and consultancy services – Externe Projektleitung für KONSENS Softwareentwicklungsprojekte",
+          "buyer": "Zentrale Vergabestelle im Bayerischen Landesamt für Steuern",
+          "published": "2024-12-06",
+          "deadline": "2028-12-08",
+          "cpv": "72200000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/746515-2024"
+        },
+        {
+          "pub": "47039-2025",
+          "title": "Germany – IT services: consulting, software development, Internet and support – Dynamisches Beschaffungssystem zur Beschaffung von verschiedenen IT-Dienstleistungen",
+          "buyer": "uni-assist Arbeits- und Servicestelle für internationale Studienbewerbungen e.V.",
+          "published": "2025-01-23",
+          "deadline": "",
+          "cpv": "72000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/47039-2025"
+        }
+      ]
+    },
+    {
+      "slug": "germany-construction-green-energy",
+      "country": {
+        "slug": "germany",
+        "name": "Germany",
+        "iso3": "DEU",
+        "iso2": "DE",
+        "lang": "deu",
+        "portal": "Bund.de + Öffentliche Vergabe + TED"
+      },
+      "sector": {
+        "slug": "construction-green-energy",
+        "name": "Construction & Green Energy",
+        "cpv_label": "45000000 / 09300000",
+        "cpv_query": "(PC = 45* OR PC = 093*)",
+        "summary": "Public building renovation, energy efficiency retrofits, solar/renewable power, HVAC, and civil engineering works."
+      },
+      "open_tenders_count": 2958,
+      "recent_30d_count": 2958,
+      "ted_query": "CY = DEU AND (PC = 45* OR PC = 093*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "161397-2019",
+          "title": "Germany-Duisburg: Bridge",
+          "buyer": "Stadt Duisburg - Amt für Stadtentwicklung und Projektmanagement",
+          "published": "2019-04-08",
+          "deadline": "",
+          "cpv": "44212100",
+          "url": "https://ted.europa.eu/en/notice/-/detail/161397-2019"
+        },
+        {
+          "pub": "56525-2022",
+          "title": "Germany-Berlin: Construction work",
+          "buyer": "Die Autobahn GmbH des Bundes",
+          "published": "2022-02-02",
+          "deadline": "",
+          "cpv": "45000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/56525-2022"
+        },
+        {
+          "pub": "522193-2023",
+          "title": "Germany-Berlin: Installation of shutters",
+          "buyer": "Land Berlin (Sondervermögen Immobilien des Landes Berlin)",
+          "published": "2023-08-30",
+          "deadline": "",
+          "cpv": "45421142",
+          "url": "https://ted.europa.eu/en/notice/-/detail/522193-2023"
+        },
+        {
+          "pub": "524118-2023",
+          "title": "Germany-Berlin: Installation of doors",
+          "buyer": "Land Berlin (Sondervermögen Immobilien des Landes Berlin)",
+          "published": "2023-08-30",
+          "deadline": "",
+          "cpv": "45421131",
+          "url": "https://ted.europa.eu/en/notice/-/detail/524118-2023"
+        },
+        {
+          "pub": "50533-2024",
+          "title": "Germany – Construction work – Neubau Süd-West-Querspange Hamborn/Walsum 2. – 4. Bauabschnitt",
+          "buyer": "DIG Duisburger Infrastrukturgesellschaft mbH",
+          "published": "2024-01-25",
+          "deadline": "2024-02-19",
+          "cpv": "45000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/50533-2024"
+        },
+        {
+          "pub": "99170-2024",
+          "title": "Germany – Construction work – Neubau Süd-West-Querspange Hamborn/Walsum 2. – 4. Bauabschnitt",
+          "buyer": "DIG Duisburger Infrastrukturgesellschaft mbH",
+          "published": "2024-02-16",
+          "deadline": "2024-02-26",
+          "cpv": "45000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/99170-2024"
+        }
+      ]
+    },
+    {
+      "slug": "germany-healthcare-pharma",
+      "country": {
+        "slug": "germany",
+        "name": "Germany",
+        "iso3": "DEU",
+        "iso2": "DE",
+        "lang": "deu",
+        "portal": "Bund.de + Öffentliche Vergabe + TED"
+      },
+      "sector": {
+        "slug": "healthcare-pharma",
+        "name": "Healthcare & Pharma",
+        "cpv_label": "33000000 / 85100000",
+        "cpv_query": "(PC = 33* OR PC = 851*)",
+        "summary": "Hospital medical devices, diagnostic equipment, pharmaceutical supply frameworks, and clinical healthcare services."
+      },
+      "open_tenders_count": 2384,
+      "recent_30d_count": 2384,
+      "ted_query": "CY = DEU AND (PC = 33* OR PC = 851*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "101384-2017",
+          "title": "Germany-Dortmund: Dressings",
+          "buyer": "AOK Nordwest – Die Gesundheitskasse",
+          "published": "2017-03-18",
+          "deadline": "",
+          "cpv": "33141110",
+          "url": "https://ted.europa.eu/en/notice/-/detail/101384-2017"
+        },
+        {
+          "pub": "261116-2018",
+          "title": "Germany-Hamburg: ENT or audiologist services",
+          "buyer": "Techniker Krankenkasse",
+          "published": "2018-06-19",
+          "deadline": "",
+          "cpv": "85121240",
+          "url": "https://ted.europa.eu/en/notice/-/detail/261116-2018"
+        },
+        {
+          "pub": "101865-2020",
+          "title": "Germany-Munich: Hospital services",
+          "buyer": "AOK Bayern – Die Gesundheitskasse",
+          "published": "2020-03-02",
+          "deadline": "",
+          "cpv": "85111000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/101865-2020"
+        },
+        {
+          "pub": "156721-2022",
+          "title": "Germany-Magdeburg: Compulsory social security services",
+          "buyer": "AOK Sachsen - Anhalt",
+          "published": "2022-03-25",
+          "deadline": "",
+          "cpv": "75300000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/156721-2022"
+        },
+        {
+          "pub": "299157-2022",
+          "title": "Germany-Erfurt: Hospital services",
+          "buyer": "AOK PLUS - Die Gesundheitskasse für Sachsen und Thüringen",
+          "published": "2022-06-03",
+          "deadline": "",
+          "cpv": "85100000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/299157-2022"
+        },
+        {
+          "pub": "463590-2022",
+          "title": "Germany-Hamburg: Pharmaceutical products",
+          "buyer": "Techniker Krankenkasse",
+          "published": "2022-08-26",
+          "deadline": "",
+          "cpv": "33600000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/463590-2022"
+        }
+      ]
+    },
+    {
+      "slug": "germany-engineering-consulting",
+      "country": {
+        "slug": "germany",
+        "name": "Germany",
+        "iso3": "DEU",
+        "iso2": "DE",
+        "lang": "deu",
+        "portal": "Bund.de + Öffentliche Vergabe + TED"
+      },
+      "sector": {
+        "slug": "engineering-consulting",
+        "name": "Engineering & Consulting",
+        "cpv_label": "71000000 / 79400000",
+        "cpv_query": "(PC = 71* OR PC = 794*)",
+        "summary": "Technical engineering studies, architectural design, management advisory, compliance audits, and urban planning."
+      },
+      "open_tenders_count": 1386,
+      "recent_30d_count": 1386,
+      "ted_query": "CY = DEU AND (PC = 71* OR PC = 794*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "259983-2022",
+          "title": "Germany-Stuttgart: Architectural, construction, engineering and inspection services",
+          "buyer": "Autobahn GmbH des Bundes - NL Südwest",
+          "published": "2022-05-16",
+          "deadline": "",
+          "cpv": "71000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/259983-2022"
+        },
+        {
+          "pub": "16204-2023",
+          "title": "Germany-Munich: Verification of load-bearing structure design services",
+          "buyer": "Autobahn GmbH des Bundes - NL Südbayern",
+          "published": "2023-01-10",
+          "deadline": "",
+          "cpv": "71328000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/16204-2023"
+        },
+        {
+          "pub": "401817-2023",
+          "title": "Germany-Munich: Verification of load-bearing structure design services",
+          "buyer": "Autobahn GmbH des Bundes - NL Südbayern",
+          "published": "2023-07-04",
+          "deadline": "",
+          "cpv": "71328000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/401817-2023"
+        },
+        {
+          "pub": "440478-2023",
+          "title": "Germany-Krefeld: Architectural, construction, engineering and inspection services",
+          "buyer": "Autobahn GmbH des Bundes - NL Rheinland",
+          "published": "2023-07-21",
+          "deadline": "",
+          "cpv": "71000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/440478-2023"
+        },
+        {
+          "pub": "449951-2023",
+          "title": "Germany-Munich: Verification of load-bearing structure design services",
+          "buyer": "Autobahn GmbH des Bundes - NL Südbayern",
+          "published": "2023-07-25",
+          "deadline": "",
+          "cpv": "71328000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/449951-2023"
+        },
+        {
+          "pub": "484720-2023",
+          "title": "Germany-Montabaur: Bridge-inspection services",
+          "buyer": "Autobahn GmbH des Bundes - NL West",
+          "published": "2023-08-09",
+          "deadline": "",
+          "cpv": "71631450",
+          "url": "https://ted.europa.eu/en/notice/-/detail/484720-2023"
+        }
+      ]
+    },
+    {
+      "slug": "germany-transport-mobility",
+      "country": {
+        "slug": "germany",
+        "name": "Germany",
+        "iso3": "DEU",
+        "iso2": "DE",
+        "lang": "deu",
+        "portal": "Bund.de + Öffentliche Vergabe + TED"
+      },
+      "sector": {
+        "slug": "transport-mobility",
+        "name": "Transport & Mobility",
+        "cpv_label": "60000000 / 34000000",
+        "cpv_query": "(PC = 60* OR PC = 34*)",
+        "summary": "Public transit operations, electric bus fleets, EV charging infrastructure, rail logistics, and municipal mobility."
+      },
+      "open_tenders_count": 593,
+      "recent_30d_count": 593,
+      "ted_query": "CY = DEU AND (PC = 60* OR PC = 34*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "30106-2023",
+          "title": "Germany-Berlin: Transport services (excl. Waste transport)",
+          "buyer": "Toll Collect GmbH",
+          "published": "2023-01-17",
+          "deadline": "",
+          "cpv": "60000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/30106-2023"
+        },
+        {
+          "pub": "241809-2023",
+          "title": "Germany-Cologne: Financial leasing services",
+          "buyer": "medfacilities Betrieb GmbH",
+          "published": "2023-04-24",
+          "deadline": "",
+          "cpv": "34420000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/241809-2023"
+        },
+        {
+          "pub": "456019-2023",
+          "title": "Germany-Kerpen: Public road transport services",
+          "buyer": "REVG Rhein-Erft-Verkehrsgesellschaft mbH",
+          "published": "2023-07-28",
+          "deadline": "",
+          "cpv": "60112000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/456019-2023"
+        },
+        {
+          "pub": "490776-2024",
+          "title": "Germany – Airport equipment – Dynamisches Beschaffungssystem - Ground Service Equipment GSE",
+          "buyer": "Flughafen Köln/Bonn GmbH",
+          "published": "2024-08-14",
+          "deadline": "",
+          "cpv": "34960000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/490776-2024"
+        },
+        {
+          "pub": "601729-2024",
+          "title": "Germany – Public road transport services – Vergabe von Verkehrsleistungen auf der Linie 43 Roding - Nittenau - Regenstauf - Regensburg Hbf.",
+          "buyer": "Landkreis Regensburg",
+          "published": "2024-10-07",
+          "deadline": "2037-12-31",
+          "cpv": "60112000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/601729-2024"
+        },
+        {
+          "pub": "155642-2025",
+          "title": "Germany – Firefighting vehicles – Dynamisches Beschaffungssystem Einsatzfahrzeuge",
+          "buyer": "KoPart eG",
+          "published": "2025-03-10",
+          "deadline": "",
+          "cpv": "34144210",
+          "url": "https://ted.europa.eu/en/notice/-/detail/155642-2025"
+        }
+      ]
+    },
+    {
+      "slug": "spain-it-ai-software",
+      "country": {
+        "slug": "spain",
+        "name": "Spain",
+        "iso3": "ESP",
+        "iso2": "ES",
+        "lang": "spa",
+        "portal": "PLACSP (contrataciondelestado.es) + TED"
+      },
+      "sector": {
+        "slug": "it-ai-software",
+        "name": "IT & AI Software",
+        "cpv_label": "72000000 / 48000000",
+        "cpv_query": "(PC = 72* OR PC = 48*)",
+        "summary": "Software development, enterprise SaaS, AI/data platforms, system integration, and IT maintenance tenders."
+      },
+      "open_tenders_count": 258,
+      "recent_30d_count": 258,
+      "ted_query": "CY = ESP AND (PC = 72* OR PC = 48*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "613798-2021",
+          "title": "Spain-Almería: Public utilities",
+          "buyer": "Rectorado de la Universidad de Almería",
+          "published": "2021-12-01",
+          "deadline": "",
+          "cpv": "45259000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/613798-2021"
+        },
+        {
+          "pub": "114469-2022",
+          "title": "Spain-Cartes: Software package and information systems",
+          "buyer": "Consejo de Administración de Medio Ambiente, Agua, Residuos y Energía de Cantabria, S.A. (MARE S.A.)",
+          "published": "2022-03-04",
+          "deadline": "",
+          "cpv": "48000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/114469-2022"
+        },
+        {
+          "pub": "620091-2022",
+          "title": "Spain-Sarriguren: Technical computer support services",
+          "buyer": "Dirección General de Telecomunicaciones y Digitalización",
+          "published": "2022-11-09",
+          "deadline": "",
+          "cpv": "72611000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/620091-2022"
+        },
+        {
+          "pub": "7201-2023",
+          "title": "Spain-Sarriguren: Computer equipment and supplies",
+          "buyer": "Dirección General de Telecomunicaciones y Digitalización",
+          "published": "2023-01-06",
+          "deadline": "",
+          "cpv": "30200000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/7201-2023"
+        },
+        {
+          "pub": "148545-2023",
+          "title": "Spain-Madrid: Information systems and servers",
+          "buyer": "S.E Correos y Telégrafos, S.A.",
+          "published": "2023-03-10",
+          "deadline": "",
+          "cpv": "30210000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/148545-2023"
+        },
+        {
+          "pub": "591013-2023",
+          "title": "Spain-Barcelona: Network management software services",
+          "buyer": "Fundación Instituto de Formación Continua de la Universidad de Barcelona (IL3-UB)",
+          "published": "2023-10-02",
+          "deadline": "",
+          "cpv": "72511000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/591013-2023"
+        }
+      ]
+    },
+    {
+      "slug": "spain-cybersecurity-cloud",
+      "country": {
+        "slug": "spain",
+        "name": "Spain",
+        "iso3": "ESP",
+        "iso2": "ES",
+        "lang": "spa",
+        "portal": "PLACSP (contrataciondelestado.es) + TED"
+      },
+      "sector": {
+        "slug": "cybersecurity-cloud",
+        "name": "Cybersecurity & Cloud",
+        "cpv_label": "722* / 724* / 725* / 726*",
+        "cpv_query": "(PC = 722* OR PC = 724* OR PC = 725* OR PC = 726*)",
+        "summary": "SOC/SIEM cybersecurity audits, CRA/NIS2 compliance, cloud hosting, DevSecOps, and managed infrastructure contracts."
+      },
+      "open_tenders_count": 172,
+      "recent_30d_count": 172,
+      "ted_query": "CY = ESP AND (PC = 722* OR PC = 724* OR PC = 725* OR PC = 726*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "620091-2022",
+          "title": "Spain-Sarriguren: Technical computer support services",
+          "buyer": "Dirección General de Telecomunicaciones y Digitalización",
+          "published": "2022-11-09",
+          "deadline": "",
+          "cpv": "72611000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/620091-2022"
+        },
+        {
+          "pub": "7201-2023",
+          "title": "Spain-Sarriguren: Computer equipment and supplies",
+          "buyer": "Dirección General de Telecomunicaciones y Digitalización",
+          "published": "2023-01-06",
+          "deadline": "",
+          "cpv": "30200000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/7201-2023"
+        },
+        {
+          "pub": "148545-2023",
+          "title": "Spain-Madrid: Information systems and servers",
+          "buyer": "S.E Correos y Telégrafos, S.A.",
+          "published": "2023-03-10",
+          "deadline": "",
+          "cpv": "30210000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/148545-2023"
+        },
+        {
+          "pub": "591013-2023",
+          "title": "Spain-Barcelona: Network management software services",
+          "buyer": "Fundación Instituto de Formación Continua de la Universidad de Barcelona (IL3-UB)",
+          "published": "2023-10-02",
+          "deadline": "",
+          "cpv": "72511000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/591013-2023"
+        },
+        {
+          "pub": "261677-2025",
+          "title": "Spain – Public utilities – Establecimiento SDA servicios",
+          "buyer": "Alcaldía del Ayuntamiento Barxeta",
+          "published": "2025-04-23",
+          "deadline": "",
+          "cpv": "65000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/261677-2025"
+        },
+        {
+          "pub": "334752-2025",
+          "title": "Spain – IT services: consulting, software development, Internet and support – Sistema Dinámico de Adquisición para la adhesión de proveedores para la contratación de los servicios ",
+          "buyer": "Centre de Telecomunicacions i Tecnologies de la Informació de la Generalitat de Catalunya",
+          "published": "2025-05-23",
+          "deadline": "",
+          "cpv": "72000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/334752-2025"
+        }
+      ]
+    },
+    {
+      "slug": "spain-construction-green-energy",
+      "country": {
+        "slug": "spain",
+        "name": "Spain",
+        "iso3": "ESP",
+        "iso2": "ES",
+        "lang": "spa",
+        "portal": "PLACSP (contrataciondelestado.es) + TED"
+      },
+      "sector": {
+        "slug": "construction-green-energy",
+        "name": "Construction & Green Energy",
+        "cpv_label": "45000000 / 09300000",
+        "cpv_query": "(PC = 45* OR PC = 093*)",
+        "summary": "Public building renovation, energy efficiency retrofits, solar/renewable power, HVAC, and civil engineering works."
+      },
+      "open_tenders_count": 225,
+      "recent_30d_count": 225,
+      "ted_query": "CY = ESP AND (PC = 45* OR PC = 093*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "613798-2021",
+          "title": "Spain-Almería: Public utilities",
+          "buyer": "Rectorado de la Universidad de Almería",
+          "published": "2021-12-01",
+          "deadline": "",
+          "cpv": "45259000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/613798-2021"
+        },
+        {
+          "pub": "139388-2023",
+          "title": "Spain-Gijón: Structures and parts of structures",
+          "buyer": "Consejo de Administración de Divertia Gijón S.A.",
+          "published": "2023-03-07",
+          "deadline": "",
+          "cpv": "15800000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/139388-2023"
+        },
+        {
+          "pub": "528315-2023",
+          "title": "Spain-Malaga: Repair, maintenance and associated services related to roads and other equipment",
+          "buyer": "Gerencia de la Empresa Malagueña de Transportes S.A.M.",
+          "published": "2023-09-01",
+          "deadline": "",
+          "cpv": "09310000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/528315-2023"
+        },
+        {
+          "pub": "44705-2024",
+          "title": "Spain – Repair and maintenance services – Establecimiento de un Sistema de Clasificación de Proveedores para el mantenimiento y de señalización vertical, horizontal y sistemas de b",
+          "buyer": "Gerencia de la Empresa Malagueña de Transportes S.A.M.",
+          "published": "2024-01-23",
+          "deadline": "",
+          "cpv": "50000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/44705-2024"
+        },
+        {
+          "pub": "332850-2024",
+          "title": "Spain – Construction work – Establecimiento del sistema dinámico de adquisición para las obras generales de pequeña envergadura, encargadas por ESMASA, en el municipio de Alcorcón",
+          "buyer": "Consejo de Administración de la Empresa de Servicios Municipales de Alcorcón, S.A.U.",
+          "published": "2024-06-05",
+          "deadline": "",
+          "cpv": "45000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/332850-2024"
+        },
+        {
+          "pub": "420257-2024",
+          "title": "Spain – Site-clearance work – Obras de conservación y limpieza de arroyos en los tramos que discurren por suelo urbano en el término municipal del Ayuntamiento de Piélagos.",
+          "buyer": "Alcaldía del Ayuntamiento de Piélagos",
+          "published": "2024-07-12",
+          "deadline": "",
+          "cpv": "45111213",
+          "url": "https://ted.europa.eu/en/notice/-/detail/420257-2024"
+        }
+      ]
+    },
+    {
+      "slug": "spain-healthcare-pharma",
+      "country": {
+        "slug": "spain",
+        "name": "Spain",
+        "iso3": "ESP",
+        "iso2": "ES",
+        "lang": "spa",
+        "portal": "PLACSP (contrataciondelestado.es) + TED"
+      },
+      "sector": {
+        "slug": "healthcare-pharma",
+        "name": "Healthcare & Pharma",
+        "cpv_label": "33000000 / 85100000",
+        "cpv_query": "(PC = 33* OR PC = 851*)",
+        "summary": "Hospital medical devices, diagnostic equipment, pharmaceutical supply frameworks, and clinical healthcare services."
+      },
+      "open_tenders_count": 198,
+      "recent_30d_count": 198,
+      "ted_query": "CY = ESP AND (PC = 33* OR PC = 851*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "100903-2023",
+          "title": "Spain-Madrid: Mineral water",
+          "buyer": "Rectorado de la Universidad Complutense de Madrid",
+          "published": "2023-02-17",
+          "deadline": "",
+          "cpv": "15981000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/100903-2023"
+        },
+        {
+          "pub": "764410-2023",
+          "title": "Spain-Pamplona: Paper sanitary",
+          "buyer": "Gobierno de Navarra-Servicio de Patrimonio.",
+          "published": "2023-12-18",
+          "deadline": "",
+          "cpv": "33741100",
+          "url": "https://ted.europa.eu/en/notice/-/detail/764410-2023"
+        },
+        {
+          "pub": "484926-2024",
+          "title": "Spain – Non-scheduled passenger transport – Ejecución de los servicios habituales para prestación de los servicios públicos de competencia municipal.",
+          "buyer": "Pleno del Ayuntamiento de Vera",
+          "published": "2024-08-12",
+          "deadline": "",
+          "cpv": "60140000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/484926-2024"
+        },
+        {
+          "pub": "144294-2025",
+          "title": "Spain – Medical consumables – Suministro material sanitario de protección individual para el SCS",
+          "buyer": "Dirección General de Recursos Económicos del Servicio Canario de la Salud",
+          "published": "2025-03-05",
+          "deadline": "",
+          "cpv": "33140000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/144294-2025"
+        },
+        {
+          "pub": "147273-2025",
+          "title": "Spain – Financial and insurance services – Implementación Sistema Dinámico de Adquisición de Servicios",
+          "buyer": "Pleno del Ayuntamiento de Ondara",
+          "published": "2025-03-06",
+          "deadline": "",
+          "cpv": "66000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/147273-2025"
+        },
+        {
+          "pub": "152262-2025",
+          "title": "Spain – Medical consumables – Suministro material sanitario de protección individual para el SCS",
+          "buyer": "Dirección General de Recursos Económicos del Servicio Canario de la Salud",
+          "published": "2025-03-07",
+          "deadline": "",
+          "cpv": "33140000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/152262-2025"
+        }
+      ]
+    },
+    {
+      "slug": "spain-engineering-consulting",
+      "country": {
+        "slug": "spain",
+        "name": "Spain",
+        "iso3": "ESP",
+        "iso2": "ES",
+        "lang": "spa",
+        "portal": "PLACSP (contrataciondelestado.es) + TED"
+      },
+      "sector": {
+        "slug": "engineering-consulting",
+        "name": "Engineering & Consulting",
+        "cpv_label": "71000000 / 79400000",
+        "cpv_query": "(PC = 71* OR PC = 794*)",
+        "summary": "Technical engineering studies, architectural design, management advisory, compliance audits, and urban planning."
+      },
+      "open_tenders_count": 293,
+      "recent_30d_count": 293,
+      "ted_query": "CY = ESP AND (PC = 71* OR PC = 794*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "613798-2021",
+          "title": "Spain-Almería: Public utilities",
+          "buyer": "Rectorado de la Universidad de Almería",
+          "published": "2021-12-01",
+          "deadline": "",
+          "cpv": "45259000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/613798-2021"
+        },
+        {
+          "pub": "139388-2023",
+          "title": "Spain-Gijón: Structures and parts of structures",
+          "buyer": "Consejo de Administración de Divertia Gijón S.A.",
+          "published": "2023-03-07",
+          "deadline": "",
+          "cpv": "15800000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/139388-2023"
+        },
+        {
+          "pub": "267650-2023",
+          "title": "Spain-Canarias: Engineering services",
+          "buyer": "TRANSPORTES INTERURBANO DE TENERIFE SA",
+          "published": "2023-05-05",
+          "deadline": "",
+          "cpv": "71300000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/267650-2023"
+        },
+        {
+          "pub": "44705-2024",
+          "title": "Spain – Repair and maintenance services – Establecimiento de un Sistema de Clasificación de Proveedores para el mantenimiento y de señalización vertical, horizontal y sistemas de b",
+          "buyer": "Gerencia de la Empresa Malagueña de Transportes S.A.M.",
+          "published": "2024-01-23",
+          "deadline": "",
+          "cpv": "50000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/44705-2024"
+        },
+        {
+          "pub": "404588-2024",
+          "title": "Spain – Architectural, engineering and planning services – Implementación de un Sistema Dinámico de Adquisición de servicios de redacción de documentación técnica",
+          "buyer": "Junta de Gobierno del Ayuntamiento de Santa Pola",
+          "published": "2024-07-08",
+          "deadline": "",
+          "cpv": "71240000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/404588-2024"
+        },
+        {
+          "pub": "484926-2024",
+          "title": "Spain – Non-scheduled passenger transport – Ejecución de los servicios habituales para prestación de los servicios públicos de competencia municipal.",
+          "buyer": "Pleno del Ayuntamiento de Vera",
+          "published": "2024-08-12",
+          "deadline": "",
+          "cpv": "60140000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/484926-2024"
+        }
+      ]
+    },
+    {
+      "slug": "spain-transport-mobility",
+      "country": {
+        "slug": "spain",
+        "name": "Spain",
+        "iso3": "ESP",
+        "iso2": "ES",
+        "lang": "spa",
+        "portal": "PLACSP (contrataciondelestado.es) + TED"
+      },
+      "sector": {
+        "slug": "transport-mobility",
+        "name": "Transport & Mobility",
+        "cpv_label": "60000000 / 34000000",
+        "cpv_query": "(PC = 60* OR PC = 34*)",
+        "summary": "Public transit operations, electric bus fleets, EV charging infrastructure, rail logistics, and municipal mobility."
+      },
+      "open_tenders_count": 202,
+      "recent_30d_count": 202,
+      "ted_query": "CY = ESP AND (PC = 60* OR PC = 34*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "613798-2021",
+          "title": "Spain-Almería: Public utilities",
+          "buyer": "Rectorado de la Universidad de Almería",
+          "published": "2021-12-01",
+          "deadline": "",
+          "cpv": "45259000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/613798-2021"
+        },
+        {
+          "pub": "46380-2022",
+          "title": "Spain-Almería: Chemical products",
+          "buyer": "Rectorado de la Universidad de Almería",
+          "published": "2022-01-28",
+          "deadline": "",
+          "cpv": "03100000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/46380-2022"
+        },
+        {
+          "pub": "82765-2023",
+          "title": "Spain-Almassora: Clothing, footwear, luggage articles and accessories",
+          "buyer": "Alcaldía del Ayuntamiento de Almassora",
+          "published": "2023-02-08",
+          "deadline": "",
+          "cpv": "03321000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/82765-2023"
+        },
+        {
+          "pub": "139388-2023",
+          "title": "Spain-Gijón: Structures and parts of structures",
+          "buyer": "Consejo de Administración de Divertia Gijón S.A.",
+          "published": "2023-03-07",
+          "deadline": "",
+          "cpv": "15800000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/139388-2023"
+        },
+        {
+          "pub": "348290-2023",
+          "title": "Spain-Malaga: Transport equipment and auxiliary products to transportation",
+          "buyer": "Gerencia de la Empresa Malagueña de Transportes S.A.M.",
+          "published": "2023-06-12",
+          "deadline": "",
+          "cpv": "34000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/348290-2023"
+        },
+        {
+          "pub": "360139-2023",
+          "title": "Spain-Malaga: Spare parts for goods vehicles, vans and cars",
+          "buyer": "Gerencia de la Empresa Malagueña de Transportes S.A.M.",
+          "published": "2023-06-16",
+          "deadline": "",
+          "cpv": "34330000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/360139-2023"
+        }
+      ]
+    },
+    {
+      "slug": "italy-it-ai-software",
+      "country": {
+        "slug": "italy",
+        "name": "Italy",
+        "iso3": "ITA",
+        "iso2": "IT",
+        "lang": "ita",
+        "portal": "ANAC BDNCP + MePA + TED"
+      },
+      "sector": {
+        "slug": "it-ai-software",
+        "name": "IT & AI Software",
+        "cpv_label": "72000000 / 48000000",
+        "cpv_query": "(PC = 72* OR PC = 48*)",
+        "summary": "Software development, enterprise SaaS, AI/data platforms, system integration, and IT maintenance tenders."
+      },
+      "open_tenders_count": 102,
+      "recent_30d_count": 102,
+      "ted_query": "CY = ITA AND (PC = 72* OR PC = 48*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "688489-2024",
+          "title": "Italy – Television and radio receivers, and sound or video recording or reproducing apparatus – ISTITUZIONE DEL SISTEMA DINAMICO DI ACQUISIZIONE AI SENSI DELLART. 32 DEL D. LGS. N.",
+          "buyer": "Presidenza del Consiglio dei ministri - Dipartimento per i servizi strumentali",
+          "published": "2024-11-12",
+          "deadline": "2027-11-12",
+          "cpv": "32300000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/688489-2024"
+        },
+        {
+          "pub": "174799-2025",
+          "title": "Italy – Software integration consultancy services – Istituzione del Sistema Dinamico di Acquisizione per la fornitura di servizi di gestione, manutenzione, supporto specialistico/p",
+          "buyer": "Intercent-ER — Agenzia regionale per lo sviluppo dei mercati telematici",
+          "published": "2025-03-18",
+          "deadline": "2028-03-19",
+          "cpv": "72227000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/174799-2025"
+        },
+        {
+          "pub": "344858-2026",
+          "title": "Italy – Computer-related management services – ID 8173 - Servizio di assistenza software on site a richiesta con emissione di ticket presso le sedi dell’Amministrazione e degli Ent",
+          "buyer": "Insiel SpA con socio unico Regione Autonoma Friuli Venezia Giulia",
+          "published": "2026-05-20",
+          "deadline": "2027-06-30",
+          "cpv": "72510000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/344858-2026"
+        },
+        {
+          "pub": "675293-2026",
+          "title": "Italy – Software-related services – GARA PER L'AFFIDAMENTO DEI SERVIZI DI CONDUZIONE, GESTIONE, MANUTENZIONE ED EVOLUZIONE DEL SISTEMA INFORMATIVO DEL DIPARTIMENTO PER I TRASPORTI ",
+          "buyer": "DG per la motorizzazione Div 1 - Affari generali e acquisizione beni e servizi per la Direzione generale",
+          "published": "2026-10-01",
+          "deadline": "2026-11-30",
+          "cpv": "72260000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/675293-2026"
+        },
+        {
+          "pub": "683594-2026",
+          "title": "Italy – Software-related services – ARIA_2026_478_F - Procedura aperta, ai sensi dell’art. 71 del D.lgs. 36/2023, per l’impl. del Clinical Decision Support System (CDSS)",
+          "buyer": "Azienda Regionale per l'Innovazione e gli Acquisti S.p.A.",
+          "published": "2026-10-05",
+          "deadline": "2026-12-02",
+          "cpv": "72260000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/683594-2026"
+        },
+        {
+          "pub": "700856-2026",
+          "title": "Italy – Information systems or technology planning services – Servizi di Maintenance Applicativa_Reti e Piattaforme",
+          "buyer": "RAI - Radiotelevisione Italiana S.p.A. - A/TEI/INT",
+          "published": "2026-10-12",
+          "deadline": "2026-12-14",
+          "cpv": "72222200",
+          "url": "https://ted.europa.eu/en/notice/-/detail/700856-2026"
+        }
+      ]
+    },
+    {
+      "slug": "italy-cybersecurity-cloud",
+      "country": {
+        "slug": "italy",
+        "name": "Italy",
+        "iso3": "ITA",
+        "iso2": "IT",
+        "lang": "ita",
+        "portal": "ANAC BDNCP + MePA + TED"
+      },
+      "sector": {
+        "slug": "cybersecurity-cloud",
+        "name": "Cybersecurity & Cloud",
+        "cpv_label": "722* / 724* / 725* / 726*",
+        "cpv_query": "(PC = 722* OR PC = 724* OR PC = 725* OR PC = 726*)",
+        "summary": "SOC/SIEM cybersecurity audits, CRA/NIS2 compliance, cloud hosting, DevSecOps, and managed infrastructure contracts."
+      },
+      "open_tenders_count": 49,
+      "recent_30d_count": 49,
+      "ted_query": "CY = ITA AND (PC = 722* OR PC = 724* OR PC = 725* OR PC = 726*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "688489-2024",
+          "title": "Italy – Television and radio receivers, and sound or video recording or reproducing apparatus – ISTITUZIONE DEL SISTEMA DINAMICO DI ACQUISIZIONE AI SENSI DELLART. 32 DEL D. LGS. N.",
+          "buyer": "Presidenza del Consiglio dei ministri - Dipartimento per i servizi strumentali",
+          "published": "2024-11-12",
+          "deadline": "2027-11-12",
+          "cpv": "32300000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/688489-2024"
+        },
+        {
+          "pub": "174799-2025",
+          "title": "Italy – Software integration consultancy services – Istituzione del Sistema Dinamico di Acquisizione per la fornitura di servizi di gestione, manutenzione, supporto specialistico/p",
+          "buyer": "Intercent-ER — Agenzia regionale per lo sviluppo dei mercati telematici",
+          "published": "2025-03-18",
+          "deadline": "2028-03-19",
+          "cpv": "72227000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/174799-2025"
+        },
+        {
+          "pub": "344858-2026",
+          "title": "Italy – Computer-related management services – ID 8173 - Servizio di assistenza software on site a richiesta con emissione di ticket presso le sedi dell’Amministrazione e degli Ent",
+          "buyer": "Insiel SpA con socio unico Regione Autonoma Friuli Venezia Giulia",
+          "published": "2026-05-20",
+          "deadline": "2027-06-30",
+          "cpv": "72510000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/344858-2026"
+        },
+        {
+          "pub": "675293-2026",
+          "title": "Italy – Software-related services – GARA PER L'AFFIDAMENTO DEI SERVIZI DI CONDUZIONE, GESTIONE, MANUTENZIONE ED EVOLUZIONE DEL SISTEMA INFORMATIVO DEL DIPARTIMENTO PER I TRASPORTI ",
+          "buyer": "DG per la motorizzazione Div 1 - Affari generali e acquisizione beni e servizi per la Direzione generale",
+          "published": "2026-10-01",
+          "deadline": "2026-11-30",
+          "cpv": "72260000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/675293-2026"
+        },
+        {
+          "pub": "683594-2026",
+          "title": "Italy – Software-related services – ARIA_2026_478_F - Procedura aperta, ai sensi dell’art. 71 del D.lgs. 36/2023, per l’impl. del Clinical Decision Support System (CDSS)",
+          "buyer": "Azienda Regionale per l'Innovazione e gli Acquisti S.p.A.",
+          "published": "2026-10-05",
+          "deadline": "2026-12-02",
+          "cpv": "72260000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/683594-2026"
+        },
+        {
+          "pub": "700856-2026",
+          "title": "Italy – Information systems or technology planning services – Servizi di Maintenance Applicativa_Reti e Piattaforme",
+          "buyer": "RAI - Radiotelevisione Italiana S.p.A. - A/TEI/INT",
+          "published": "2026-10-12",
+          "deadline": "2026-12-14",
+          "cpv": "72222200",
+          "url": "https://ted.europa.eu/en/notice/-/detail/700856-2026"
+        }
+      ]
+    },
+    {
+      "slug": "italy-construction-green-energy",
+      "country": {
+        "slug": "italy",
+        "name": "Italy",
+        "iso3": "ITA",
+        "iso2": "IT",
+        "lang": "ita",
+        "portal": "ANAC BDNCP + MePA + TED"
+      },
+      "sector": {
+        "slug": "construction-green-energy",
+        "name": "Construction & Green Energy",
+        "cpv_label": "45000000 / 09300000",
+        "cpv_query": "(PC = 45* OR PC = 093*)",
+        "summary": "Public building renovation, energy efficiency retrofits, solar/renewable power, HVAC, and civil engineering works."
+      },
+      "open_tenders_count": 117,
+      "recent_30d_count": 117,
+      "ted_query": "CY = ITA AND (PC = 45* OR PC = 093*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "406607-2023",
+          "title": "Italy-Rome: Solar installation",
+          "buyer": "Consip S.p.A. a socio unico",
+          "published": "2023-07-07",
+          "deadline": "",
+          "cpv": "09332000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/406607-2023"
+        },
+        {
+          "pub": "413065-2023",
+          "title": "Italy-Rome: Structures construction work",
+          "buyer": "Consip S.p.A. a socio unico",
+          "published": "2023-07-07",
+          "deadline": "",
+          "cpv": "45223000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/413065-2023"
+        },
+        {
+          "pub": "688489-2024",
+          "title": "Italy – Television and radio receivers, and sound or video recording or reproducing apparatus – ISTITUZIONE DEL SISTEMA DINAMICO DI ACQUISIZIONE AI SENSI DELLART. 32 DEL D. LGS. N.",
+          "buyer": "Presidenza del Consiglio dei ministri - Dipartimento per i servizi strumentali",
+          "published": "2024-11-12",
+          "deadline": "2027-11-12",
+          "cpv": "32300000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/688489-2024"
+        },
+        {
+          "pub": "569870-2025",
+          "title": "Italy – Construction work for water projects – Lavori di realizzazione delle Casse di espansione di Figline-Pizziconi, lotto 2, nei Comuni di Figline e Incisa Valdarno e di Reggell",
+          "buyer": "Commissario di Governo contro il dissesto idrogeologico presso Regione Toscana, Giunta Regionale, Direzione Difesa del S",
+          "published": "2025-09-02",
+          "deadline": "2099-12-12",
+          "cpv": "45240000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/569870-2025"
+        },
+        {
+          "pub": "827892-2025",
+          "title": "Italy – Electricity – Energia elettrica proveniente da fonti rinnovabili e gas naturale 3",
+          "buyer": "INTERCENT-ER AGENZIA REGIONALE DI SVILUPPO DEI MERCATI TELEMATICI",
+          "published": "2025-12-12",
+          "deadline": "",
+          "cpv": "09310000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/827892-2025"
+        },
+        {
+          "pub": "424612-2026",
+          "title": "Italy – Test drilling work – Test marcella 17909 changelog 5 P1_17",
+          "buyer": "Comune di Prova",
+          "published": "2026-06-19",
+          "deadline": "2026-12-30",
+          "cpv": "45121000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/424612-2026"
+        }
+      ]
+    },
+    {
+      "slug": "italy-healthcare-pharma",
+      "country": {
+        "slug": "italy",
+        "name": "Italy",
+        "iso3": "ITA",
+        "iso2": "IT",
+        "lang": "ita",
+        "portal": "ANAC BDNCP + MePA + TED"
+      },
+      "sector": {
+        "slug": "healthcare-pharma",
+        "name": "Healthcare & Pharma",
+        "cpv_label": "33000000 / 85100000",
+        "cpv_query": "(PC = 33* OR PC = 851*)",
+        "summary": "Hospital medical devices, diagnostic equipment, pharmaceutical supply frameworks, and clinical healthcare services."
+      },
+      "open_tenders_count": 246,
+      "recent_30d_count": 246,
+      "ted_query": "CY = ITA AND (PC = 33* OR PC = 851*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "296505-2022",
+          "title": "Italy-Bologna: Surgical instruments",
+          "buyer": "Intercent-ER – Agenzia regionale per lo sviluppo dei mercati telematici",
+          "published": "2022-06-03",
+          "deadline": "",
+          "cpv": "33169000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/296505-2022"
+        },
+        {
+          "pub": "687775-2022",
+          "title": "Italy-Naples: Pharmaceutical products",
+          "buyer": "SOCIETA' REGIONALE PER LA SANITA' (SO.RE.SA. S.P.A.)",
+          "published": "2022-12-09",
+          "deadline": "",
+          "cpv": "33600000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/687775-2022"
+        },
+        {
+          "pub": "246759-2023",
+          "title": "Italy-Padua: Medical equipments",
+          "buyer": "Azienda Zero - Passaggio Gaudenzio 1 - Padova",
+          "published": "2023-04-26",
+          "deadline": "",
+          "cpv": "33100000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/246759-2023"
+        },
+        {
+          "pub": "406257-2023",
+          "title": "Italy-Rome: Pharmaceutical products",
+          "buyer": "Consip S.p.A. a socio unico",
+          "published": "2023-07-07",
+          "deadline": "",
+          "cpv": "33600000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/406257-2023"
+        },
+        {
+          "pub": "406416-2023",
+          "title": "Italy-Rome: Antiseptics and disinfectants",
+          "buyer": "Consip S.p.A. a socio unico",
+          "published": "2023-07-07",
+          "deadline": "",
+          "cpv": "33631600",
+          "url": "https://ted.europa.eu/en/notice/-/detail/406416-2023"
+        },
+        {
+          "pub": "479081-2023",
+          "title": "Italy-Naples: Pharmaceutical products",
+          "buyer": "SOCIETA' REGIONALE PER LA SANITA' (SO.RE.SA. S.P.A.)",
+          "published": "2023-08-07",
+          "deadline": "",
+          "cpv": "33600000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/479081-2023"
+        }
+      ]
+    },
+    {
+      "slug": "italy-engineering-consulting",
+      "country": {
+        "slug": "italy",
+        "name": "Italy",
+        "iso3": "ITA",
+        "iso2": "IT",
+        "lang": "ita",
+        "portal": "ANAC BDNCP + MePA + TED"
+      },
+      "sector": {
+        "slug": "engineering-consulting",
+        "name": "Engineering & Consulting",
+        "cpv_label": "71000000 / 79400000",
+        "cpv_query": "(PC = 71* OR PC = 794*)",
+        "summary": "Technical engineering studies, architectural design, management advisory, compliance audits, and urban planning."
+      },
+      "open_tenders_count": 149,
+      "recent_30d_count": 149,
+      "ted_query": "CY = ITA AND (PC = 71* OR PC = 794*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "505142-2025",
+          "title": "Italy – Engineering design services for the construction of civil engineering works – Sistema dinamico di acquisizione della Pubblica Amministrazione per l’affidamento dei Servizi ",
+          "buyer": "CONSIP S.P.A.",
+          "published": "2025-08-01",
+          "deadline": "2027-07-31",
+          "cpv": "71322000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/505142-2025"
+        },
+        {
+          "pub": "439458-2026",
+          "title": "Italy – Hazard protection and control consultancy services – Sistema dinamico di acquisizione della Pubblica Amministrazione – salute e sicurezza sui luoghi di lavoro ID 2977",
+          "buyer": "CONSIP SPA",
+          "published": "2026-06-26",
+          "deadline": "2030-06-25",
+          "cpv": "71317000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/439458-2026"
+        },
+        {
+          "pub": "618572-2026",
+          "title": "Italy – Laboratory services – SERVIZIO DI CONVALIDA PERIODICA DI LOCALI, APPARECCHIATURE E OPERATORI AFFERENTI A LABORATORI CONTROLLATI DELL’ASST SETTE LAGHI",
+          "buyer": "ASST DEI SETTE LAGHI",
+          "published": "2026-09-08",
+          "deadline": "2026-11-24",
+          "cpv": "71900000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/618572-2026"
+        },
+        {
+          "pub": "697182-2026",
+          "title": "Italy – Engineering services – PROG. ESEC. E CSP CON OPZIONE DI DL E CSE PER I LAVORI DI: 1) EFFICIENTAMENTO ENERGETICO, MIGLIORAMENTO DELLE CONDIZIONI TERMO-IGROMETRICHE, ADEGUAME",
+          "buyer": "Provveditorato Interregionale OO.PP. per il Piemonte, Valle d'Aosta e Liguria - Sede di Genova",
+          "published": "2026-10-09",
+          "deadline": "2026-11-23",
+          "cpv": "71300000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/697182-2026"
+        },
+        {
+          "pub": "699054-2026",
+          "title": "Italy – Miscellaneous engineering services – Gara progettazione Centrale del Latte",
+          "buyer": "ASL BA",
+          "published": "2026-10-09",
+          "deadline": "2026-11-23",
+          "cpv": "71330000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/699054-2026"
+        },
+        {
+          "pub": "701870-2026",
+          "title": "Italy – Architectural, engineering and planning services – AMPLIAMENTO E RISTRUTTURAZIONE P.O. DI SO PROC APERTA PER AFFIDAMENTO DEL SERVIZIO TECNICO DI REDAZIONE DEL PFTE - PIANO ",
+          "buyer": "ASST DELLA VALTELLINA E DELL'ALTO LARIO",
+          "published": "2026-10-12",
+          "deadline": "2026-11-23",
+          "cpv": "71240000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/701870-2026"
+        }
+      ]
+    },
+    {
+      "slug": "italy-transport-mobility",
+      "country": {
+        "slug": "italy",
+        "name": "Italy",
+        "iso3": "ITA",
+        "iso2": "IT",
+        "lang": "ita",
+        "portal": "ANAC BDNCP + MePA + TED"
+      },
+      "sector": {
+        "slug": "transport-mobility",
+        "name": "Transport & Mobility",
+        "cpv_label": "60000000 / 34000000",
+        "cpv_query": "(PC = 60* OR PC = 34*)",
+        "summary": "Public transit operations, electric bus fleets, EV charging infrastructure, rail logistics, and municipal mobility."
+      },
+      "open_tenders_count": 122,
+      "recent_30d_count": 122,
+      "ted_query": "CY = ITA AND (PC = 60* OR PC = 34*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "18687-2026",
+          "title": "Italy – Motor vehicles for the transport of goods – Sistema Dinamico di Acquisizione per la fornitura di Veicoli (ID 2862)",
+          "buyer": "Consip S.p.A.",
+          "published": "2026-01-12",
+          "deadline": "2030-01-09",
+          "cpv": "34130000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/18687-2026"
+        },
+        {
+          "pub": "436065-2026",
+          "title": "Italy – Ro-Ro vessels – PROCEDURA APERTA PER LA FORNITURA DI N. 1 TRAGHETTO RO-RO PASSEGGERI ALIMENTATO ELETTRICAMENTE E SISTEMA DI RICARICA PER IL SERVIZIO DI NAVIGAZIONE NAZIONAL",
+          "buyer": "Start Romagna S.p.A.",
+          "published": "2026-06-25",
+          "deadline": "2026-12-11",
+          "cpv": "34512700",
+          "url": "https://ted.europa.eu/en/notice/-/detail/436065-2026"
+        },
+        {
+          "pub": "526033-2026",
+          "title": "Italy – Public road transport services – GECA 11/2026: AFFIDAMENTO DELLA GESTIONE DEI SERVIZI DI TRASPORTO PUBBLICO AUTOMOBILISTICI INTEGRATIVI AL SERVIZIO FERROVIARIO REGIONALE (S",
+          "buyer": "Giunta Regionale - Regione Lombardia",
+          "published": "2026-07-29",
+          "deadline": "2026-12-11",
+          "cpv": "60112000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/526033-2026"
+        },
+        {
+          "pub": "534419-2026",
+          "title": "Italy – Public road transport services – S.4 - GARA EUROPEA A PROCEDURA APERTA PER LA CONCESSIONE (NET COST) DEI SERVIZI DI TRASPORTO PUBBLICO LOCALE (TPL) NELLA RETE A DOMANDA DEB",
+          "buyer": "CITTA' METROPOLITANA DI FIRENZE - UFFICIO GARE SERVIZI E FORNITURE",
+          "published": "2026-08-03",
+          "deadline": "2026-11-22",
+          "cpv": "60112000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/534419-2026"
+        },
+        {
+          "pub": "551348-2026",
+          "title": "Italy – Public road transport services – Affidamento dei servizi di TPL di competenza dell’Agenzia del bacino della Città Metropolitana di Milano, Monza e Brianza, Lodi e Pavia – L",
+          "buyer": "Agenzia del bacino della Città Metropolitana di Milano, Monza e Brianza, Lodi e Pavia",
+          "published": "2026-08-10",
+          "deadline": "2026-11-30",
+          "cpv": "60112000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/551348-2026"
+        },
+        {
+          "pub": "631516-2026",
+          "title": "Italy – Public road transport services – Affidamento dei servizi di TPL di competenza dell’Agenzia del bacino della Città Metropolitana di Milano, Monza e Brianza, Lodi e Pavia – L",
+          "buyer": "Agenzia del bacino della Città Metropolitana di Milano, Monza e Brianza, Lodi e Pavia",
+          "published": "2026-09-14",
+          "deadline": "2026-12-31",
+          "cpv": "60112000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/631516-2026"
+        }
+      ]
+    },
+    {
+      "slug": "netherlands-it-ai-software",
+      "country": {
+        "slug": "netherlands",
+        "name": "Netherlands",
+        "iso3": "NLD",
+        "iso2": "NL",
+        "lang": "nld",
+        "portal": "TenderNed + TED"
+      },
+      "sector": {
+        "slug": "it-ai-software",
+        "name": "IT & AI Software",
+        "cpv_label": "72000000 / 48000000",
+        "cpv_query": "(PC = 72* OR PC = 48*)",
+        "summary": "Software development, enterprise SaaS, AI/data platforms, system integration, and IT maintenance tenders."
+      },
+      "open_tenders_count": 254,
+      "recent_30d_count": 254,
+      "ted_query": "CY = NLD AND (PC = 72* OR PC = 48*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "213646-2017",
+          "title": "Netherlands-Utrecht: Software package and information systems",
+          "buyer": "ProRail BV",
+          "published": "2017-06-03",
+          "deadline": "",
+          "cpv": "48000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/213646-2017"
+        },
+        {
+          "pub": "68218-2022",
+          "title": "Netherlands-Anna Paulowna: Software package and information systems",
+          "buyer": "Gemeente Hollands Kroon",
+          "published": "2022-02-08",
+          "deadline": "",
+          "cpv": "48000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/68218-2022"
+        },
+        {
+          "pub": "471650-2022",
+          "title": "Netherlands-Amsterdam: IT services: consulting, software development, Internet and support",
+          "buyer": "UWV",
+          "published": "2022-08-30",
+          "deadline": "",
+          "cpv": "48700000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/471650-2022"
+        },
+        {
+          "pub": "134966-2023",
+          "title": "Netherlands-Utrecht: IT services: consulting, software development, Internet and support",
+          "buyer": "Stichting Vilans",
+          "published": "2023-03-06",
+          "deadline": "",
+          "cpv": "72000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/134966-2023"
+        },
+        {
+          "pub": "345396-2023",
+          "title": "Netherlands-Rijswijk: Postal and telecommunications services",
+          "buyer": "Centraal Bureau Rijvaardigheidsbewijzen",
+          "published": "2023-06-09",
+          "deadline": "",
+          "cpv": "22314000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/345396-2023"
+        },
+        {
+          "pub": "678992-2023",
+          "title": "Netherlands – Software package and information systems – DPS online collaboration tools",
+          "buyer": "SURF B.V.",
+          "published": "2023-11-08",
+          "deadline": "",
+          "cpv": "48000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/678992-2023"
+        }
+      ]
+    },
+    {
+      "slug": "netherlands-cybersecurity-cloud",
+      "country": {
+        "slug": "netherlands",
+        "name": "Netherlands",
+        "iso3": "NLD",
+        "iso2": "NL",
+        "lang": "nld",
+        "portal": "TenderNed + TED"
+      },
+      "sector": {
+        "slug": "cybersecurity-cloud",
+        "name": "Cybersecurity & Cloud",
+        "cpv_label": "722* / 724* / 725* / 726*",
+        "cpv_query": "(PC = 722* OR PC = 724* OR PC = 725* OR PC = 726*)",
+        "summary": "SOC/SIEM cybersecurity audits, CRA/NIS2 compliance, cloud hosting, DevSecOps, and managed infrastructure contracts."
+      },
+      "open_tenders_count": 127,
+      "recent_30d_count": 127,
+      "ted_query": "CY = NLD AND (PC = 722* OR PC = 724* OR PC = 725* OR PC = 726*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "68218-2022",
+          "title": "Netherlands-Anna Paulowna: Software package and information systems",
+          "buyer": "Gemeente Hollands Kroon",
+          "published": "2022-02-08",
+          "deadline": "",
+          "cpv": "48000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/68218-2022"
+        },
+        {
+          "pub": "471650-2022",
+          "title": "Netherlands-Amsterdam: IT services: consulting, software development, Internet and support",
+          "buyer": "UWV",
+          "published": "2022-08-30",
+          "deadline": "",
+          "cpv": "48700000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/471650-2022"
+        },
+        {
+          "pub": "134966-2023",
+          "title": "Netherlands-Utrecht: IT services: consulting, software development, Internet and support",
+          "buyer": "Stichting Vilans",
+          "published": "2023-03-06",
+          "deadline": "",
+          "cpv": "72000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/134966-2023"
+        },
+        {
+          "pub": "345396-2023",
+          "title": "Netherlands-Rijswijk: Postal and telecommunications services",
+          "buyer": "Centraal Bureau Rijvaardigheidsbewijzen",
+          "published": "2023-06-09",
+          "deadline": "",
+          "cpv": "22314000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/345396-2023"
+        },
+        {
+          "pub": "703044-2024",
+          "title": "Netherlands – Software supply services – Google Workspace for Education licenties",
+          "buyer": "Coöperatie Samen Innoveren/Inkopen/Ict voor Onderwijs Nederland UA",
+          "published": "2024-11-19",
+          "deadline": "",
+          "cpv": "72268000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/703044-2024"
+        },
+        {
+          "pub": "726090-2024",
+          "title": "Netherlands – Software supply services – Google Workspace for Education licenties",
+          "buyer": "SIVON",
+          "published": "2024-11-28",
+          "deadline": "",
+          "cpv": "72268000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/726090-2024"
+        }
+      ]
+    },
+    {
+      "slug": "netherlands-construction-green-energy",
+      "country": {
+        "slug": "netherlands",
+        "name": "Netherlands",
+        "iso3": "NLD",
+        "iso2": "NL",
+        "lang": "nld",
+        "portal": "TenderNed + TED"
+      },
+      "sector": {
+        "slug": "construction-green-energy",
+        "name": "Construction & Green Energy",
+        "cpv_label": "45000000 / 09300000",
+        "cpv_query": "(PC = 45* OR PC = 093*)",
+        "summary": "Public building renovation, energy efficiency retrofits, solar/renewable power, HVAC, and civil engineering works."
+      },
+      "open_tenders_count": 204,
+      "recent_30d_count": 204,
+      "ted_query": "CY = NLD AND (PC = 45* OR PC = 093*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "358699-2019",
+          "title": "Netherlands-Amsterdam: Construction work",
+          "buyer": "Stichting Waternet",
+          "published": "2019-07-31",
+          "deadline": "",
+          "cpv": "45000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/358699-2019"
+        },
+        {
+          "pub": "204637-2020",
+          "title": "Netherlands-Veghel: Repair and maintenance services",
+          "buyer": "DASmakkelijk namens Stichting voor Protestants Christelijk Primair Onderwijs De Vier Windstreken",
+          "published": "2020-05-04",
+          "deadline": "",
+          "cpv": "45261900",
+          "url": "https://ted.europa.eu/en/notice/-/detail/204637-2020"
+        },
+        {
+          "pub": "616096-2022",
+          "title": "Netherlands-Anna Paulowna: Building installation work",
+          "buyer": "Gemeente Hollands Kroon",
+          "published": "2022-11-08",
+          "deadline": "",
+          "cpv": "09331000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/616096-2022"
+        },
+        {
+          "pub": "138376-2024",
+          "title": "Netherlands – Electrical installation work – Openbaar bod: Objecten Openbare Ruimte (OOR)",
+          "buyer": "Stedin Netbeheer B.V.",
+          "published": "2024-03-06",
+          "deadline": "2030-12-30",
+          "cpv": "45310000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/138376-2024"
+        },
+        {
+          "pub": "838417-2025",
+          "title": "Netherlands – Construction work – Bouw- en woonrijp maken ontwikkelgebied Leesten Schouwbroek (DAS)",
+          "buyer": "Gemeente Zutphen",
+          "published": "2025-12-17",
+          "deadline": "",
+          "cpv": "45000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/838417-2025"
+        },
+        {
+          "pub": "23908-2026",
+          "title": "Netherlands – Sewage, refuse, cleaning and environmental services – AI 2025-0065 - Afzet van herbruikbare grond",
+          "buyer": "Gemeente Amsterdam, Ingenieursbureau",
+          "published": "2026-01-14",
+          "deadline": "",
+          "cpv": "90000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/23908-2026"
+        }
+      ]
+    },
+    {
+      "slug": "netherlands-healthcare-pharma",
+      "country": {
+        "slug": "netherlands",
+        "name": "Netherlands",
+        "iso3": "NLD",
+        "iso2": "NL",
+        "lang": "nld",
+        "portal": "TenderNed + TED"
+      },
+      "sector": {
+        "slug": "healthcare-pharma",
+        "name": "Healthcare & Pharma",
+        "cpv_label": "33000000 / 85100000",
+        "cpv_query": "(PC = 33* OR PC = 851*)",
+        "summary": "Hospital medical devices, diagnostic equipment, pharmaceutical supply frameworks, and clinical healthcare services."
+      },
+      "open_tenders_count": 51,
+      "recent_30d_count": 51,
+      "ted_query": "CY = NLD AND (PC = 33* OR PC = 851*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "77642-2021",
+          "title": "Netherlands-The Hague: Health services",
+          "buyer": "Servicebureau Jeugdhulp Haaglanden",
+          "published": "2021-02-15",
+          "deadline": "",
+          "cpv": "85100000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/77642-2021"
+        },
+        {
+          "pub": "616747-2022",
+          "title": "Netherlands-Nijmegen: Laboratory reagents",
+          "buyer": "Radboudumc",
+          "published": "2022-11-08",
+          "deadline": "",
+          "cpv": "24300000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/616747-2022"
+        },
+        {
+          "pub": "308498-2023",
+          "title": "Netherlands-Spijkenisse: Medical aids",
+          "buyer": "gemeente Nissewaard",
+          "published": "2023-05-24",
+          "deadline": "",
+          "cpv": "33196000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/308498-2023"
+        },
+        {
+          "pub": "547428-2024",
+          "title": "Netherlands – Invalid carriages, wheelchairs and associated devices – Wmo Hulpmiddelen - Toelatingsprocedure Open House",
+          "buyer": "Gemeente Lelystad",
+          "published": "2024-09-12",
+          "deadline": "2032-10-24",
+          "cpv": "33193000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/547428-2024"
+        },
+        {
+          "pub": "591485-2024",
+          "title": "Netherlands – Invalid carriages, wheelchairs and associated devices – Wmo Hulpmiddelen - Toelatingsprocedure Open House",
+          "buyer": "Gemeente Lelystad",
+          "published": "2024-10-02",
+          "deadline": "2032-10-24",
+          "cpv": "33193000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/591485-2024"
+        },
+        {
+          "pub": "474359-2025",
+          "title": "Netherlands – Laboratory reagents – Open House: Levering laboratoria chemicaliën",
+          "buyer": "Radboud Universitair Medisch Centrum/Radboudumc",
+          "published": "2025-07-21",
+          "deadline": "2026-12-30",
+          "cpv": "33696500",
+          "url": "https://ted.europa.eu/en/notice/-/detail/474359-2025"
+        }
+      ]
+    },
+    {
+      "slug": "netherlands-engineering-consulting",
+      "country": {
+        "slug": "netherlands",
+        "name": "Netherlands",
+        "iso3": "NLD",
+        "iso2": "NL",
+        "lang": "nld",
+        "portal": "TenderNed + TED"
+      },
+      "sector": {
+        "slug": "engineering-consulting",
+        "name": "Engineering & Consulting",
+        "cpv_label": "71000000 / 79400000",
+        "cpv_query": "(PC = 71* OR PC = 794*)",
+        "summary": "Technical engineering studies, architectural design, management advisory, compliance audits, and urban planning."
+      },
+      "open_tenders_count": 259,
+      "recent_30d_count": 259,
+      "ted_query": "CY = NLD AND (PC = 71* OR PC = 794*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "485071-2017",
+          "title": "Netherlands-The Hague: Financial management consultancy services",
+          "buyer": "Provincie Zuid-Holland",
+          "published": "2017-12-05",
+          "deadline": "",
+          "cpv": "66171000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/485071-2017"
+        },
+        {
+          "pub": "23217-2018",
+          "title": "Netherlands-The Hague: Public relations consultancy services",
+          "buyer": "Provincie Zuid-Holland",
+          "published": "2018-01-18",
+          "deadline": "",
+          "cpv": "66171000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/23217-2018"
+        },
+        {
+          "pub": "155020-2019",
+          "title": "Netherlands-Arnhem: Architectural, construction, engineering and inspection services",
+          "buyer": "DASmakkelijk namens ROC RijnIJssel",
+          "published": "2019-04-03",
+          "deadline": "",
+          "cpv": "71000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/155020-2019"
+        },
+        {
+          "pub": "369866-2019",
+          "title": "Netherlands-Utrecht: Architectural, construction, engineering and inspection services",
+          "buyer": "DASmakkelijk namens MBO Utrecht",
+          "published": "2019-08-06",
+          "deadline": "",
+          "cpv": "71000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/369866-2019"
+        },
+        {
+          "pub": "262060-2020",
+          "title": "Netherlands-Veghel: Architectural and related services",
+          "buyer": "DASmakkelijk namens Summa College",
+          "published": "2020-06-05",
+          "deadline": "",
+          "cpv": "71200000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/262060-2020"
+        },
+        {
+          "pub": "262061-2020",
+          "title": "Netherlands-Veghel: Construction supervision services",
+          "buyer": "DASmakkelijk namens Summa College",
+          "published": "2020-06-05",
+          "deadline": "",
+          "cpv": "71520000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/262061-2020"
+        }
+      ]
+    },
+    {
+      "slug": "netherlands-transport-mobility",
+      "country": {
+        "slug": "netherlands",
+        "name": "Netherlands",
+        "iso3": "NLD",
+        "iso2": "NL",
+        "lang": "nld",
+        "portal": "TenderNed + TED"
+      },
+      "sector": {
+        "slug": "transport-mobility",
+        "name": "Transport & Mobility",
+        "cpv_label": "60000000 / 34000000",
+        "cpv_query": "(PC = 60* OR PC = 34*)",
+        "summary": "Public transit operations, electric bus fleets, EV charging infrastructure, rail logistics, and municipal mobility."
+      },
+      "open_tenders_count": 127,
+      "recent_30d_count": 127,
+      "ted_query": "CY = NLD AND (PC = 60* OR PC = 34*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "217542-2020",
+          "title": "Netherlands-Veghel: Non-scheduled passenger transport",
+          "buyer": "DASmakkelijk namens Stichting voor Protestants Christelijk Primair Onderwijs De Vier Windstreken",
+          "published": "2020-05-11",
+          "deadline": "",
+          "cpv": "60140000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/217542-2020"
+        },
+        {
+          "pub": "702662-2022",
+          "title": "Netherlands-Duiven: Non-scheduled passenger transport",
+          "buyer": "Quadraam Gelderse Onderwijsgroep",
+          "published": "2022-12-16",
+          "deadline": "",
+          "cpv": "60140000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/702662-2022"
+        },
+        {
+          "pub": "46351-2023",
+          "title": "Netherlands-Ridderkerk: Transport services (excl. Waste transport)",
+          "buyer": "BAR-Organisatie (Barendrecht, Albrandswaard, Ridderkerk)",
+          "published": "2023-01-24",
+          "deadline": "",
+          "cpv": "60000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/46351-2023"
+        },
+        {
+          "pub": "335794-2023",
+          "title": "Netherlands-The Hague: Motor vehicles",
+          "buyer": "Politie",
+          "published": "2023-06-06",
+          "deadline": "",
+          "cpv": "34100000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/335794-2023"
+        },
+        {
+          "pub": "337400-2023",
+          "title": "Netherlands-The Hague: Motor vehicles for the transport of goods",
+          "buyer": "Politie",
+          "published": "2023-06-06",
+          "deadline": "",
+          "cpv": "34130000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/337400-2023"
+        },
+        {
+          "pub": "707689-2023",
+          "title": "Netherlands – Transport services (excl. Waste transport) – DAS transporten",
+          "buyer": "Twence Holding B.V.",
+          "published": "2023-11-21",
+          "deadline": "2032-11-17",
+          "cpv": "60000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/707689-2023"
+        }
+      ]
+    },
+    {
+      "slug": "belgium-it-ai-software",
+      "country": {
+        "slug": "belgium",
+        "name": "Belgium",
+        "iso3": "BEL",
+        "iso2": "BE",
+        "lang": "fra",
+        "portal": "e-Procurement (publicprocurement.be) + TED"
+      },
+      "sector": {
+        "slug": "it-ai-software",
+        "name": "IT & AI Software",
+        "cpv_label": "72000000 / 48000000",
+        "cpv_query": "(PC = 72* OR PC = 48*)",
+        "summary": "Software development, enterprise SaaS, AI/data platforms, system integration, and IT maintenance tenders."
+      },
+      "open_tenders_count": 114,
+      "recent_30d_count": 114,
+      "ted_query": "CY = BEL AND (PC = 72* OR PC = 48*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "375943-2017",
+          "title": "Belgium-Malines: Software package and information systems",
+          "buyer": "De Lijn — Techniek",
+          "published": "2017-09-23",
+          "deadline": "",
+          "cpv": "48000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/375943-2017"
+        },
+        {
+          "pub": "212681-2023",
+          "title": "Belgium-Brussels: Dynamic Purchasing System (DPS) for IT Supplies (DPS ITS)",
+          "buyer": "European Commission, Directorate-General for Informatics (DIGIT), DIGIT.R.3 – ICT Procurement and Contracts",
+          "published": "2023-04-07",
+          "deadline": "",
+          "cpv": "30200000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/212681-2023"
+        },
+        {
+          "pub": "257472-2023",
+          "title": "Belgium-Brussels: Software for Innovation, Diversity and Evolution III - Dynamic Purchasing System",
+          "buyer": "European Commission, Directorate-General for Informatics (DIGIT), DIGIT.R.3 - ICT Procurement and Contracts",
+          "published": "2023-04-28",
+          "deadline": "",
+          "cpv": "48000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/257472-2023"
+        },
+        {
+          "pub": "438461-2023",
+          "title": "Belgium-Brussels: Category 4 of the Dynamic Purchasing System PS for Services for Citizen Participation and Deliberation Processes – Digital Platform Setup, Moderation and Analysis",
+          "buyer": "European Commission, Directorate-General for Communication (COMM)",
+          "published": "2023-07-19",
+          "deadline": "",
+          "cpv": "72000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/438461-2023"
+        },
+        {
+          "pub": "438876-2023",
+          "title": "Belgium-Brussels: Dynamic Purchasing System (DPS) for Services Related to Citizen Participation and Deliberation Processes –Category 1 – Pan-European or Multinational Participatory",
+          "buyer": "European Commission, Directorate-General for Communication (COMM)",
+          "published": "2023-07-19",
+          "deadline": "",
+          "cpv": "72000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/438876-2023"
+        },
+        {
+          "pub": "46244-2024",
+          "title": "Belgium – IT services: consulting, software development, Internet and support – Dynamic Purchasing System for Cloud Services (CLOUD III DPS)",
+          "buyer": "European Commission, DG DIGIT - Digital Services",
+          "published": "2024-01-23",
+          "deadline": "",
+          "cpv": "72000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/46244-2024"
+        }
+      ]
+    },
+    {
+      "slug": "belgium-cybersecurity-cloud",
+      "country": {
+        "slug": "belgium",
+        "name": "Belgium",
+        "iso3": "BEL",
+        "iso2": "BE",
+        "lang": "fra",
+        "portal": "e-Procurement (publicprocurement.be) + TED"
+      },
+      "sector": {
+        "slug": "cybersecurity-cloud",
+        "name": "Cybersecurity & Cloud",
+        "cpv_label": "722* / 724* / 725* / 726*",
+        "cpv_query": "(PC = 722* OR PC = 724* OR PC = 725* OR PC = 726*)",
+        "summary": "SOC/SIEM cybersecurity audits, CRA/NIS2 compliance, cloud hosting, DevSecOps, and managed infrastructure contracts."
+      },
+      "open_tenders_count": 36,
+      "recent_30d_count": 36,
+      "ted_query": "CY = BEL AND (PC = 722* OR PC = 724* OR PC = 725* OR PC = 726*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "212681-2023",
+          "title": "Belgium-Brussels: Dynamic Purchasing System (DPS) for IT Supplies (DPS ITS)",
+          "buyer": "European Commission, Directorate-General for Informatics (DIGIT), DIGIT.R.3 – ICT Procurement and Contracts",
+          "published": "2023-04-07",
+          "deadline": "",
+          "cpv": "30200000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/212681-2023"
+        },
+        {
+          "pub": "210206-2024",
+          "title": "Belgium – IT services: consulting, software development, Internet and support – Professional Services Dynamic Purchasing System (PROSERV DPS)",
+          "buyer": "European Commission, DG DIGIT - Digital Services",
+          "published": "2024-04-10",
+          "deadline": "",
+          "cpv": "72000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/210206-2024"
+        },
+        {
+          "pub": "252179-2026",
+          "title": "Belgium – Document management services – Mise en place d’un système de dématérialisation et de gestion électronique des documents pour FAMIWAL",
+          "buyer": "Caisse publique wallonne d'allocations familiales-FAMIWAL",
+          "published": "2026-04-14",
+          "deadline": "",
+          "cpv": "72512000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/252179-2026"
+        },
+        {
+          "pub": "286103-2026",
+          "title": "Belgium – Computer support and consultancy services – La désignation d’un Chef de programme pour la mise en œuvre d’un programme DPI (Dossier Patient Informatisé) pour le réseau El",
+          "buyer": "Centre Hospitalier Universitaire de Liège",
+          "published": "2026-04-27",
+          "deadline": "",
+          "cpv": "72600000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/286103-2026"
+        },
+        {
+          "pub": "539663-2026",
+          "title": "Belgium – Custom software development services – Ontwerpen, opstarten en begeleiden van een systeem voor geassisteerd varen en informatiedeling aan boord van een autoveer",
+          "buyer": "Vlaamse Overheid",
+          "published": "2026-08-04",
+          "deadline": "",
+          "cpv": "72230000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/539663-2026"
+        },
+        {
+          "pub": "692592-2026",
+          "title": "Belgium – Software development services – Digitale uitleentoepassing",
+          "buyer": "Brugge",
+          "published": "2026-10-07",
+          "deadline": "",
+          "cpv": "72262000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/692592-2026"
+        }
+      ]
+    },
+    {
+      "slug": "belgium-construction-green-energy",
+      "country": {
+        "slug": "belgium",
+        "name": "Belgium",
+        "iso3": "BEL",
+        "iso2": "BE",
+        "lang": "fra",
+        "portal": "e-Procurement (publicprocurement.be) + TED"
+      },
+      "sector": {
+        "slug": "construction-green-energy",
+        "name": "Construction & Green Energy",
+        "cpv_label": "45000000 / 09300000",
+        "cpv_query": "(PC = 45* OR PC = 093*)",
+        "summary": "Public building renovation, energy efficiency retrofits, solar/renewable power, HVAC, and civil engineering works."
+      },
+      "open_tenders_count": 201,
+      "recent_30d_count": 201,
+      "ted_query": "CY = BEL AND (PC = 45* OR PC = 093*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "167941-2026",
+          "title": "Belgium – Building installation work – Rénovation de 85 logements du quartier « Devant les Bois » de Aye.",
+          "buyer": "La Famennoise",
+          "published": "2026-03-11",
+          "deadline": "2027-03-16",
+          "cpv": "45300000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/167941-2026"
+        },
+        {
+          "pub": "528410-2026",
+          "title": "Belgium – Petroleum products, fuel, electricity and other sources of energy – Overeenkomst voor de levering van elektriciteit en gas en aanverwante diensten voor de gebouwen en ins",
+          "buyer": "Régie des Bâtiments",
+          "published": "2026-07-30",
+          "deadline": "2028-08-31",
+          "cpv": "09000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/528410-2026"
+        },
+        {
+          "pub": "564892-2026",
+          "title": "Belgium – Construction work – Construction of Al-Bakri Green Girls’ School in Hebron",
+          "buyer": "Enabel",
+          "published": "2026-08-14",
+          "deadline": "2027-08-31",
+          "cpv": "45000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/564892-2026"
+        },
+        {
+          "pub": "568605-2026",
+          "title": "Belgium – Construction work – Construction de la Station d'épuration de Strée",
+          "buyer": "Igretec",
+          "published": "2026-08-17",
+          "deadline": "2026-11-25",
+          "cpv": "45000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/568605-2026"
+        },
+        {
+          "pub": "615033-2026",
+          "title": "Belgium – Construction work – Renovatie operatiekwartier Fase 1B",
+          "buyer": "AZ Sint-Jan Brugge AV",
+          "published": "2026-09-07",
+          "deadline": "2026-12-07",
+          "cpv": "45000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/615033-2026"
+        },
+        {
+          "pub": "617844-2026",
+          "title": "Belgium – Clinic construction work – Travaux de gros œuvre fermé pour la construction de la nouvelle Tour d'hospitalisation des CuSL.",
+          "buyer": "Saint-Luc Patrimoine FUP",
+          "published": "2026-09-08",
+          "deadline": "2026-11-30",
+          "cpv": "45215130",
+          "url": "https://ted.europa.eu/en/notice/-/detail/617844-2026"
+        }
+      ]
+    },
+    {
+      "slug": "belgium-healthcare-pharma",
+      "country": {
+        "slug": "belgium",
+        "name": "Belgium",
+        "iso3": "BEL",
+        "iso2": "BE",
+        "lang": "fra",
+        "portal": "e-Procurement (publicprocurement.be) + TED"
+      },
+      "sector": {
+        "slug": "healthcare-pharma",
+        "name": "Healthcare & Pharma",
+        "cpv_label": "33000000 / 85100000",
+        "cpv_query": "(PC = 33* OR PC = 851*)",
+        "summary": "Hospital medical devices, diagnostic equipment, pharmaceutical supply frameworks, and clinical healthcare services."
+      },
+      "open_tenders_count": 112,
+      "recent_30d_count": 112,
+      "ted_query": "CY = BEL AND (PC = 33* OR PC = 851*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "351241-2024",
+          "title": "Belgium – Ophthalmologicals – Dynamisch aankoopsysteem voor de levering van ranibizumab",
+          "buyer": "Hospilim VZW",
+          "published": "2024-06-13",
+          "deadline": "",
+          "cpv": "33662100",
+          "url": "https://ted.europa.eu/en/notice/-/detail/351241-2024"
+        },
+        {
+          "pub": "389990-2024",
+          "title": "Belgium – Ophthalmologicals – Dynamisch aankoopsysteem voor de levering van ranibizumab",
+          "buyer": "Hospilim VZW",
+          "published": "2024-07-01",
+          "deadline": "",
+          "cpv": "33662100",
+          "url": "https://ted.europa.eu/en/notice/-/detail/389990-2024"
+        },
+        {
+          "pub": "711911-2024",
+          "title": "Belgium – Medical equipments – Supply contract for the acquisition, installation and maintenance of medical equipment in the Democratic Republic of Congo",
+          "buyer": "Enabel",
+          "published": "2024-11-21",
+          "deadline": "",
+          "cpv": "33100000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/711911-2024"
+        },
+        {
+          "pub": "746313-2024",
+          "title": "Belgium – Medical equipments – Supply contract for the acquisition, installation and maintenance of medical equipment in the Democratic Republic of Congo",
+          "buyer": "Enabel",
+          "published": "2024-12-06",
+          "deadline": "",
+          "cpv": "33100000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/746313-2024"
+        },
+        {
+          "pub": "669889-2026",
+          "title": "Belgium – Storage and warehousing services – Capacity Reservation for Personal Protective Equipment Pilot",
+          "buyer": "Health and Digital Executive Agency (HaDEA) , HADEA - Health and Digital Executive Agency",
+          "published": "2026-09-29",
+          "deadline": "2026-12-08",
+          "cpv": "63120000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/669889-2026"
+        },
+        {
+          "pub": "721999-2026",
+          "title": "Belgium – Pharmaceutical products – Fourniture d'Eltrombopag",
+          "buyer": "MercurHosp ASBL",
+          "published": "2026-10-19",
+          "deadline": "2026-11-24",
+          "cpv": "33600000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/721999-2026"
+        }
+      ]
+    },
+    {
+      "slug": "belgium-engineering-consulting",
+      "country": {
+        "slug": "belgium",
+        "name": "Belgium",
+        "iso3": "BEL",
+        "iso2": "BE",
+        "lang": "fra",
+        "portal": "e-Procurement (publicprocurement.be) + TED"
+      },
+      "sector": {
+        "slug": "engineering-consulting",
+        "name": "Engineering & Consulting",
+        "cpv_label": "71000000 / 79400000",
+        "cpv_query": "(PC = 71* OR PC = 794*)",
+        "summary": "Technical engineering studies, architectural design, management advisory, compliance audits, and urban planning."
+      },
+      "open_tenders_count": 115,
+      "recent_30d_count": 115,
+      "ted_query": "CY = BEL AND (PC = 71* OR PC = 794*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "122567-2025",
+          "title": "Belgium – Engineering services – Système d'acquisition dynamique relatif à des ressources externes (Gestionnaire de chantier et de projet, ingénierie et dessinateur industriel)",
+          "buyer": "Institut National des radioéléments",
+          "published": "2025-02-24",
+          "deadline": "",
+          "cpv": "71300000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/122567-2025"
+        },
+        {
+          "pub": "717017-2025",
+          "title": "Belgium – Laboratory services – SYSTEME D'ACQUISITION DYNAMIQUE, PROCEDURE RESTREINTE, POUR LA REALISATION D'ANALYSES POUR LE COMPTE DE L'AGENCE FEDERALE POUR LA SECURITE DE LA CHA",
+          "buyer": "Agence Fédérale pour la Sécurité de la Chaîne Alimentaire",
+          "published": "2025-10-30",
+          "deadline": "",
+          "cpv": "71900000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/717017-2025"
+        },
+        {
+          "pub": "175669-2026",
+          "title": "Belgium – Architectural, engineering and planning services – Contrat de prestation de services via un contrat d'honoraires avec un bureau d'études spécialisé dans les équipements t",
+          "buyer": "Ministère de la Communauté germanophone de Belgique",
+          "published": "2026-03-13",
+          "deadline": "2027-04-27",
+          "cpv": "71240000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/175669-2026"
+        },
+        {
+          "pub": "244051-2026",
+          "title": "Belgium – Energy and related services – VIRO VZW",
+          "buyer": "Vlaams EnergieBedrijf NV",
+          "published": "2026-04-10",
+          "deadline": "",
+          "cpv": "71314000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/244051-2026"
+        },
+        {
+          "pub": "296596-2026",
+          "title": "Belgium – Architectural, construction, engineering and inspection services – Désignation d’un auteur de projet en vue de la construction d’un nouveau bâtiment à Péruwelz",
+          "buyer": "Maison de la Solidarité de Mons-Wallonie picarde asbl",
+          "published": "2026-04-30",
+          "deadline": "2027-04-05",
+          "cpv": "71000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/296596-2026"
+        },
+        {
+          "pub": "453975-2026",
+          "title": "Belgium – Hydrographic surveying services – Levé des cours d’eau couverts sur le territoire de la Province de Liège",
+          "buyer": "Province de Liège",
+          "published": "2026-07-02",
+          "deadline": "2027-08-17",
+          "cpv": "71353100",
+          "url": "https://ted.europa.eu/en/notice/-/detail/453975-2026"
+        }
+      ]
+    },
+    {
+      "slug": "belgium-transport-mobility",
+      "country": {
+        "slug": "belgium",
+        "name": "Belgium",
+        "iso3": "BEL",
+        "iso2": "BE",
+        "lang": "fra",
+        "portal": "e-Procurement (publicprocurement.be) + TED"
+      },
+      "sector": {
+        "slug": "transport-mobility",
+        "name": "Transport & Mobility",
+        "cpv_label": "60000000 / 34000000",
+        "cpv_query": "(PC = 60* OR PC = 34*)",
+        "summary": "Public transit operations, electric bus fleets, EV charging infrastructure, rail logistics, and municipal mobility."
+      },
+      "open_tenders_count": 92,
+      "recent_30d_count": 92,
+      "ted_query": "CY = BEL AND (PC = 60* OR PC = 34*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "678962-2023",
+          "title": "Belgium – Passenger cars – 2023/HFB/DAS/107084 - Aankoop van personenwagens: Full EV en PHEV.",
+          "buyer": "Vlaamse Overheid",
+          "published": "2023-11-08",
+          "deadline": "",
+          "cpv": "34110000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/678962-2023"
+        },
+        {
+          "pub": "679043-2023",
+          "title": "Belgium – Passenger cars – 2023/HFB/DAS/107084 - Aankoop van personenwagens: Full EV en PHEV.",
+          "buyer": "Vlaamse Overheid",
+          "published": "2023-11-08",
+          "deadline": "",
+          "cpv": "34110000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/679043-2023"
+        },
+        {
+          "pub": "787423-2023",
+          "title": "Belgium – Light vans – Dynamisch aankoopsysteem voor de aankoop van milieuvriendelijke lichte bestelwagens",
+          "buyer": "Gent",
+          "published": "2023-12-26",
+          "deadline": "",
+          "cpv": "34136100",
+          "url": "https://ted.europa.eu/en/notice/-/detail/787423-2023"
+        },
+        {
+          "pub": "654876-2024",
+          "title": "Belgium – Air-charter services – DYNAMISCH AANKOOPSYSTEEM VOOR HET CHARTEREN VAN VLIEGTUIGEN IN HET KADER VAN VERWIJDERINGEN VOOR REKENING VAN DE DIENST VREEMDELINGENZAKEN – FOD BI",
+          "buyer": "SPF Intérieur",
+          "published": "2024-10-28",
+          "deadline": "",
+          "cpv": "60423000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/654876-2024"
+        },
+        {
+          "pub": "510012-2025",
+          "title": "Belgium – Air-charter services – SYSTEME D'ACQUISITION DYNAMIQUE POUR L'AFFRETEMENT D'AVIONS DANS LE CADRE DES ELOIGNEMENTS POUR LE COMPTE DE L'OFFICE DES ETRANGERS - SPF INTERIEUR",
+          "buyer": "SPF Intérieur",
+          "published": "2025-08-04",
+          "deadline": "",
+          "cpv": "60423000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/510012-2025"
+        },
+        {
+          "pub": "78279-2026",
+          "title": "Belgium – Air-charter services – SYSTEME D'ACQUISITION DYNAMIQUE POUR L'AFFRETEMENT D'AVIONS DANS LE CADRE DES ELOIGNEMENTS POUR LE COMPTE DE L'OFFICE DES ETRANGERS - SPF INTERIEUR",
+          "buyer": "SPF Intérieur",
+          "published": "2026-02-03",
+          "deadline": "",
+          "cpv": "60423000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/78279-2026"
+        }
+      ]
+    },
+    {
+      "slug": "poland-it-ai-software",
+      "country": {
+        "slug": "poland",
+        "name": "Poland",
+        "iso3": "POL",
+        "iso2": "PL",
+        "lang": "pol",
+        "portal": "e-Zamówienia + TED"
+      },
+      "sector": {
+        "slug": "it-ai-software",
+        "name": "IT & AI Software",
+        "cpv_label": "72000000 / 48000000",
+        "cpv_query": "(PC = 72* OR PC = 48*)",
+        "summary": "Software development, enterprise SaaS, AI/data platforms, system integration, and IT maintenance tenders."
+      },
+      "open_tenders_count": 410,
+      "recent_30d_count": 410,
+      "ted_query": "CY = POL AND (PC = 72* OR PC = 48*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "490687-2024",
+          "title": "Poland – Portable computers – Dostawa laptopów na rzecz sądów powszechnych",
+          "buyer": "Centrum Zakupów dla Sądownictwa Instytucja Gospodarki Budżetowej reprezentująca Sąd Apelacyjny w Krakowie",
+          "published": "2024-08-14",
+          "deadline": "",
+          "cpv": "30213100",
+          "url": "https://ted.europa.eu/en/notice/-/detail/490687-2024"
+        },
+        {
+          "pub": "534814-2024",
+          "title": "Poland – Portable computers – Dostawa laptopów na rzecz sądów powszechnych",
+          "buyer": "Centrum Zakupów dla Sądownictwa Instytucja Gospodarki Budżetowej reprezentująca Sąd Apelacyjny w Krakowie",
+          "published": "2024-09-06",
+          "deadline": "",
+          "cpv": "30213100",
+          "url": "https://ted.europa.eu/en/notice/-/detail/534814-2024"
+        },
+        {
+          "pub": "547431-2024",
+          "title": "Poland – Portable computers – Dostawa laptopów na rzecz sądów powszechnych",
+          "buyer": "Centrum Zakupów dla Sądownictwa Instytucja Gospodarki Budżetowej reprezentująca Sąd Apelacyjny w Krakowie",
+          "published": "2024-09-12",
+          "deadline": "",
+          "cpv": "30213100",
+          "url": "https://ted.europa.eu/en/notice/-/detail/547431-2024"
+        },
+        {
+          "pub": "279104-2025",
+          "title": "Poland – Personal computers – Dostawa sprzętu informatycznego",
+          "buyer": "Komenda Wojewódzka Policji w Krakowie",
+          "published": "2025-04-30",
+          "deadline": "",
+          "cpv": "30213000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/279104-2025"
+        },
+        {
+          "pub": "542469-2025",
+          "title": "Poland – IT services: consulting, software development, Internet and support – PROMAQ DPS 2 - Project management, quality assurance services and other support services.",
+          "buyer": "European Border and Coast Guard Agency (Frontex)",
+          "published": "2025-08-20",
+          "deadline": "",
+          "cpv": "72000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/542469-2025"
+        },
+        {
+          "pub": "543581-2025",
+          "title": "Poland – IT services: consulting, software development, Internet and support – PROMAQ DPS 1 - Software development and maintenance services",
+          "buyer": "European Border and Coast Guard Agency (Frontex)",
+          "published": "2025-08-20",
+          "deadline": "",
+          "cpv": "72000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/543581-2025"
+        }
+      ]
+    },
+    {
+      "slug": "poland-cybersecurity-cloud",
+      "country": {
+        "slug": "poland",
+        "name": "Poland",
+        "iso3": "POL",
+        "iso2": "PL",
+        "lang": "pol",
+        "portal": "e-Zamówienia + TED"
+      },
+      "sector": {
+        "slug": "cybersecurity-cloud",
+        "name": "Cybersecurity & Cloud",
+        "cpv_label": "722* / 724* / 725* / 726*",
+        "cpv_query": "(PC = 722* OR PC = 724* OR PC = 725* OR PC = 726*)",
+        "summary": "SOC/SIEM cybersecurity audits, CRA/NIS2 compliance, cloud hosting, DevSecOps, and managed infrastructure contracts."
+      },
+      "open_tenders_count": 196,
+      "recent_30d_count": 196,
+      "ted_query": "CY = POL AND (PC = 722* OR PC = 724* OR PC = 725* OR PC = 726*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "709578-2026",
+          "title": "Poland – Systems and technical consultancy services – Wyposażenie ośrodka zapasowego (serwerownia) dla platformy cyfrowej wspierającej procesy kontroli w zakresie zarzadzania i ana",
+          "buyer": "Najwyższa Izba Kontroli",
+          "published": "2026-10-14",
+          "deadline": "2026-11-23",
+          "cpv": "72220000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/709578-2026"
+        },
+        {
+          "pub": "715186-2026",
+          "title": "Poland – Application service providers – Zakup i wdrożenie systemu finansowo-księgowego",
+          "buyer": "BANKOWY FUNDUSZ GWARANCYJNY",
+          "published": "2026-10-16",
+          "deadline": "2026-12-15",
+          "cpv": "72416000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/715186-2026"
+        },
+        {
+          "pub": "715992-2026",
+          "title": "Poland – Medical software package – Rozbudowa posiadanego systemu serwera aplikacyjnego syngo.via SN 130654 o dedykowane funkcjonalności do planowania radioterapii na podstawie bad",
+          "buyer": "Katowickie Centrum Onkologii",
+          "published": "2026-10-16",
+          "deadline": "2027-01-11",
+          "cpv": "48180000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/715992-2026"
+        },
+        {
+          "pub": "725147-2026",
+          "title": "Poland – Software package and information systems – Rozwój e-usług publicznych na terenie Gminy Ożarowice – wdrożenie systemu informatycznego i zakup sprzętu (w podziale na części)",
+          "buyer": "GMINA OŻAROWICE",
+          "published": "2026-10-20",
+          "deadline": "2026-11-24",
+          "cpv": "48000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/725147-2026"
+        },
+        {
+          "pub": "727489-2026",
+          "title": "Poland – Installation services of office equipment – Dzierżawa urządzeń wielofunkcyjnych na potrzeby Wydziału Inżynierii Materiałowej",
+          "buyer": "POLITECHNIKA WARSZAWSKA",
+          "published": "2026-10-21",
+          "deadline": "2026-11-26",
+          "cpv": "51620000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/727489-2026"
+        },
+        {
+          "pub": "732079-2026",
+          "title": "Poland – World wide web (www) site design services – Utrzymanie i rozwój dla obsługi strony www Państwowej Inspekcji Pracy.",
+          "buyer": "Państwowa Inspekcja Pracy Główny Inspektorat Pracy",
+          "published": "2026-10-22",
+          "deadline": "2026-11-26",
+          "cpv": "72413000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/732079-2026"
+        }
+      ]
+    },
+    {
+      "slug": "poland-construction-green-energy",
+      "country": {
+        "slug": "poland",
+        "name": "Poland",
+        "iso3": "POL",
+        "iso2": "PL",
+        "lang": "pol",
+        "portal": "e-Zamówienia + TED"
+      },
+      "sector": {
+        "slug": "construction-green-energy",
+        "name": "Construction & Green Energy",
+        "cpv_label": "45000000 / 09300000",
+        "cpv_query": "(PC = 45* OR PC = 093*)",
+        "summary": "Public building renovation, energy efficiency retrofits, solar/renewable power, HVAC, and civil engineering works."
+      },
+      "open_tenders_count": 617,
+      "recent_30d_count": 617,
+      "ted_query": "CY = POL AND (PC = 45* OR PC = 093*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "446201-2026",
+          "title": "Poland – Works for complete or part construction and civil engineering work – Budowa zespołu budynków Centrum Filmowego jako II części inwestycji CAMERIMAGE CENTER.",
+          "buyer": "Europejskie Centrum Filmowe CAMERIMAGE",
+          "published": "2026-06-30",
+          "deadline": "",
+          "cpv": "45200000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/446201-2026"
+        },
+        {
+          "pub": "647018-2026",
+          "title": "Poland – Construction work – Budowa połączenia komunikacyjnego strefy przemysłowej we Władysławowie",
+          "buyer": "Gmina Władysławowo",
+          "published": "2026-09-21",
+          "deadline": "2026-11-23",
+          "cpv": "45000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/647018-2026"
+        },
+        {
+          "pub": "682731-2026",
+          "title": "Poland – Construction work – Budowa stacji 400 kV Krzemienica – etap I",
+          "buyer": "Polskie Sieci Elektroenergetyczne Spółka Akcyjna",
+          "published": "2026-10-05",
+          "deadline": "2026-12-10",
+          "cpv": "45000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/682731-2026"
+        },
+        {
+          "pub": "702679-2026",
+          "title": "Poland – Construction work for waterways – Zaprojektowanie i wykonanie robót budowlanych dotyczących inwestycji pn. „Poszerzenie odcinka toru wodnego na podejściu do portu morskieg",
+          "buyer": "Dyrektor Urzędu Morskiego w Szczecinie",
+          "published": "2026-10-12",
+          "deadline": "2026-11-30",
+          "cpv": "45247100",
+          "url": "https://ted.europa.eu/en/notice/-/detail/702679-2026"
+        },
+        {
+          "pub": "707364-2026",
+          "title": "Poland – Site preparation work – Wykonanie projektu budowlano-wykonawczego oraz robót budowlano-montażowych według tego projektu dla zadania pn. „Przyłączenie do sieci elektroenerg",
+          "buyer": "ENERGA-OPERATOR S.A.",
+          "published": "2026-10-13",
+          "deadline": "2026-11-23",
+          "cpv": "45100000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/707364-2026"
+        },
+        {
+          "pub": "714473-2026",
+          "title": "Poland – Construction work for pipelines, communication and power lines, for highways, roads, airfields and railways; flatwork – Budowa stacji elektroenergetycznej 110/15kV Błażowa",
+          "buyer": "PGE Dystrybucja S.A.",
+          "published": "2026-10-15",
+          "deadline": "2026-11-25",
+          "cpv": "45230000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/714473-2026"
+        }
+      ]
+    },
+    {
+      "slug": "poland-healthcare-pharma",
+      "country": {
+        "slug": "poland",
+        "name": "Poland",
+        "iso3": "POL",
+        "iso2": "PL",
+        "lang": "pol",
+        "portal": "e-Zamówienia + TED"
+      },
+      "sector": {
+        "slug": "healthcare-pharma",
+        "name": "Healthcare & Pharma",
+        "cpv_label": "33000000 / 85100000",
+        "cpv_query": "(PC = 33* OR PC = 851*)",
+        "summary": "Hospital medical devices, diagnostic equipment, pharmaceutical supply frameworks, and clinical healthcare services."
+      },
+      "open_tenders_count": 1004,
+      "recent_30d_count": 1004,
+      "ted_query": "CY = POL AND (PC = 33* OR PC = 851*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "448401-2026",
+          "title": "Poland – Medical equipments – Sukcesywna dostawa wyrobów medycznych jednorazowego użytku (17 części) - 20/SMJU/2026",
+          "buyer": "KRAKOWSKIE POGOTOWIE RATUNKOWE",
+          "published": "2026-06-30",
+          "deadline": "2026-07-30",
+          "cpv": "33100000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/448401-2026"
+        },
+        {
+          "pub": "705105-2026",
+          "title": "Poland – Medical equipments, pharmaceuticals and personal care products – Dostawy jednorazowego sprzętu medycznego (3)",
+          "buyer": "Tomaszowskie Centrum Zdrowia Sp.zo.o. ul. Jana Pawła II 35 97-200 Tomaszów Mazowiecki",
+          "published": "2026-10-13",
+          "deadline": "2026-11-23",
+          "cpv": "33000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/705105-2026"
+        },
+        {
+          "pub": "711519-2026",
+          "title": "Poland – Medical consumables – Dostawa wyrobów medycznych dla Apteki Szpitalnej SPZOZ w Gostyniu",
+          "buyer": "Samodzielny Publiczny Zespół Opieki Zdrowotnej w Gostyniu",
+          "published": "2026-10-15",
+          "deadline": "2026-11-23",
+          "cpv": "33140000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/711519-2026"
+        },
+        {
+          "pub": "715377-2026",
+          "title": "Poland – Medical equipments – Kardiologia - wyroby medyczne jednorazowego użytku oraz dzierżawa urządzeń",
+          "buyer": "UNIWERSYTECKI SZPITAL KLINICZNY W POZNANIU",
+          "published": "2026-10-16",
+          "deadline": "2026-11-24",
+          "cpv": "33100000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/715377-2026"
+        },
+        {
+          "pub": "715705-2026",
+          "title": "Poland – Medical consumables – Dostawa drobnego sprzętu medycznego i niemedycznego dla potrzeb USK NR 1 PUM",
+          "buyer": "Uniwersytecki Szpital Kliniczny nr 1 im. prof. Tadeusza Sokołowskiego PUM w Szczecinie",
+          "published": "2026-10-16",
+          "deadline": "2026-11-24",
+          "cpv": "33140000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/715705-2026"
+        },
+        {
+          "pub": "715834-2026",
+          "title": "Poland – Medical consumables – Dostawa drobnego sprzętu medycznego jednorazowego użytku dla potrzeb USK NR 1 PUM",
+          "buyer": "Uniwersytecki Szpital Kliniczny nr 1 im. prof. Tadeusza Sokołowskiego PUM w Szczecinie",
+          "published": "2026-10-16",
+          "deadline": "2026-11-24",
+          "cpv": "33140000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/715834-2026"
+        }
+      ]
+    },
+    {
+      "slug": "poland-engineering-consulting",
+      "country": {
+        "slug": "poland",
+        "name": "Poland",
+        "iso3": "POL",
+        "iso2": "PL",
+        "lang": "pol",
+        "portal": "e-Zamówienia + TED"
+      },
+      "sector": {
+        "slug": "engineering-consulting",
+        "name": "Engineering & Consulting",
+        "cpv_label": "71000000 / 79400000",
+        "cpv_query": "(PC = 71* OR PC = 794*)",
+        "summary": "Technical engineering studies, architectural design, management advisory, compliance audits, and urban planning."
+      },
+      "open_tenders_count": 420,
+      "recent_30d_count": 420,
+      "ted_query": "CY = POL AND (PC = 71* OR PC = 794*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "628673-2026",
+          "title": "Poland – Supervision of building work – Świadczenie usługi budowlanego nadzoru inwestorskiego, nadzoru przyrodniczego i zarządzania realizacją inwestycji pn.: „Budowa gazociągu DN ",
+          "buyer": "Operator Gazociągów Przesyłowych GAZ-SYSTEM S.A.",
+          "published": "2026-09-11",
+          "deadline": "2026-11-27",
+          "cpv": "71247000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/628673-2026"
+        },
+        {
+          "pub": "687561-2026",
+          "title": "Poland – Supervision of building work – Świadczenie usługi budowlanego nadzoru inwestorskiego, nadzoru przyrodniczego i zarządzania realizacją inwestycji pn.: „Budowa gazociągu DN ",
+          "buyer": "Operator Gazociągów Przesyłowych GAZ-SYSTEM S.A.",
+          "published": "2026-10-06",
+          "deadline": "2026-12-11",
+          "cpv": "71247000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/687561-2026"
+        },
+        {
+          "pub": "701368-2026",
+          "title": "Poland – Construction management services – Pełnienie funkcji Inżyniera Kontraktu dotyczącej inwestycji pn. „Poszerzenie odcinka toru wodnego na podejściu do portu morskiego w Świn",
+          "buyer": "Dyrektor Urzędu Morskiego w Szczecinie",
+          "published": "2026-10-12",
+          "deadline": "2026-12-04",
+          "cpv": "71540000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/701368-2026"
+        },
+        {
+          "pub": "702679-2026",
+          "title": "Poland – Construction work for waterways – Zaprojektowanie i wykonanie robót budowlanych dotyczących inwestycji pn. „Poszerzenie odcinka toru wodnego na podejściu do portu morskieg",
+          "buyer": "Dyrektor Urzędu Morskiego w Szczecinie",
+          "published": "2026-10-12",
+          "deadline": "2026-11-30",
+          "cpv": "45247100",
+          "url": "https://ted.europa.eu/en/notice/-/detail/702679-2026"
+        },
+        {
+          "pub": "705494-2026",
+          "title": "Poland – Engineering design services – 07590 - Opracowanie dokumentacji projektowej dla zadania pn. „Rewitalizacja ul. Szczytnickiej we Wrocławiu”",
+          "buyer": "Gmina Wrocław",
+          "published": "2026-10-13",
+          "deadline": "2026-11-27",
+          "cpv": "71320000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/705494-2026"
+        },
+        {
+          "pub": "707364-2026",
+          "title": "Poland – Site preparation work – Wykonanie projektu budowlano-wykonawczego oraz robót budowlano-montażowych według tego projektu dla zadania pn. „Przyłączenie do sieci elektroenerg",
+          "buyer": "ENERGA-OPERATOR S.A.",
+          "published": "2026-10-13",
+          "deadline": "2026-11-23",
+          "cpv": "45100000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/707364-2026"
+        }
+      ]
+    },
+    {
+      "slug": "poland-transport-mobility",
+      "country": {
+        "slug": "poland",
+        "name": "Poland",
+        "iso3": "POL",
+        "iso2": "PL",
+        "lang": "pol",
+        "portal": "e-Zamówienia + TED"
+      },
+      "sector": {
+        "slug": "transport-mobility",
+        "name": "Transport & Mobility",
+        "cpv_label": "60000000 / 34000000",
+        "cpv_query": "(PC = 60* OR PC = 34*)",
+        "summary": "Public transit operations, electric bus fleets, EV charging infrastructure, rail logistics, and municipal mobility."
+      },
+      "open_tenders_count": 446,
+      "recent_30d_count": 446,
+      "ted_query": "CY = POL AND (PC = 60* OR PC = 34*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "305346-2025",
+          "title": "Poland – Passenger cars – Dostawa samochodów osobowych oraz samochodów osobowo-terenowych",
+          "buyer": "Komenda Wojewódzka Policji w Krakowie",
+          "published": "2025-05-13",
+          "deadline": "",
+          "cpv": "34110000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/305346-2025"
+        },
+        {
+          "pub": "103100-2026",
+          "title": "Poland – Tyres for motor cars – Dostawa ogumienia letniego, zimowego i wielosezonowego do pojazdów służbowych małopolskiej Policji",
+          "buyer": "Komenda Wojewódzka Policji w Krakowie",
+          "published": "2026-02-12",
+          "deadline": "",
+          "cpv": "34351100",
+          "url": "https://ted.europa.eu/en/notice/-/detail/103100-2026"
+        },
+        {
+          "pub": "285807-2026",
+          "title": "Poland – Firefighting vehicles – Zakup i dostawa fabrycznie nowego średniego samochodu ratowniczo - gaśniczego z napędem 4x4",
+          "buyer": "Ochotnicza Straż Pożarna w Mazańcowicach",
+          "published": "2026-04-27",
+          "deadline": "2026-11-24",
+          "cpv": "34144210",
+          "url": "https://ted.europa.eu/en/notice/-/detail/285807-2026"
+        },
+        {
+          "pub": "286195-2026",
+          "title": "Poland – Firefighting vehicles – Zakup i dostawa fabrycznie nowego ciężkiego samochodu ratownictwa specjalistycznego z napędem 4x4",
+          "buyer": "Ochotnicza Straż Pożarna w Jasienicy",
+          "published": "2026-04-27",
+          "deadline": "2026-11-24",
+          "cpv": "34144210",
+          "url": "https://ted.europa.eu/en/notice/-/detail/286195-2026"
+        },
+        {
+          "pub": "287060-2026",
+          "title": "Poland – Firefighting vehicles – Dostawa fabrycznie nowego ciężkiego samochodu ratowniczo - gaśniczego z napędem 4x4",
+          "buyer": "Krajowa Izba Odwoławcza",
+          "published": "2026-04-27",
+          "deadline": "2026-11-24",
+          "cpv": "34144210",
+          "url": "https://ted.europa.eu/en/notice/-/detail/287060-2026"
+        },
+        {
+          "pub": "291334-2026",
+          "title": "Poland – Firefighting vehicles – Dostawa fabrycznie nowego ciężkiego samochodu ratowniczo - gaśniczego z napędem 4x4",
+          "buyer": "Ochotnicza Straż Pożarna w Grodźcu",
+          "published": "2026-04-28",
+          "deadline": "2026-11-24",
+          "cpv": "34144210",
+          "url": "https://ted.europa.eu/en/notice/-/detail/291334-2026"
+        }
+      ]
+    },
+    {
+      "slug": "sweden-it-ai-software",
+      "country": {
+        "slug": "sweden",
+        "name": "Sweden",
+        "iso3": "SWE",
+        "iso2": "SE",
+        "lang": "swe",
+        "portal": "Mercell / Opic + TED"
+      },
+      "sector": {
+        "slug": "it-ai-software",
+        "name": "IT & AI Software",
+        "cpv_label": "72000000 / 48000000",
+        "cpv_query": "(PC = 72* OR PC = 48*)",
+        "summary": "Software development, enterprise SaaS, AI/data platforms, system integration, and IT maintenance tenders."
+      },
+      "open_tenders_count": 261,
+      "recent_30d_count": 261,
+      "ted_query": "CY = SWE AND (PC = 72* OR PC = 48*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "454908-2017",
+          "title": "Sweden-Norrköping: Software package and information systems",
+          "buyer": "Kriminalvården",
+          "published": "2017-11-15",
+          "deadline": "",
+          "cpv": "48000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/454908-2017"
+        },
+        {
+          "pub": "32689-2018",
+          "title": "Sweden-Kalmar: Artistic and literary creation and interpretation services",
+          "buyer": "Kalmar läns landsting",
+          "published": "2018-01-24",
+          "deadline": "",
+          "cpv": "72224000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/32689-2018"
+        },
+        {
+          "pub": "610557-2020",
+          "title": "Sweden-Stockholm: Chargers",
+          "buyer": "SKL Kommentus Inköpscentral AB",
+          "published": "2020-12-18",
+          "deadline": "",
+          "cpv": "31158000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/610557-2020"
+        },
+        {
+          "pub": "34596-2021",
+          "title": "Sweden-JÖNKÖPING: Research and development services and related consultancy services",
+          "buyer": "Jönköping Energi Aktiebolag",
+          "published": "2021-01-22",
+          "deadline": "",
+          "cpv": "71311200",
+          "url": "https://ted.europa.eu/en/notice/-/detail/34596-2021"
+        },
+        {
+          "pub": "62589-2021",
+          "title": "Sweden-Malmö: Project-management services other than for construction work",
+          "buyer": "Va Syd",
+          "published": "2021-02-05",
+          "deadline": "",
+          "cpv": "71541000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/62589-2021"
+        },
+        {
+          "pub": "297187-2021",
+          "title": "Sweden-Sandviken: IT services: consulting, software development, Internet and support",
+          "buyer": "Sandvikens kommun",
+          "published": "2021-06-14",
+          "deadline": "",
+          "cpv": "72000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/297187-2021"
+        }
+      ]
+    },
+    {
+      "slug": "sweden-cybersecurity-cloud",
+      "country": {
+        "slug": "sweden",
+        "name": "Sweden",
+        "iso3": "SWE",
+        "iso2": "SE",
+        "lang": "swe",
+        "portal": "Mercell / Opic + TED"
+      },
+      "sector": {
+        "slug": "cybersecurity-cloud",
+        "name": "Cybersecurity & Cloud",
+        "cpv_label": "722* / 724* / 725* / 726*",
+        "cpv_query": "(PC = 722* OR PC = 724* OR PC = 725* OR PC = 726*)",
+        "summary": "SOC/SIEM cybersecurity audits, CRA/NIS2 compliance, cloud hosting, DevSecOps, and managed infrastructure contracts."
+      },
+      "open_tenders_count": 118,
+      "recent_30d_count": 118,
+      "ted_query": "CY = SWE AND (PC = 722* OR PC = 724* OR PC = 725* OR PC = 726*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "32689-2018",
+          "title": "Sweden-Kalmar: Artistic and literary creation and interpretation services",
+          "buyer": "Kalmar läns landsting",
+          "published": "2018-01-24",
+          "deadline": "",
+          "cpv": "72224000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/32689-2018"
+        },
+        {
+          "pub": "34596-2021",
+          "title": "Sweden-JÖNKÖPING: Research and development services and related consultancy services",
+          "buyer": "Jönköping Energi Aktiebolag",
+          "published": "2021-01-22",
+          "deadline": "",
+          "cpv": "71311200",
+          "url": "https://ted.europa.eu/en/notice/-/detail/34596-2021"
+        },
+        {
+          "pub": "62589-2021",
+          "title": "Sweden-Malmö: Project-management services other than for construction work",
+          "buyer": "Va Syd",
+          "published": "2021-02-05",
+          "deadline": "",
+          "cpv": "71541000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/62589-2021"
+        },
+        {
+          "pub": "591285-2021",
+          "title": "Sweden-Luleå: IT services: consulting, software development, Internet and support",
+          "buyer": "Luleå kommun",
+          "published": "2021-11-19",
+          "deadline": "",
+          "cpv": "71316000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/591285-2021"
+        },
+        {
+          "pub": "631711-2021",
+          "title": "Sweden-Linköping: Systems and technical consultancy services",
+          "buyer": "Region Östergötland",
+          "published": "2021-12-10",
+          "deadline": "",
+          "cpv": "71600000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/631711-2021"
+        },
+        {
+          "pub": "195791-2022",
+          "title": "Sweden-Östersund: Business services: law, marketing, consulting, recruitment, printing and security",
+          "buyer": "Peak Innovation AB",
+          "published": "2022-04-13",
+          "deadline": "",
+          "cpv": "72221000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/195791-2022"
+        }
+      ]
+    },
+    {
+      "slug": "sweden-construction-green-energy",
+      "country": {
+        "slug": "sweden",
+        "name": "Sweden",
+        "iso3": "SWE",
+        "iso2": "SE",
+        "lang": "swe",
+        "portal": "Mercell / Opic + TED"
+      },
+      "sector": {
+        "slug": "construction-green-energy",
+        "name": "Construction & Green Energy",
+        "cpv_label": "45000000 / 09300000",
+        "cpv_query": "(PC = 45* OR PC = 093*)",
+        "summary": "Public building renovation, energy efficiency retrofits, solar/renewable power, HVAC, and civil engineering works."
+      },
+      "open_tenders_count": 302,
+      "recent_30d_count": 302,
+      "ted_query": "CY = SWE AND (PC = 45* OR PC = 093*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "203125-2018",
+          "title": "Sweden-Kalmar: Solar panel roof-covering work",
+          "buyer": "Kalmar läns landsting",
+          "published": "2018-05-12",
+          "deadline": "",
+          "cpv": "09331000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/203125-2018"
+        },
+        {
+          "pub": "233150-2018",
+          "title": "Sweden-Nacka: Sports hall construction work",
+          "buyer": "Nacka kommun",
+          "published": "2018-05-31",
+          "deadline": "",
+          "cpv": "45212225",
+          "url": "https://ted.europa.eu/en/notice/-/detail/233150-2018"
+        },
+        {
+          "pub": "268527-2018",
+          "title": "Sweden-Stockholm: Electricity, heating, solar and nuclear energy",
+          "buyer": "SKL Kommentus Inköpscentral AB",
+          "published": "2018-06-22",
+          "deadline": "",
+          "cpv": "09300000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/268527-2018"
+        },
+        {
+          "pub": "288369-2018",
+          "title": "Sweden-Gothenburg: Gravel, sand, crushed stone and aggregates",
+          "buyer": "Renova AB",
+          "published": "2018-07-04",
+          "deadline": "",
+          "cpv": "14210000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/288369-2018"
+        },
+        {
+          "pub": "475169-2018",
+          "title": "Sweden-Huddinge: Modular and portable buildings",
+          "buyer": "Huddinge Samhällsfastigheter AB",
+          "published": "2018-10-27",
+          "deadline": "",
+          "cpv": "44211000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/475169-2018"
+        },
+        {
+          "pub": "127921-2019",
+          "title": "Sweden-Malmö: General construction work for pipelines",
+          "buyer": "VA SYD",
+          "published": "2019-03-19",
+          "deadline": "",
+          "cpv": "45231100",
+          "url": "https://ted.europa.eu/en/notice/-/detail/127921-2019"
+        }
+      ]
+    },
+    {
+      "slug": "sweden-healthcare-pharma",
+      "country": {
+        "slug": "sweden",
+        "name": "Sweden",
+        "iso3": "SWE",
+        "iso2": "SE",
+        "lang": "swe",
+        "portal": "Mercell / Opic + TED"
+      },
+      "sector": {
+        "slug": "healthcare-pharma",
+        "name": "Healthcare & Pharma",
+        "cpv_label": "33000000 / 85100000",
+        "cpv_query": "(PC = 33* OR PC = 851*)",
+        "summary": "Hospital medical devices, diagnostic equipment, pharmaceutical supply frameworks, and clinical healthcare services."
+      },
+      "open_tenders_count": 169,
+      "recent_30d_count": 169,
+      "ted_query": "CY = SWE AND (PC = 33* OR PC = 851*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "56873-2018",
+          "title": "Sweden-Tumba: Tutorial services",
+          "buyer": "Botkyrka kommun",
+          "published": "2018-02-07",
+          "deadline": "",
+          "cpv": "80000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/56873-2018"
+        },
+        {
+          "pub": "543347-2018",
+          "title": "Sweden-Kristianstad: Medical equipments",
+          "buyer": "Region Skåne, Koncerninköp",
+          "published": "2018-12-11",
+          "deadline": "",
+          "cpv": "33100000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/543347-2018"
+        },
+        {
+          "pub": "177512-2019",
+          "title": "Sweden-Kristianstad: Microscopes",
+          "buyer": "Region Skåne, Koncerninköp",
+          "published": "2019-04-16",
+          "deadline": "",
+          "cpv": "33100000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/177512-2019"
+        },
+        {
+          "pub": "286201-2019",
+          "title": "Sweden-Kristianstad: Lighting equipment and electric lamps",
+          "buyer": "Region Skåne, Koncerninköp",
+          "published": "2019-06-20",
+          "deadline": "",
+          "cpv": "31500000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/286201-2019"
+        },
+        {
+          "pub": "195626-2020",
+          "title": "Sweden-Stockholm: Endoscopy, endosurgery devices",
+          "buyer": "Karolinska Universitetssjukhuset, Inköpsavdelningen",
+          "published": "2020-04-28",
+          "deadline": "",
+          "cpv": "33164000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/195626-2020"
+        },
+        {
+          "pub": "628121-2020",
+          "title": "Sweden-Kristianstad: Medical equipments",
+          "buyer": "Region Skåne, Koncernstab inköp och ekonomistyrning",
+          "published": "2020-12-24",
+          "deadline": "",
+          "cpv": "33100000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/628121-2020"
+        }
+      ]
+    },
+    {
+      "slug": "sweden-engineering-consulting",
+      "country": {
+        "slug": "sweden",
+        "name": "Sweden",
+        "iso3": "SWE",
+        "iso2": "SE",
+        "lang": "swe",
+        "portal": "Mercell / Opic + TED"
+      },
+      "sector": {
+        "slug": "engineering-consulting",
+        "name": "Engineering & Consulting",
+        "cpv_label": "71000000 / 79400000",
+        "cpv_query": "(PC = 71* OR PC = 794*)",
+        "summary": "Technical engineering studies, architectural design, management advisory, compliance audits, and urban planning."
+      },
+      "open_tenders_count": 443,
+      "recent_30d_count": 443,
+      "ted_query": "CY = SWE AND (PC = 71* OR PC = 794*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "5112-2018",
+          "title": "Sweden-Stockholm: Architectural, construction, engineering and inspection services",
+          "buyer": "Stockholms stad, Exploateringskontoret",
+          "published": "2018-01-06",
+          "deadline": "",
+          "cpv": "71000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/5112-2018"
+        },
+        {
+          "pub": "32689-2018",
+          "title": "Sweden-Kalmar: Artistic and literary creation and interpretation services",
+          "buyer": "Kalmar läns landsting",
+          "published": "2018-01-24",
+          "deadline": "",
+          "cpv": "72224000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/32689-2018"
+        },
+        {
+          "pub": "39340-2018",
+          "title": "Sweden-Tumba: Tutorial services",
+          "buyer": "Botkyrka kommun",
+          "published": "2018-01-27",
+          "deadline": "",
+          "cpv": "79400000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/39340-2018"
+        },
+        {
+          "pub": "137609-2018",
+          "title": "Sweden-Hörby: Architectural and related services",
+          "buyer": "Hörby kommun",
+          "published": "2018-03-29",
+          "deadline": "",
+          "cpv": "71200000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/137609-2018"
+        },
+        {
+          "pub": "203125-2018",
+          "title": "Sweden-Kalmar: Solar panel roof-covering work",
+          "buyer": "Kalmar läns landsting",
+          "published": "2018-05-12",
+          "deadline": "",
+          "cpv": "09331000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/203125-2018"
+        },
+        {
+          "pub": "211139-2018",
+          "title": "Sweden-Gothenburg: Laboratory services",
+          "buyer": "Göteborgs Stad Inköp och upphandling",
+          "published": "2018-05-17",
+          "deadline": "",
+          "cpv": "71900000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/211139-2018"
+        }
+      ]
+    },
+    {
+      "slug": "sweden-transport-mobility",
+      "country": {
+        "slug": "sweden",
+        "name": "Sweden",
+        "iso3": "SWE",
+        "iso2": "SE",
+        "lang": "swe",
+        "portal": "Mercell / Opic + TED"
+      },
+      "sector": {
+        "slug": "transport-mobility",
+        "name": "Transport & Mobility",
+        "cpv_label": "60000000 / 34000000",
+        "cpv_query": "(PC = 60* OR PC = 34*)",
+        "summary": "Public transit operations, electric bus fleets, EV charging infrastructure, rail logistics, and municipal mobility."
+      },
+      "open_tenders_count": 201,
+      "recent_30d_count": 132,
+      "ted_query": "CY = SWE AND (PC = 60* OR PC = 34*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "45622-2018",
+          "title": "Sweden-Halmstad: Motor vehicles",
+          "buyer": "Halmstads kommun",
+          "published": "2018-02-01",
+          "deadline": "",
+          "cpv": "34100000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/45622-2018"
+        },
+        {
+          "pub": "154581-2018",
+          "title": "Sweden-Johanneshov: Motor vehicles",
+          "buyer": "HBV",
+          "published": "2018-04-11",
+          "deadline": "",
+          "cpv": "34100000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/154581-2018"
+        },
+        {
+          "pub": "172009-2018",
+          "title": "Sweden-Luleå: Hire of goods-transport vehicles with driver",
+          "buyer": "LÄNSSTYRELSEN I NORRBOTTENS LÄN",
+          "published": "2018-04-20",
+          "deadline": "",
+          "cpv": "60180000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/172009-2018"
+        },
+        {
+          "pub": "268487-2018",
+          "title": "Sweden-Stockholm: Water transport services",
+          "buyer": "Stockholms stad, Exploateringskontoret",
+          "published": "2018-06-22",
+          "deadline": "",
+          "cpv": "60600000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/268487-2018"
+        },
+        {
+          "pub": "575542-2018",
+          "title": "Sweden-Stockholm: Motor vehicles",
+          "buyer": "Stockholms stad, Exploateringskontoret",
+          "published": "2018-12-28",
+          "deadline": "",
+          "cpv": "31158000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/575542-2018"
+        },
+        {
+          "pub": "28189-2019",
+          "title": "Sweden-Halmstad: Chassis",
+          "buyer": "Halmstads Energi och Miljö AB",
+          "published": "2019-01-21",
+          "deadline": "",
+          "cpv": "34100000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/28189-2019"
+        }
+      ]
+    },
+    {
+      "slug": "austria-it-ai-software",
+      "country": {
+        "slug": "austria",
+        "name": "Austria",
+        "iso3": "AUT",
+        "iso2": "AT",
+        "lang": "deu",
+        "portal": "USP.gv.at / ANKÖ + TED"
+      },
+      "sector": {
+        "slug": "it-ai-software",
+        "name": "IT & AI Software",
+        "cpv_label": "72000000 / 48000000",
+        "cpv_query": "(PC = 72* OR PC = 48*)",
+        "summary": "Software development, enterprise SaaS, AI/data platforms, system integration, and IT maintenance tenders."
+      },
+      "open_tenders_count": 66,
+      "recent_30d_count": 66,
+      "ted_query": "CY = AUT AND (PC = 72* OR PC = 48*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "555878-2019",
+          "title": "Austria-Vienna: IT services: consulting, software development, Internet and support",
+          "buyer": "Austrian Power Grid AG",
+          "published": "2019-11-22",
+          "deadline": "",
+          "cpv": "72000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/555878-2019"
+        },
+        {
+          "pub": "343348-2020",
+          "title": "Austria-Vienna: IT services: consulting, software development, Internet and support",
+          "buyer": "Austrian Power Grid AG",
+          "published": "2020-07-21",
+          "deadline": "",
+          "cpv": "72000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/343348-2020"
+        },
+        {
+          "pub": "313875-2022",
+          "title": "Austria-Vienna: IT services: consulting, software development, Internet and support",
+          "buyer": "Austrian Power Grid AG",
+          "published": "2022-06-10",
+          "deadline": "",
+          "cpv": "72000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/313875-2022"
+        },
+        {
+          "pub": "451324-2022",
+          "title": "Austria-Vienna: IT services: consulting, software development, Internet and support",
+          "buyer": "Austrian Power Grid AG",
+          "published": "2022-08-17",
+          "deadline": "",
+          "cpv": "72000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/451324-2022"
+        },
+        {
+          "pub": "662978-2022",
+          "title": "Austria-Klagenfurt: Software package and information systems",
+          "buyer": "KELAG-Kärntner Elektrizitäts-Aktiengesellschaft",
+          "published": "2022-11-29",
+          "deadline": "",
+          "cpv": "48000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/662978-2022"
+        },
+        {
+          "pub": "169236-2023",
+          "title": "Austria-Klagenfurt: Software package and information systems",
+          "buyer": "KELAG-Kärntner Elektrizitäts-Aktiengesellschaft",
+          "published": "2023-03-21",
+          "deadline": "",
+          "cpv": "48000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/169236-2023"
+        }
+      ]
+    },
+    {
+      "slug": "austria-cybersecurity-cloud",
+      "country": {
+        "slug": "austria",
+        "name": "Austria",
+        "iso3": "AUT",
+        "iso2": "AT",
+        "lang": "deu",
+        "portal": "USP.gv.at / ANKÖ + TED"
+      },
+      "sector": {
+        "slug": "cybersecurity-cloud",
+        "name": "Cybersecurity & Cloud",
+        "cpv_label": "722* / 724* / 725* / 726*",
+        "cpv_query": "(PC = 722* OR PC = 724* OR PC = 725* OR PC = 726*)",
+        "summary": "SOC/SIEM cybersecurity audits, CRA/NIS2 compliance, cloud hosting, DevSecOps, and managed infrastructure contracts."
+      },
+      "open_tenders_count": 27,
+      "recent_30d_count": 27,
+      "ted_query": "CY = AUT AND (PC = 722* OR PC = 724* OR PC = 725* OR PC = 726*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "555878-2019",
+          "title": "Austria-Vienna: IT services: consulting, software development, Internet and support",
+          "buyer": "Austrian Power Grid AG",
+          "published": "2019-11-22",
+          "deadline": "",
+          "cpv": "72000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/555878-2019"
+        },
+        {
+          "pub": "343348-2020",
+          "title": "Austria-Vienna: IT services: consulting, software development, Internet and support",
+          "buyer": "Austrian Power Grid AG",
+          "published": "2020-07-21",
+          "deadline": "",
+          "cpv": "72000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/343348-2020"
+        },
+        {
+          "pub": "385376-2024",
+          "title": "Austria – Project management consultancy services – Prüfsystem_Bewerberportal - Vertriebspartnerverträge (D)",
+          "buyer": "Energie Steiermark Kunden GmbH",
+          "published": "2024-06-28",
+          "deadline": "",
+          "cpv": "72224000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/385376-2024"
+        },
+        {
+          "pub": "664319-2026",
+          "title": "Austria – Air traffic control software package – Lieferung, Inbetriebnahme und laufende Wartung eines MET-Datenverarbeitungssystems (kurz: MET-DS) für die Austro Control GmbH",
+          "buyer": "Austro Control Österreichische Gesellschaft für Zivilluftfahrt mit beschränkter Haftung",
+          "published": "2026-09-28",
+          "deadline": "2026-11-30",
+          "cpv": "48121000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/664319-2026"
+        },
+        {
+          "pub": "703067-2026",
+          "title": "Austria – Software package and information systems – Rahmenvereinbarung über die Vermittlung / Lieferung von Software-Lizenzen (kurz: „WrWKS_Software-Lizenzen“)",
+          "buyer": "Stadt Wien - Wiener Wohnen Kundenservice GmbH",
+          "published": "2026-10-12",
+          "deadline": "2026-11-25",
+          "cpv": "48000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/703067-2026"
+        },
+        {
+          "pub": "736029-2026",
+          "title": "Austria – Data capture services – RAHMENVEREINBARUNG über die Lieferung und Bereitstellung mobiler 3D-Laserscanner inklusive Software, Cloud-Diensten sowie Wartungs- und Supportlei",
+          "buyer": "Stadt Wien - Wiener Wohnen Kundenservice GmbH",
+          "published": "2026-10-23",
+          "deadline": "2026-11-26",
+          "cpv": "72313000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/736029-2026"
+        }
+      ]
+    },
+    {
+      "slug": "austria-construction-green-energy",
+      "country": {
+        "slug": "austria",
+        "name": "Austria",
+        "iso3": "AUT",
+        "iso2": "AT",
+        "lang": "deu",
+        "portal": "USP.gv.at / ANKÖ + TED"
+      },
+      "sector": {
+        "slug": "construction-green-energy",
+        "name": "Construction & Green Energy",
+        "cpv_label": "45000000 / 09300000",
+        "cpv_query": "(PC = 45* OR PC = 093*)",
+        "summary": "Public building renovation, energy efficiency retrofits, solar/renewable power, HVAC, and civil engineering works."
+      },
+      "open_tenders_count": 211,
+      "recent_30d_count": 211,
+      "ted_query": "CY = AUT AND (PC = 45* OR PC = 093*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "422899-2019",
+          "title": "Austria-Innsbruck: Overhead line construction",
+          "buyer": "Alle Unternehmen der TIWAG-Gruppe",
+          "published": "2019-09-09",
+          "deadline": "",
+          "cpv": "45232210",
+          "url": "https://ted.europa.eu/en/notice/-/detail/422899-2019"
+        },
+        {
+          "pub": "437189-2019",
+          "title": "Austria-Innsbruck: Overhead line construction",
+          "buyer": "Alle Unternehmen der TIWAG-Gruppe",
+          "published": "2019-09-17",
+          "deadline": "",
+          "cpv": "45232210",
+          "url": "https://ted.europa.eu/en/notice/-/detail/437189-2019"
+        },
+        {
+          "pub": "506627-2020",
+          "title": "Austria-Vienna: Construction work",
+          "buyer": "WISEG – Wiener Substanzerhaltungsg.m.b.H. & Co KG",
+          "published": "2020-10-26",
+          "deadline": "",
+          "cpv": "45000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/506627-2020"
+        },
+        {
+          "pub": "309825-2022",
+          "title": "Austria-Vienna: Structural steelworks",
+          "buyer": "Vereinigte Bühnen Wien GmbH",
+          "published": "2022-06-10",
+          "deadline": "",
+          "cpv": "45223210",
+          "url": "https://ted.europa.eu/en/notice/-/detail/309825-2022"
+        },
+        {
+          "pub": "550785-2022",
+          "title": "Austria-Vienna: Construction work",
+          "buyer": "Austrian Power Grid AG",
+          "published": "2022-10-07",
+          "deadline": "",
+          "cpv": "45000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/550785-2022"
+        },
+        {
+          "pub": "642887-2022",
+          "title": "Austria-Vienna: Switching station installation work",
+          "buyer": "Austrian Power Grid AG",
+          "published": "2022-11-18",
+          "deadline": "",
+          "cpv": "45315300",
+          "url": "https://ted.europa.eu/en/notice/-/detail/642887-2022"
+        }
+      ]
+    },
+    {
+      "slug": "austria-healthcare-pharma",
+      "country": {
+        "slug": "austria",
+        "name": "Austria",
+        "iso3": "AUT",
+        "iso2": "AT",
+        "lang": "deu",
+        "portal": "USP.gv.at / ANKÖ + TED"
+      },
+      "sector": {
+        "slug": "healthcare-pharma",
+        "name": "Healthcare & Pharma",
+        "cpv_label": "33000000 / 85100000",
+        "cpv_query": "(PC = 33* OR PC = 851*)",
+        "summary": "Hospital medical devices, diagnostic equipment, pharmaceutical supply frameworks, and clinical healthcare services."
+      },
+      "open_tenders_count": 23,
+      "recent_30d_count": 23,
+      "ted_query": "CY = AUT AND (PC = 33* OR PC = 851*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "115751-2024",
+          "title": "Austria – Health services – Pensionsversicherungsanstalt - Arbeitsmedizinische Betreuung mittels eines DYNAMISCHEN BESCHAFFUNGSSYSTEMS (Betriebsphase)",
+          "buyer": "Pensionsversicherungsanstalt",
+          "published": "2024-02-26",
+          "deadline": "",
+          "cpv": "85100000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/115751-2024"
+        },
+        {
+          "pub": "288534-2025",
+          "title": "Austria – Mattresses – Pensionsversicherungsanstalt - Diverse Rehabilitationszentren - Matratzen für Patientenbetten (DYNAMISCHES BESCHAFFUNGSSYSTEM)",
+          "buyer": "Pensionsversicherungsanstalt",
+          "published": "2025-05-06",
+          "deadline": "",
+          "cpv": "39143112",
+          "url": "https://ted.europa.eu/en/notice/-/detail/288534-2025"
+        },
+        {
+          "pub": "149575-2026",
+          "title": "Austria – Medical equipments, pharmaceuticals and personal care products – Lieferung von Schutzausrüstung (dBS NEU)",
+          "buyer": "Wiener Gesundheitsverbund – PPE Beschaffung GmbH",
+          "published": "2026-03-04",
+          "deadline": "2099-12-31",
+          "cpv": "33000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/149575-2026"
+        },
+        {
+          "pub": "181120-2026",
+          "title": "Austria – Medical equipments, pharmaceuticals and personal care products – Lieferung von Schutzausrüstung (dBS NEU)",
+          "buyer": "Wiener Gesundheitsverbund – PPE Beschaffung GmbH",
+          "published": "2026-03-16",
+          "deadline": "2099-12-31",
+          "cpv": "33000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/181120-2026"
+        },
+        {
+          "pub": "724622-2026",
+          "title": "Austria – Medical equipments – HNO Dokumentationssystem KLA",
+          "buyer": "Wiener Gesundheitsverbund – Vorstandsressort Einkauf (GED EKF)",
+          "published": "2026-10-20",
+          "deadline": "2026-11-23",
+          "cpv": "33100000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/724622-2026"
+        },
+        {
+          "pub": "734793-2026",
+          "title": "Austria – Medical equipments – Operationsmikroskop für die klinische Abteilung für Hals-, Nasen-, Ohrenkrankheiten des Universitätsklinikums Krems",
+          "buyer": "NÖ Landesgesundheitsagentur",
+          "published": "2026-10-23",
+          "deadline": "2026-11-23",
+          "cpv": "33100000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/734793-2026"
+        }
+      ]
+    },
+    {
+      "slug": "austria-engineering-consulting",
+      "country": {
+        "slug": "austria",
+        "name": "Austria",
+        "iso3": "AUT",
+        "iso2": "AT",
+        "lang": "deu",
+        "portal": "USP.gv.at / ANKÖ + TED"
+      },
+      "sector": {
+        "slug": "engineering-consulting",
+        "name": "Engineering & Consulting",
+        "cpv_label": "71000000 / 79400000",
+        "cpv_query": "(PC = 71* OR PC = 794*)",
+        "summary": "Technical engineering studies, architectural design, management advisory, compliance audits, and urban planning."
+      },
+      "open_tenders_count": 106,
+      "recent_30d_count": 106,
+      "ted_query": "CY = AUT AND (PC = 71* OR PC = 794*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "554392-2022",
+          "title": "Austria-Vienna: Architectural, construction, engineering and inspection services",
+          "buyer": "Austrian Power Grid AG",
+          "published": "2022-10-10",
+          "deadline": "",
+          "cpv": "71000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/554392-2022"
+        },
+        {
+          "pub": "89729-2023",
+          "title": "Austria-Klagenfurt: Ancillary building services",
+          "buyer": "KNG-Kärnten Netz GmbH",
+          "published": "2023-02-13",
+          "deadline": "",
+          "cpv": "71326000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/89729-2023"
+        },
+        {
+          "pub": "144438-2023",
+          "title": "Austria-Vienna: Construction work",
+          "buyer": "WISEG - Wiener Substanzerhaltungsg.m.b.H. & Co KG",
+          "published": "2023-03-10",
+          "deadline": "",
+          "cpv": "45000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/144438-2023"
+        },
+        {
+          "pub": "152300-2023",
+          "title": "Austria-Klagenfurt: Corrosion engineering services",
+          "buyer": "KNG-Kärnten Netz GmbH",
+          "published": "2023-03-14",
+          "deadline": "",
+          "cpv": "71337000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/152300-2023"
+        },
+        {
+          "pub": "519789-2023",
+          "title": "Austria-Vienna: Engineering studies",
+          "buyer": "Austrian Power Grid AG",
+          "published": "2023-08-29",
+          "deadline": "",
+          "cpv": "71335000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/519789-2023"
+        },
+        {
+          "pub": "762156-2023",
+          "title": "Austria – Electrical services – DBS - LKH- Univ. Klinikum Graz - Wiederkehrende Überprüfungen an elektrischen Anlagen",
+          "buyer": "Steiermärkische Krankenanstaltengesellschaft m.b.H.",
+          "published": "2023-12-15",
+          "deadline": "",
+          "cpv": "71314100",
+          "url": "https://ted.europa.eu/en/notice/-/detail/762156-2023"
+        }
+      ]
+    },
+    {
+      "slug": "austria-transport-mobility",
+      "country": {
+        "slug": "austria",
+        "name": "Austria",
+        "iso3": "AUT",
+        "iso2": "AT",
+        "lang": "deu",
+        "portal": "USP.gv.at / ANKÖ + TED"
+      },
+      "sector": {
+        "slug": "transport-mobility",
+        "name": "Transport & Mobility",
+        "cpv_label": "60000000 / 34000000",
+        "cpv_query": "(PC = 60* OR PC = 34*)",
+        "summary": "Public transit operations, electric bus fleets, EV charging infrastructure, rail logistics, and municipal mobility."
+      },
+      "open_tenders_count": 56,
+      "recent_30d_count": 56,
+      "ted_query": "CY = AUT AND (PC = 60* OR PC = 34*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "456494-2020",
+          "title": "Austria-Vienna: Air-charter services",
+          "buyer": "Republik Österreich, vertreten durch den Bundesminister für Inneres",
+          "published": "2020-09-29",
+          "deadline": "",
+          "cpv": "60423000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/456494-2020"
+        },
+        {
+          "pub": "476315-2020",
+          "title": "Austria-Vienna: Air-charter services",
+          "buyer": "Republik Österreich, vertreten durch das Bundesministerium für Inneres",
+          "published": "2020-10-09",
+          "deadline": "",
+          "cpv": "60423000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/476315-2020"
+        },
+        {
+          "pub": "571735-2020",
+          "title": "Austria-Vienna: Air-charter services",
+          "buyer": "Bundesministerium für Inneres",
+          "published": "2020-11-27",
+          "deadline": "",
+          "cpv": "60423000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/571735-2020"
+        },
+        {
+          "pub": "336331-2023",
+          "title": "Austria-Vienna: Installation services of transformers",
+          "buyer": "Austrian Power Grid AG",
+          "published": "2023-06-06",
+          "deadline": "",
+          "cpv": "45317200",
+          "url": "https://ted.europa.eu/en/notice/-/detail/336331-2023"
+        },
+        {
+          "pub": "692556-2024",
+          "title": "Austria – Freight transport agency services – DBS_Transportdienstleistungen",
+          "buyer": "Energie Steiermark AG",
+          "published": "2024-11-13",
+          "deadline": "",
+          "cpv": "63521000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/692556-2024"
+        },
+        {
+          "pub": "37165-2026",
+          "title": "Austria – Transport services (excl. Waste transport) – Dynamisches Beschaffungssystem - Altmaterialverkauf",
+          "buyer": "KELAG-Kärntner Elektrizitäts-Aktiengesellschaft",
+          "published": "2026-01-19",
+          "deadline": "",
+          "cpv": "60000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/37165-2026"
+        }
+      ]
+    },
+    {
+      "slug": "ireland-it-ai-software",
+      "country": {
+        "slug": "ireland",
+        "name": "Ireland",
+        "iso3": "IRL",
+        "iso2": "IE",
+        "lang": "eng",
+        "portal": "eTenders.gov.ie + TED"
+      },
+      "sector": {
+        "slug": "it-ai-software",
+        "name": "IT & AI Software",
+        "cpv_label": "72000000 / 48000000",
+        "cpv_query": "(PC = 72* OR PC = 48*)",
+        "summary": "Software development, enterprise SaaS, AI/data platforms, system integration, and IT maintenance tenders."
+      },
+      "open_tenders_count": 85,
+      "recent_30d_count": 85,
+      "ted_query": "CY = IRL AND (PC = 72* OR PC = 48*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "344852-2020",
+          "title": "Ireland-Dublin: Printing and related services",
+          "buyer": "The Office of Government Procurement",
+          "published": "2020-07-22",
+          "deadline": "",
+          "cpv": "30121100",
+          "url": "https://ted.europa.eu/en/notice/-/detail/344852-2020"
+        },
+        {
+          "pub": "82655-2021",
+          "title": "Ireland-Naas: Systems and technical consultancy services",
+          "buyer": "Health Service Executive (HSE)",
+          "published": "2021-02-17",
+          "deadline": "",
+          "cpv": "48000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/82655-2021"
+        },
+        {
+          "pub": "138212-2021",
+          "title": "Ireland-Dublin: Wide area network services",
+          "buyer": "The Office of Government Procurement",
+          "published": "2021-03-19",
+          "deadline": "",
+          "cpv": "32400000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/138212-2021"
+        },
+        {
+          "pub": "85141-2022",
+          "title": "Ireland-Dublin: Market research services",
+          "buyer": "The Office of Government Procurement",
+          "published": "2022-02-16",
+          "deadline": "",
+          "cpv": "72221000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/85141-2022"
+        },
+        {
+          "pub": "119928-2022",
+          "title": "Ireland-Dublin: IT services: consulting, software development, Internet and support",
+          "buyer": "Coras Iompair Eireann (CIE Utility)",
+          "published": "2022-03-07",
+          "deadline": "",
+          "cpv": "72000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/119928-2022"
+        },
+        {
+          "pub": "95354-2023",
+          "title": "Ireland-Letterkenny: Computer supplies",
+          "buyer": "Atlantic Technological University",
+          "published": "2023-02-15",
+          "deadline": "",
+          "cpv": "30200000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/95354-2023"
+        }
+      ]
+    },
+    {
+      "slug": "ireland-cybersecurity-cloud",
+      "country": {
+        "slug": "ireland",
+        "name": "Ireland",
+        "iso3": "IRL",
+        "iso2": "IE",
+        "lang": "eng",
+        "portal": "eTenders.gov.ie + TED"
+      },
+      "sector": {
+        "slug": "cybersecurity-cloud",
+        "name": "Cybersecurity & Cloud",
+        "cpv_label": "722* / 724* / 725* / 726*",
+        "cpv_query": "(PC = 722* OR PC = 724* OR PC = 725* OR PC = 726*)",
+        "summary": "SOC/SIEM cybersecurity audits, CRA/NIS2 compliance, cloud hosting, DevSecOps, and managed infrastructure contracts."
+      },
+      "open_tenders_count": 55,
+      "recent_30d_count": 55,
+      "ted_query": "CY = IRL AND (PC = 722* OR PC = 724* OR PC = 725* OR PC = 726*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "82655-2021",
+          "title": "Ireland-Naas: Systems and technical consultancy services",
+          "buyer": "Health Service Executive (HSE)",
+          "published": "2021-02-17",
+          "deadline": "",
+          "cpv": "48000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/82655-2021"
+        },
+        {
+          "pub": "85141-2022",
+          "title": "Ireland-Dublin: Market research services",
+          "buyer": "The Office of Government Procurement",
+          "published": "2022-02-16",
+          "deadline": "",
+          "cpv": "72221000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/85141-2022"
+        },
+        {
+          "pub": "119928-2022",
+          "title": "Ireland-Dublin: IT services: consulting, software development, Internet and support",
+          "buyer": "Coras Iompair Eireann (CIE Utility)",
+          "published": "2022-03-07",
+          "deadline": "",
+          "cpv": "72000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/119928-2022"
+        },
+        {
+          "pub": "99071-2023",
+          "title": "Ireland-Naas: Voice recognition software development services",
+          "buyer": "Health Service Executive (HSE)",
+          "published": "2023-02-17",
+          "deadline": "",
+          "cpv": "32332100",
+          "url": "https://ted.europa.eu/en/notice/-/detail/99071-2023"
+        },
+        {
+          "pub": "276760-2023",
+          "title": "Ireland-Naas: Software package and information systems",
+          "buyer": "Health Service Executive (HSE)",
+          "published": "2023-05-10",
+          "deadline": "",
+          "cpv": "48000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/276760-2023"
+        },
+        {
+          "pub": "382357-2023",
+          "title": "Ireland-Kildare: Security software development services",
+          "buyer": "Health Service Executive HSE",
+          "published": "2023-06-27",
+          "deadline": "",
+          "cpv": "48730000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/382357-2023"
+        }
+      ]
+    },
+    {
+      "slug": "ireland-construction-green-energy",
+      "country": {
+        "slug": "ireland",
+        "name": "Ireland",
+        "iso3": "IRL",
+        "iso2": "IE",
+        "lang": "eng",
+        "portal": "eTenders.gov.ie + TED"
+      },
+      "sector": {
+        "slug": "construction-green-energy",
+        "name": "Construction & Green Energy",
+        "cpv_label": "45000000 / 09300000",
+        "cpv_query": "(PC = 45* OR PC = 093*)",
+        "summary": "Public building renovation, energy efficiency retrofits, solar/renewable power, HVAC, and civil engineering works."
+      },
+      "open_tenders_count": 99,
+      "recent_30d_count": 99,
+      "ted_query": "CY = IRL AND (PC = 45* OR PC = 093*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "464470-2018",
+          "title": "Ireland-Dublin: Electricity",
+          "buyer": "The Office of Government Procurement",
+          "published": "2018-10-23",
+          "deadline": "",
+          "cpv": "09310000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/464470-2018"
+        },
+        {
+          "pub": "484050-2020",
+          "title": "Ireland-Kilkenny: Refurbishment work",
+          "buyer": "3 Counties Energy Agency",
+          "published": "2020-10-14",
+          "deadline": "",
+          "cpv": "09300000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/484050-2020"
+        },
+        {
+          "pub": "658093-2021",
+          "title": "Ireland-Cork: Sludge treatment services",
+          "buyer": "Irish Water",
+          "published": "2021-12-22",
+          "deadline": "",
+          "cpv": "34144520",
+          "url": "https://ted.europa.eu/en/notice/-/detail/658093-2021"
+        },
+        {
+          "pub": "102633-2022",
+          "title": "Ireland-Stillorgan: Repair and maintenance services",
+          "buyer": "St John of God Community Services clg",
+          "published": "2022-02-25",
+          "deadline": "",
+          "cpv": "45000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/102633-2022"
+        },
+        {
+          "pub": "251863-2022",
+          "title": "Ireland-Dublin: Energy-management services",
+          "buyer": "Bus Eireann/Irish Bus",
+          "published": "2022-05-11",
+          "deadline": "",
+          "cpv": "09330000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/251863-2022"
+        },
+        {
+          "pub": "338477-2022",
+          "title": "Ireland-Naas: Decontamination equipment",
+          "buyer": "Health Service Executive (HSE)",
+          "published": "2022-06-24",
+          "deadline": "",
+          "cpv": "33191000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/338477-2022"
+        }
+      ]
+    },
+    {
+      "slug": "ireland-healthcare-pharma",
+      "country": {
+        "slug": "ireland",
+        "name": "Ireland",
+        "iso3": "IRL",
+        "iso2": "IE",
+        "lang": "eng",
+        "portal": "eTenders.gov.ie + TED"
+      },
+      "sector": {
+        "slug": "healthcare-pharma",
+        "name": "Healthcare & Pharma",
+        "cpv_label": "33000000 / 85100000",
+        "cpv_query": "(PC = 33* OR PC = 851*)",
+        "summary": "Hospital medical devices, diagnostic equipment, pharmaceutical supply frameworks, and clinical healthcare services."
+      },
+      "open_tenders_count": 51,
+      "recent_30d_count": 10,
+      "ted_query": "CY = IRL AND (PC = 33* OR PC = 851*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "543781-2021",
+          "title": "Ireland-Naas: Medical equipments",
+          "buyer": "Health Service Executive (HSE)",
+          "published": "2021-10-26",
+          "deadline": "",
+          "cpv": "33100000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/543781-2021"
+        },
+        {
+          "pub": "558389-2021",
+          "title": "Ireland-Naas: Medical gases",
+          "buyer": "Health Service Executive (HSE)",
+          "published": "2021-11-02",
+          "deadline": "",
+          "cpv": "24111300",
+          "url": "https://ted.europa.eu/en/notice/-/detail/558389-2021"
+        },
+        {
+          "pub": "597027-2021",
+          "title": "Ireland-Naas: Cardiac-monitoring devices",
+          "buyer": "Health Service Executive (HSE)",
+          "published": "2021-11-23",
+          "deadline": "",
+          "cpv": "33100000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/597027-2021"
+        },
+        {
+          "pub": "630164-2021",
+          "title": "Ireland-Naas: Syringes",
+          "buyer": "Health Service Executive (HSE)",
+          "published": "2021-12-10",
+          "deadline": "",
+          "cpv": "33140000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/630164-2021"
+        },
+        {
+          "pub": "329773-2022",
+          "title": "Ireland-Naas: Medical equipments",
+          "buyer": "Health Service Executive (HSE)",
+          "published": "2022-06-20",
+          "deadline": "",
+          "cpv": "33100000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/329773-2022"
+        },
+        {
+          "pub": "338477-2022",
+          "title": "Ireland-Naas: Decontamination equipment",
+          "buyer": "Health Service Executive (HSE)",
+          "published": "2022-06-24",
+          "deadline": "",
+          "cpv": "33191000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/338477-2022"
+        }
+      ]
+    },
+    {
+      "slug": "ireland-engineering-consulting",
+      "country": {
+        "slug": "ireland",
+        "name": "Ireland",
+        "iso3": "IRL",
+        "iso2": "IE",
+        "lang": "eng",
+        "portal": "eTenders.gov.ie + TED"
+      },
+      "sector": {
+        "slug": "engineering-consulting",
+        "name": "Engineering & Consulting",
+        "cpv_label": "71000000 / 79400000",
+        "cpv_query": "(PC = 71* OR PC = 794*)",
+        "summary": "Technical engineering studies, architectural design, management advisory, compliance audits, and urban planning."
+      },
+      "open_tenders_count": 121,
+      "recent_30d_count": 121,
+      "ted_query": "CY = IRL AND (PC = 71* OR PC = 794*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "484050-2020",
+          "title": "Ireland-Kilkenny: Refurbishment work",
+          "buyer": "3 Counties Energy Agency",
+          "published": "2020-10-14",
+          "deadline": "",
+          "cpv": "09300000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/484050-2020"
+        },
+        {
+          "pub": "82655-2021",
+          "title": "Ireland-Naas: Systems and technical consultancy services",
+          "buyer": "Health Service Executive (HSE)",
+          "published": "2021-02-17",
+          "deadline": "",
+          "cpv": "48000000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/82655-2021"
+        },
+        {
+          "pub": "41241-2022",
+          "title": "Ireland-Dublin: Procurement consultancy services",
+          "buyer": "The Office of Government Procurement",
+          "published": "2022-01-25",
+          "deadline": "",
+          "cpv": "79400000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/41241-2022"
+        },
+        {
+          "pub": "85141-2022",
+          "title": "Ireland-Dublin: Market research services",
+          "buyer": "The Office of Government Procurement",
+          "published": "2022-02-16",
+          "deadline": "",
+          "cpv": "72221000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/85141-2022"
+        },
+        {
+          "pub": "251863-2022",
+          "title": "Ireland-Dublin: Energy-management services",
+          "buyer": "Bus Eireann/Irish Bus",
+          "published": "2022-05-11",
+          "deadline": "",
+          "cpv": "09330000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/251863-2022"
+        },
+        {
+          "pub": "394990-2022",
+          "title": "Ireland-Carlow: Agricultural services",
+          "buyer": "Teagasc",
+          "published": "2022-07-20",
+          "deadline": "",
+          "cpv": "71620000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/394990-2022"
+        }
+      ]
+    },
+    {
+      "slug": "ireland-transport-mobility",
+      "country": {
+        "slug": "ireland",
+        "name": "Ireland",
+        "iso3": "IRL",
+        "iso2": "IE",
+        "lang": "eng",
+        "portal": "eTenders.gov.ie + TED"
+      },
+      "sector": {
+        "slug": "transport-mobility",
+        "name": "Transport & Mobility",
+        "cpv_label": "60000000 / 34000000",
+        "cpv_query": "(PC = 60* OR PC = 34*)",
+        "summary": "Public transit operations, electric bus fleets, EV charging infrastructure, rail logistics, and municipal mobility."
+      },
+      "open_tenders_count": 58,
+      "recent_30d_count": 58,
+      "ted_query": "CY = IRL AND (PC = 60* OR PC = 34*) AND notice-type = cn-standard AND DT >= 20261121",
+      "as_of": "2026-11-21",
+      "samples": [
+        {
+          "pub": "543923-2019",
+          "title": "Ireland-Dublin: Motor vehicles",
+          "buyer": "The Office of Government Procurement",
+          "published": "2019-11-18",
+          "deadline": "",
+          "cpv": "34100000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/543923-2019"
+        },
+        {
+          "pub": "163509-2021",
+          "title": "Ireland-Stillorgan: Motor vehicles",
+          "buyer": "St John of God CommunityServices clg.",
+          "published": "2021-04-02",
+          "deadline": "",
+          "cpv": "34100000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/163509-2021"
+        },
+        {
+          "pub": "658093-2021",
+          "title": "Ireland-Cork: Sludge treatment services",
+          "buyer": "Irish Water",
+          "published": "2021-12-22",
+          "deadline": "",
+          "cpv": "34144520",
+          "url": "https://ted.europa.eu/en/notice/-/detail/658093-2021"
+        },
+        {
+          "pub": "60725-2022",
+          "title": "Ireland-Dublin: Firefighting vehicles",
+          "buyer": "Dublin City Council",
+          "published": "2022-02-04",
+          "deadline": "",
+          "cpv": "34114100",
+          "url": "https://ted.europa.eu/en/notice/-/detail/60725-2022"
+        },
+        {
+          "pub": "190752-2022",
+          "title": "Ireland-Dublin: Hire of passenger transport vehicles with driver",
+          "buyer": "Bus Eireann/Irish Bus",
+          "published": "2022-04-11",
+          "deadline": "",
+          "cpv": "34115200",
+          "url": "https://ted.europa.eu/en/notice/-/detail/190752-2022"
+        },
+        {
+          "pub": "329773-2022",
+          "title": "Ireland-Naas: Medical equipments",
+          "buyer": "Health Service Executive (HSE)",
+          "published": "2022-06-20",
+          "deadline": "",
+          "cpv": "33100000",
+          "url": "https://ted.europa.eu/en/notice/-/detail/329773-2022"
+        }
+      ]
+    }
+  ]
+}

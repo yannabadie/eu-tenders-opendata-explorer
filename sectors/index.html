@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>60 EU Public Tenders Guides (10 Countries × 6 CPV Sectors) | TED Open-Data Explorer</title>
+  <meta name="description" content="Search and filter 60 EU public procurement markets across 10 European countries and 6 high-value CPV sectors with live EU TED v3 tender counts and API automation.">
+  <link rel="canonical" href="https://yannabadie.github.io/eu-tenders-opendata-explorer/sectors/">
+  <link rel="stylesheet" href="../assets/styles.css">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "CollectionPage", "name": "60 EU Public Tenders Country × CPV Sector Guides", "url": "https://yannabadie.github.io/eu-tenders-opendata-explorer/sectors/", "dateModified": "2026-11-21"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "EU Public Tenders Explorer", "item": "https://yannabadie.github.io/eu-tenders-opendata-explorer/"}, {"@type": "ListItem", "position": 2, "name": "60 Country × Sector Guides", "item": "https://yannabadie.github.io/eu-tenders-opendata-explorer/sectors/"}]}, {"@type": "Dataset", "name": "EU TED Active Procurement Index — 10 Countries × 6 CPV Sectors", "description": "Directory of 60 EU procurement markets tracking live active EU TED v3 calls for tenders across 10 countries and 6 CPV sectors.", "url": "https://yannabadie.github.io/eu-tenders-opendata-explorer/sectors/", "dateModified": "2026-11-21"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Which countries and CPV sectors are covered?", "acceptedAnswer": {"@type": "Answer", "text": "The explorer covers 10 major European procurement markets (France, Germany, Spain, Italy, Netherlands, Belgium, Poland, Sweden, Austria, Ireland) across 6 high-value CPV sectors (IT & AI Software, Cybersecurity & Cloud, Construction & Green Energy, Healthcare & Pharma, Engineering & Consulting, Transport & Mobility)."}}]}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand-lockup" href="../index.html" aria-label="EU Public Tenders Explorer Home">
+        <span class="brand-mark" aria-hidden="true">EU</span>
+        <span class="brand-text">
+          <span class="brand-name">EU Public Tenders Explorer</span>
+          <span class="brand-sub">TED API v3 Open-Data · 10 Countries × 6 CPV Sectors</span>
+        </span>
+      </a>
+      <nav class="header-nav" aria-label="Primary navigation">
+        <a class="nav-link" href="../index.html#explorer">Live Explorer</a>
+        <a class="nav-link" href="../sectors/index.html">60 Sectors</a>
+        <a class="nav-link" href="https://rapidapi.com/YannAbadie/api/eu-ted-public-tenders-procurement-api" target="_blank" rel="noopener">RapidAPI</a>
+        <a class="nav-link" href="https://apify.com/yannabadie/eu-public-tenders-ted-boamp?fpr=zuvzfw" target="_blank" rel="noopener noreferrer sponsored">Apify Actor</a>
+        <a class="btn-nav" href="https://github.com/yannabadie/eu-us-opendata-mcp" target="_blank" rel="noopener">Free MCP &amp; n8n</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="breadcrumb"><a href="../index.html">EU Public Tenders Explorer</a> › 60 Country × Sector Guides</div>
+        <div class="eyebrow">10 European Countries × 6 CPV Sectors · Live TED v3 Counts (2026-11-21)</div>
+        <h1>Directory of 60 EU Public Procurement Markets</h1>
+        <p class="hero-lead">Filter by country, CPV sector, or keyword to inspect live active EU TED tenders, official buyer notices, and automated alerting recipes.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="controls">
+          <div class="field">
+            <label for="dir-search">Search country, sector, or CPV code</label>
+            <input id="dir-search" type="search" placeholder="e.g. France, Cybersecurity, 72000000, Germany, Healthcare...">
+          </div>
+        </div>
+        <div class="dir-pills"><button type="button" class="dir-pill" data-country="all" aria-pressed="true">All Countries (60)</button> <button type="button" class="dir-pill" data-country="france" aria-pressed="false">France (FR)</button> <button type="button" class="dir-pill" data-country="germany" aria-pressed="false">Germany (DE)</button> <button type="button" class="dir-pill" data-country="spain" aria-pressed="false">Spain (ES)</button> <button type="button" class="dir-pill" data-country="italy" aria-pressed="false">Italy (IT)</button> <button type="button" class="dir-pill" data-country="netherlands" aria-pressed="false">Netherlands (NL)</button> <button type="button" class="dir-pill" data-country="belgium" aria-pressed="false">Belgium (BE)</button> <button type="button" class="dir-pill" data-country="poland" aria-pressed="false">Poland (PL)</button> <button type="button" class="dir-pill" data-country="sweden" aria-pressed="false">Sweden (SE)</button> <button type="button" class="dir-pill" data-country="austria" aria-pressed="false">Austria (AT)</button> <button type="button" class="dir-pill" data-country="ireland" aria-pressed="false">Ireland (IE)</button></div>
+        <div class="dir-pills"><button type="button" class="dir-pill" data-sector="all" aria-pressed="true">All 6 Sectors</button> <button type="button" class="dir-pill" data-sector="it-ai-software" aria-pressed="false">IT &amp; AI Software</button> <button type="button" class="dir-pill" data-sector="cybersecurity-cloud" aria-pressed="false">Cybersecurity &amp; Cloud</button> <button type="button" class="dir-pill" data-sector="construction-green-energy" aria-pressed="false">Construction &amp; Green Energy</button> <button type="button" class="dir-pill" data-sector="healthcare-pharma" aria-pressed="false">Healthcare &amp; Pharma</button> <button type="button" class="dir-pill" data-sector="engineering-consulting" aria-pressed="false">Engineering &amp; Consulting</button> <button type="button" class="dir-pill" data-sector="transport-mobility" aria-pressed="false">Transport &amp; Mobility</button></div>
+        <p id="dir-count" style="font-size:0.86rem;color:var(--muted);margin:10px 0;">60 / 60 markets displayed</p>
+
+        <div id="sector-list" class="sector-grid">
+          <a class="sector-card" href="./france-it-ai-software.html" data-country="france" data-sector="it-ai-software" data-search="france fra it &amp; ai software 72000000 / 48000000"><strong>France — IT &amp; AI Software</strong><span class="meta">ISO FRA · CPV 72000000 / 48000000</span><div class="stats"><span>251 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./france-cybersecurity-cloud.html" data-country="france" data-sector="cybersecurity-cloud" data-search="france fra cybersecurity &amp; cloud 722* / 724* / 725* / 726*"><strong>France — Cybersecurity &amp; Cloud</strong><span class="meta">ISO FRA · CPV 722* / 724* / 725* / 726*</span><div class="stats"><span>165 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./france-construction-green-energy.html" data-country="france" data-sector="construction-green-energy" data-search="france fra construction &amp; green energy 45000000 / 09300000"><strong>France — Construction &amp; Green Energy</strong><span class="meta">ISO FRA · CPV 45000000 / 09300000</span><div class="stats"><span>776 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./france-healthcare-pharma.html" data-country="france" data-sector="healthcare-pharma" data-search="france fra healthcare &amp; pharma 33000000 / 85100000"><strong>France — Healthcare &amp; Pharma</strong><span class="meta">ISO FRA · CPV 33000000 / 85100000</span><div class="stats"><span>170 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./france-engineering-consulting.html" data-country="france" data-sector="engineering-consulting" data-search="france fra engineering &amp; consulting 71000000 / 79400000"><strong>France — Engineering &amp; Consulting</strong><span class="meta">ISO FRA · CPV 71000000 / 79400000</span><div class="stats"><span>767 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./france-transport-mobility.html" data-country="france" data-sector="transport-mobility" data-search="france fra transport &amp; mobility 60000000 / 34000000"><strong>France — Transport &amp; Mobility</strong><span class="meta">ISO FRA · CPV 60000000 / 34000000</span><div class="stats"><span>526 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./germany-it-ai-software.html" data-country="germany" data-sector="it-ai-software" data-search="germany deu it &amp; ai software 72000000 / 48000000"><strong>Germany — IT &amp; AI Software</strong><span class="meta">ISO DEU · CPV 72000000 / 48000000</span><div class="stats"><span>491 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./germany-cybersecurity-cloud.html" data-country="germany" data-sector="cybersecurity-cloud" data-search="germany deu cybersecurity &amp; cloud 722* / 724* / 725* / 726*"><strong>Germany — Cybersecurity &amp; Cloud</strong><span class="meta">ISO DEU · CPV 722* / 724* / 725* / 726*</span><div class="stats"><span>242 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./germany-construction-green-energy.html" data-country="germany" data-sector="construction-green-energy" data-search="germany deu construction &amp; green energy 45000000 / 09300000"><strong>Germany — Construction &amp; Green Energy</strong><span class="meta">ISO DEU · CPV 45000000 / 09300000</span><div class="stats"><span>2,958 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./germany-healthcare-pharma.html" data-country="germany" data-sector="healthcare-pharma" data-search="germany deu healthcare &amp; pharma 33000000 / 85100000"><strong>Germany — Healthcare &amp; Pharma</strong><span class="meta">ISO DEU · CPV 33000000 / 85100000</span><div class="stats"><span>2,384 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./germany-engineering-consulting.html" data-country="germany" data-sector="engineering-consulting" data-search="germany deu engineering &amp; consulting 71000000 / 79400000"><strong>Germany — Engineering &amp; Consulting</strong><span class="meta">ISO DEU · CPV 71000000 / 79400000</span><div class="stats"><span>1,386 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./germany-transport-mobility.html" data-country="germany" data-sector="transport-mobility" data-search="germany deu transport &amp; mobility 60000000 / 34000000"><strong>Germany — Transport &amp; Mobility</strong><span class="meta">ISO DEU · CPV 60000000 / 34000000</span><div class="stats"><span>593 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./spain-it-ai-software.html" data-country="spain" data-sector="it-ai-software" data-search="spain esp it &amp; ai software 72000000 / 48000000"><strong>Spain — IT &amp; AI Software</strong><span class="meta">ISO ESP · CPV 72000000 / 48000000</span><div class="stats"><span>258 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./spain-cybersecurity-cloud.html" data-country="spain" data-sector="cybersecurity-cloud" data-search="spain esp cybersecurity &amp; cloud 722* / 724* / 725* / 726*"><strong>Spain — Cybersecurity &amp; Cloud</strong><span class="meta">ISO ESP · CPV 722* / 724* / 725* / 726*</span><div class="stats"><span>172 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./spain-construction-green-energy.html" data-country="spain" data-sector="construction-green-energy" data-search="spain esp construction &amp; green energy 45000000 / 09300000"><strong>Spain — Construction &amp; Green Energy</strong><span class="meta">ISO ESP · CPV 45000000 / 09300000</span><div class="stats"><span>225 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./spain-healthcare-pharma.html" data-country="spain" data-sector="healthcare-pharma" data-search="spain esp healthcare &amp; pharma 33000000 / 85100000"><strong>Spain — Healthcare &amp; Pharma</strong><span class="meta">ISO ESP · CPV 33000000 / 85100000</span><div class="stats"><span>198 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./spain-engineering-consulting.html" data-country="spain" data-sector="engineering-consulting" data-search="spain esp engineering &amp; consulting 71000000 / 79400000"><strong>Spain — Engineering &amp; Consulting</strong><span class="meta">ISO ESP · CPV 71000000 / 79400000</span><div class="stats"><span>293 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./spain-transport-mobility.html" data-country="spain" data-sector="transport-mobility" data-search="spain esp transport &amp; mobility 60000000 / 34000000"><strong>Spain — Transport &amp; Mobility</strong><span class="meta">ISO ESP · CPV 60000000 / 34000000</span><div class="stats"><span>202 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./italy-it-ai-software.html" data-country="italy" data-sector="it-ai-software" data-search="italy ita it &amp; ai software 72000000 / 48000000"><strong>Italy — IT &amp; AI Software</strong><span class="meta">ISO ITA · CPV 72000000 / 48000000</span><div class="stats"><span>102 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./italy-cybersecurity-cloud.html" data-country="italy" data-sector="cybersecurity-cloud" data-search="italy ita cybersecurity &amp; cloud 722* / 724* / 725* / 726*"><strong>Italy — Cybersecurity &amp; Cloud</strong><span class="meta">ISO ITA · CPV 722* / 724* / 725* / 726*</span><div class="stats"><span>49 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./italy-construction-green-energy.html" data-country="italy" data-sector="construction-green-energy" data-search="italy ita construction &amp; green energy 45000000 / 09300000"><strong>Italy — Construction &amp; Green Energy</strong><span class="meta">ISO ITA · CPV 45000000 / 09300000</span><div class="stats"><span>117 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./italy-healthcare-pharma.html" data-country="italy" data-sector="healthcare-pharma" data-search="italy ita healthcare &amp; pharma 33000000 / 85100000"><strong>Italy — Healthcare &amp; Pharma</strong><span class="meta">ISO ITA · CPV 33000000 / 85100000</span><div class="stats"><span>246 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./italy-engineering-consulting.html" data-country="italy" data-sector="engineering-consulting" data-search="italy ita engineering &amp; consulting 71000000 / 79400000"><strong>Italy — Engineering &amp; Consulting</strong><span class="meta">ISO ITA · CPV 71000000 / 79400000</span><div class="stats"><span>149 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./italy-transport-mobility.html" data-country="italy" data-sector="transport-mobility" data-search="italy ita transport &amp; mobility 60000000 / 34000000"><strong>Italy — Transport &amp; Mobility</strong><span class="meta">ISO ITA · CPV 60000000 / 34000000</span><div class="stats"><span>122 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./netherlands-it-ai-software.html" data-country="netherlands" data-sector="it-ai-software" data-search="netherlands nld it &amp; ai software 72000000 / 48000000"><strong>Netherlands — IT &amp; AI Software</strong><span class="meta">ISO NLD · CPV 72000000 / 48000000</span><div class="stats"><span>254 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./netherlands-cybersecurity-cloud.html" data-country="netherlands" data-sector="cybersecurity-cloud" data-search="netherlands nld cybersecurity &amp; cloud 722* / 724* / 725* / 726*"><strong>Netherlands — Cybersecurity &amp; Cloud</strong><span class="meta">ISO NLD · CPV 722* / 724* / 725* / 726*</span><div class="stats"><span>127 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./netherlands-construction-green-energy.html" data-country="netherlands" data-sector="construction-green-energy" data-search="netherlands nld construction &amp; green energy 45000000 / 09300000"><strong>Netherlands — Construction &amp; Green Energy</strong><span class="meta">ISO NLD · CPV 45000000 / 09300000</span><div class="stats"><span>204 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./netherlands-healthcare-pharma.html" data-country="netherlands" data-sector="healthcare-pharma" data-search="netherlands nld healthcare &amp; pharma 33000000 / 85100000"><strong>Netherlands — Healthcare &amp; Pharma</strong><span class="meta">ISO NLD · CPV 33000000 / 85100000</span><div class="stats"><span>51 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./netherlands-engineering-consulting.html" data-country="netherlands" data-sector="engineering-consulting" data-search="netherlands nld engineering &amp; consulting 71000000 / 79400000"><strong>Netherlands — Engineering &amp; Consulting</strong><span class="meta">ISO NLD · CPV 71000000 / 79400000</span><div class="stats"><span>259 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./netherlands-transport-mobility.html" data-country="netherlands" data-sector="transport-mobility" data-search="netherlands nld transport &amp; mobility 60000000 / 34000000"><strong>Netherlands — Transport &amp; Mobility</strong><span class="meta">ISO NLD · CPV 60000000 / 34000000</span><div class="stats"><span>127 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./belgium-it-ai-software.html" data-country="belgium" data-sector="it-ai-software" data-search="belgium bel it &amp; ai software 72000000 / 48000000"><strong>Belgium — IT &amp; AI Software</strong><span class="meta">ISO BEL · CPV 72000000 / 48000000</span><div class="stats"><span>114 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./belgium-cybersecurity-cloud.html" data-country="belgium" data-sector="cybersecurity-cloud" data-search="belgium bel cybersecurity &amp; cloud 722* / 724* / 725* / 726*"><strong>Belgium — Cybersecurity &amp; Cloud</strong><span class="meta">ISO BEL · CPV 722* / 724* / 725* / 726*</span><div class="stats"><span>36 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./belgium-construction-green-energy.html" data-country="belgium" data-sector="construction-green-energy" data-search="belgium bel construction &amp; green energy 45000000 / 09300000"><strong>Belgium — Construction &amp; Green Energy</strong><span class="meta">ISO BEL · CPV 45000000 / 09300000</span><div class="stats"><span>201 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./belgium-healthcare-pharma.html" data-country="belgium" data-sector="healthcare-pharma" data-search="belgium bel healthcare &amp; pharma 33000000 / 85100000"><strong>Belgium — Healthcare &amp; Pharma</strong><span class="meta">ISO BEL · CPV 33000000 / 85100000</span><div class="stats"><span>112 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./belgium-engineering-consulting.html" data-country="belgium" data-sector="engineering-consulting" data-search="belgium bel engineering &amp; consulting 71000000 / 79400000"><strong>Belgium — Engineering &amp; Consulting</strong><span class="meta">ISO BEL · CPV 71000000 / 79400000</span><div class="stats"><span>115 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./belgium-transport-mobility.html" data-country="belgium" data-sector="transport-mobility" data-search="belgium bel transport &amp; mobility 60000000 / 34000000"><strong>Belgium — Transport &amp; Mobility</strong><span class="meta">ISO BEL · CPV 60000000 / 34000000</span><div class="stats"><span>92 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./poland-it-ai-software.html" data-country="poland" data-sector="it-ai-software" data-search="poland pol it &amp; ai software 72000000 / 48000000"><strong>Poland — IT &amp; AI Software</strong><span class="meta">ISO POL · CPV 72000000 / 48000000</span><div class="stats"><span>410 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./poland-cybersecurity-cloud.html" data-country="poland" data-sector="cybersecurity-cloud" data-search="poland pol cybersecurity &amp; cloud 722* / 724* / 725* / 726*"><strong>Poland — Cybersecurity &amp; Cloud</strong><span class="meta">ISO POL · CPV 722* / 724* / 725* / 726*</span><div class="stats"><span>196 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./poland-construction-green-energy.html" data-country="poland" data-sector="construction-green-energy" data-search="poland pol construction &amp; green energy 45000000 / 09300000"><strong>Poland — Construction &amp; Green Energy</strong><span class="meta">ISO POL · CPV 45000000 / 09300000</span><div class="stats"><span>617 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./poland-healthcare-pharma.html" data-country="poland" data-sector="healthcare-pharma" data-search="poland pol healthcare &amp; pharma 33000000 / 85100000"><strong>Poland — Healthcare &amp; Pharma</strong><span class="meta">ISO POL · CPV 33000000 / 85100000</span><div class="stats"><span>1,004 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./poland-engineering-consulting.html" data-country="poland" data-sector="engineering-consulting" data-search="poland pol engineering &amp; consulting 71000000 / 79400000"><strong>Poland — Engineering &amp; Consulting</strong><span class="meta">ISO POL · CPV 71000000 / 79400000</span><div class="stats"><span>420 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./poland-transport-mobility.html" data-country="poland" data-sector="transport-mobility" data-search="poland pol transport &amp; mobility 60000000 / 34000000"><strong>Poland — Transport &amp; Mobility</strong><span class="meta">ISO POL · CPV 60000000 / 34000000</span><div class="stats"><span>446 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./sweden-it-ai-software.html" data-country="sweden" data-sector="it-ai-software" data-search="sweden swe it &amp; ai software 72000000 / 48000000"><strong>Sweden — IT &amp; AI Software</strong><span class="meta">ISO SWE · CPV 72000000 / 48000000</span><div class="stats"><span>261 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./sweden-cybersecurity-cloud.html" data-country="sweden" data-sector="cybersecurity-cloud" data-search="sweden swe cybersecurity &amp; cloud 722* / 724* / 725* / 726*"><strong>Sweden — Cybersecurity &amp; Cloud</strong><span class="meta">ISO SWE · CPV 722* / 724* / 725* / 726*</span><div class="stats"><span>118 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./sweden-construction-green-energy.html" data-country="sweden" data-sector="construction-green-energy" data-search="sweden swe construction &amp; green energy 45000000 / 09300000"><strong>Sweden — Construction &amp; Green Energy</strong><span class="meta">ISO SWE · CPV 45000000 / 09300000</span><div class="stats"><span>302 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./sweden-healthcare-pharma.html" data-country="sweden" data-sector="healthcare-pharma" data-search="sweden swe healthcare &amp; pharma 33000000 / 85100000"><strong>Sweden — Healthcare &amp; Pharma</strong><span class="meta">ISO SWE · CPV 33000000 / 85100000</span><div class="stats"><span>169 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./sweden-engineering-consulting.html" data-country="sweden" data-sector="engineering-consulting" data-search="sweden swe engineering &amp; consulting 71000000 / 79400000"><strong>Sweden — Engineering &amp; Consulting</strong><span class="meta">ISO SWE · CPV 71000000 / 79400000</span><div class="stats"><span>443 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./sweden-transport-mobility.html" data-country="sweden" data-sector="transport-mobility" data-search="sweden swe transport &amp; mobility 60000000 / 34000000"><strong>Sweden — Transport &amp; Mobility</strong><span class="meta">ISO SWE · CPV 60000000 / 34000000</span><div class="stats"><span>201 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./austria-it-ai-software.html" data-country="austria" data-sector="it-ai-software" data-search="austria aut it &amp; ai software 72000000 / 48000000"><strong>Austria — IT &amp; AI Software</strong><span class="meta">ISO AUT · CPV 72000000 / 48000000</span><div class="stats"><span>66 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./austria-cybersecurity-cloud.html" data-country="austria" data-sector="cybersecurity-cloud" data-search="austria aut cybersecurity &amp; cloud 722* / 724* / 725* / 726*"><strong>Austria — Cybersecurity &amp; Cloud</strong><span class="meta">ISO AUT · CPV 722* / 724* / 725* / 726*</span><div class="stats"><span>27 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./austria-construction-green-energy.html" data-country="austria" data-sector="construction-green-energy" data-search="austria aut construction &amp; green energy 45000000 / 09300000"><strong>Austria — Construction &amp; Green Energy</strong><span class="meta">ISO AUT · CPV 45000000 / 09300000</span><div class="stats"><span>211 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./austria-healthcare-pharma.html" data-country="austria" data-sector="healthcare-pharma" data-search="austria aut healthcare &amp; pharma 33000000 / 85100000"><strong>Austria — Healthcare &amp; Pharma</strong><span class="meta">ISO AUT · CPV 33000000 / 85100000</span><div class="stats"><span>23 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./austria-engineering-consulting.html" data-country="austria" data-sector="engineering-consulting" data-search="austria aut engineering &amp; consulting 71000000 / 79400000"><strong>Austria — Engineering &amp; Consulting</strong><span class="meta">ISO AUT · CPV 71000000 / 79400000</span><div class="stats"><span>106 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./austria-transport-mobility.html" data-country="austria" data-sector="transport-mobility" data-search="austria aut transport &amp; mobility 60000000 / 34000000"><strong>Austria — Transport &amp; Mobility</strong><span class="meta">ISO AUT · CPV 60000000 / 34000000</span><div class="stats"><span>56 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./ireland-it-ai-software.html" data-country="ireland" data-sector="it-ai-software" data-search="ireland irl it &amp; ai software 72000000 / 48000000"><strong>Ireland — IT &amp; AI Software</strong><span class="meta">ISO IRL · CPV 72000000 / 48000000</span><div class="stats"><span>85 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./ireland-cybersecurity-cloud.html" data-country="ireland" data-sector="cybersecurity-cloud" data-search="ireland irl cybersecurity &amp; cloud 722* / 724* / 725* / 726*"><strong>Ireland — Cybersecurity &amp; Cloud</strong><span class="meta">ISO IRL · CPV 722* / 724* / 725* / 726*</span><div class="stats"><span>55 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./ireland-construction-green-energy.html" data-country="ireland" data-sector="construction-green-energy" data-search="ireland irl construction &amp; green energy 45000000 / 09300000"><strong>Ireland — Construction &amp; Green Energy</strong><span class="meta">ISO IRL · CPV 45000000 / 09300000</span><div class="stats"><span>99 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./ireland-healthcare-pharma.html" data-country="ireland" data-sector="healthcare-pharma" data-search="ireland irl healthcare &amp; pharma 33000000 / 85100000"><strong>Ireland — Healthcare &amp; Pharma</strong><span class="meta">ISO IRL · CPV 33000000 / 85100000</span><div class="stats"><span>51 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./ireland-engineering-consulting.html" data-country="ireland" data-sector="engineering-consulting" data-search="ireland irl engineering &amp; consulting 71000000 / 79400000"><strong>Ireland — Engineering &amp; Consulting</strong><span class="meta">ISO IRL · CPV 71000000 / 79400000</span><div class="stats"><span>121 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+          <a class="sector-card" href="./ireland-transport-mobility.html" data-country="ireland" data-sector="transport-mobility" data-search="ireland irl transport &amp; mobility 60000000 / 34000000"><strong>Ireland — Transport &amp; Mobility</strong><span class="meta">ISO IRL · CPV 60000000 / 34000000</span><div class="stats"><span>58 active tenders</span><span style="color:var(--eu-blue-bright);">Explore →</span></div></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        <strong>EU Public Tenders &amp; Open-Data Explorer</strong> · Powered by official EU TED Search API v3 ·
+        <a href="../index.html">Home</a> ·
+        <a href="../sectors/index.html">All 60 Country × Sector Guides</a> ·
+        <a href="../sitemap.xml">Sitemap</a> ·
+        <a href="https://rapidapi.com/YannAbadie/api/eu-ted-public-tenders-procurement-api" target="_blank" rel="noopener">RapidAPI TED API</a> ·
+        <a href="https://apify.com/?fpr=zuvzfw" target="_blank" rel="noopener noreferrer sponsored">Apify ($5/mo Free Credits)</a> ·
+        <a href="https://yannabadie.github.io/facturkit-2027/en.html" target="_blank" rel="noopener">FacturKit 2027</a>
+      </p>
+      <p class="disclosure">Independent open-data procurement intelligence portal. All tender metadata originates from the European Union Publications Office (TED v3). Links to Apify include a transparent partner referral (<code>rel="sponsored"</code>) with $5/month free platform credits and zero extra cost.</p>
+    </div>
+  </footer>
+  <script>
+  (function () {
+    var search = document.getElementById("dir-search");
+    var cPills = document.querySelectorAll(".dir-pill[data-country]");
+    var sPills = document.querySelectorAll(".dir-pill[data-sector]");
+    var cards = document.querySelectorAll("#sector-list .sector-card");
+    var count = document.getElementById("dir-count");
+    var activeC = "all";
+    var activeS = "all";
+
+    function update() {
+      var q = (search && search.value ? search.value : "").trim().toLowerCase();
+      var vis = 0;
+      for (var i = 0; i < cards.length; i++) {
+        var c = cards[i];
+        var ok = (activeC === "all" || c.getAttribute("data-country") === activeC)
+          && (activeS === "all" || c.getAttribute("data-sector") === activeS)
+          && (!q || (c.getAttribute("data-search") || "").indexOf(q) !== -1);
+        c.hidden = !ok;
+        if (ok) vis++;
+      }
+      if (count) count.textContent = vis + " / " + cards.length + " markets displayed";
+    }
+
+    if (search) search.addEventListener("input", update);
+    for (var j = 0; j < cPills.length; j++) {
+      cPills[j].addEventListener("click", function (ev) {
+        var b = ev.currentTarget;
+        activeC = b.getAttribute("data-country") || "all";
+        for (var k = 0; k < cPills.length; k++) cPills[k].setAttribute("aria-pressed", cPills[k] === b ? "true" : "false");
+        update();
+      });
+    }
+    for (var m = 0; m < sPills.length; m++) {
+      sPills[m].addEventListener("click", function (ev) {
+        var b = ev.currentTarget;
+        activeS = b.getAttribute("data-sector") || "all";
+        for (var k = 0; k < sPills.length; k++) sPills[k].setAttribute("aria-pressed", sPills[k] === b ? "true" : "false");
+        update();
+      });
+    }
+  })();
+  </script>
+</body>
+</html>
