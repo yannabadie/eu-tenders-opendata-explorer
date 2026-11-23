@@ -1,0 +1,18 @@
+# EU Public Tenders & Open-Data Explorer (60 Country × CPV Sector Pages)
+
+> Static, zero-backend (`0.00 EUR/month`) European public procurement intelligence portal covering 10 EU countries × 6 CPV sectors (60 programmatic pages) built on live EU TED Search API v3 data.
+
+## Free Public Portal & Open-Source Tools
+
+- [Live EU Tenders Explorer](https://yannabadie.github.io/eu-tenders-opendata-explorer/): Query European public procurement notices directly from your browser with zero registration or backend proxy.
+- [60 Country × CPV Sector Portals](https://yannabadie.github.io/eu-tenders-opendata-explorer/sectors/): Dedicated procurement intelligence pages across IT, engineering, construction, health, defense, and green energy.
+- [XML Sitemap (62 URLs)](https://yannabadie.github.io/eu-tenders-opendata-explorer/sitemap.xml)
+- [Official Open-Data MCP Server (MIT)](https://github.com/yannabadie/eu-us-opendata-mcp): Zero-dependency `stdio` MCP server for Claude, Cursor, VS Code, and Windsurf (`eu-tenders`, `french-companies`, `clinical-trials`, `us-npi`, `pubmed`).
+- [n8n Open-Data Workflow Templates (MIT)](https://github.com/yannabadie/official-opendata-mcp-n8n-templates): Ready-to-import n8n JSON automations.
+
+## Hosted APIs, Actors & B2B Compliance Packs
+
+- [EU TED Public Tenders Procurement API (RapidAPI)](https://rapidapi.com/YannAbadie/api/eu-ted-public-tenders-procurement-api): Hosted REST gateway with caching and consistent JSON schema.
+- [EU Public Tenders Actor (Apify Store, Pay-Per-Event)](https://apify.com/yannabadie/eu-public-tenders-ted-boamp?fpr=zuvzfw): Automated EU TED v3 + French BOAMP notice extraction.
+- [Pack Complet Conformité UE & France 2026–2027 (Gumroad, 39 EUR)](https://yannabadi.gumroad.com/l/pack-conformite-ue-france-2026-2027): Factur-X 2026–2027 practical guide + EU AI Act/CRA/EAA compliance guide + Notion Command Center.
+- [FacturKit 2027 (EN Edition)](https://yannabadie.github.io/facturkit-2027/en.html)
